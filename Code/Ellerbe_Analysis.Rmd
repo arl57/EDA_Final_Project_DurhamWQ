@@ -57,6 +57,6 @@ ellerbe.all <- ellerbe.grouped %>%
   pivot_wider(names_from = Parameter, values_from = Final_Value)
 
 ## save final dataset
-write.csv(ellerbe.all, "./Data/Processed//Ellerbe Creek/Ellerbe_processed.csv")
+write.csv(ellerbe.all, "./Data/Processed/Ellerbe_processed.csv")
 ```
 
