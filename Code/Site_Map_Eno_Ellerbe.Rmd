@@ -1,0 +1,59 @@
+---
+title: "Map"
+author: "Analise Lindborg"
+date: "3/22/2021"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup}
+knitr::opts_knit$set(root.dir = '/Users/analiselindborg/Desktop/Desktop - Analise’s MacBook Pro/Data Analytics/EDA_Final_Project_DurhamWQ')
+```
+
+## Setting up R session
+
+```{r, message = FALSE}
+getwd()
+library(tidyverse)
+library(sf)
+library(mapview)
+library(leaflet)
+
+site.info <- read.csv("./Data/Raw/durham_station.csv")
+```
+
+## Subsetting site info for Ellerbe Creek and Eno River to create map
+```{r}
+site.info.sub <- site.info %>%
+  filter(Stream.Name %in% c("Eno River", "Ellerbe Creek"))%>%
+  filter(Name %in% c("EL1.9EC", "EL5.6EC", "EL7.1EC", 
+                     "EN13.3ER", "EN4.9ER", "EN8.9ER" ))
+
+#mapview option
+site.sf <- site.info.sub %>%
+  st_as_sf(coords = c('Longitude','Latitude'), crs=4269)
+
+mapview(site.sf,
+        zcol = "Stream.Name") %>%
+  addStaticLabels(label = site.sf$Name,
+                  noHide = TRUE,
+                  direction = 'right',
+                  textOnly = TRUE,
+                  textsize = "10px")
+
+#leaflet option
+pal <- colorFactor(
+  palette = c('blue', 'orange'),
+  domain = site.info.sub$Steam.Name
+)
+
+leaflet(site.info.sub) %>% 
+  addProviderTiles("CartoDB.Positron") %>% 
+  addCircleMarkers(~Longitude,~Latitude,
+                   stroke = FALSE, 
+                   popup = ~as.character(`Name`),
+                   color = ~pal(Stream.Name),
+                   fillOpacity = 1, 
+                   radius = 5)
+```

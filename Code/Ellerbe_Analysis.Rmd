@@ -3,28 +3,60 @@ title: "Ellerbe_Analysis"
 author: "Analise Lindborg"
 date: "3/22/2021"
 output: pdf_document
+editor_options: 
+  chunk_output_type: console
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup}
+knitr::opts_knit$set(root.dir = '/Users/analiselindborg/Desktop/Desktop - Analise’s MacBook Pro/Data Analytics/EDA_Final_Project_DurhamWQ')
 ```
 
-## R Markdown
+## Setting up R session
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r, message = FALSE}
+getwd()
+library(tidyverse)
+library(lubridate)
+library(sf)
+library(mapview)
+library(leaflet)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+ellerbe.data <- read.csv("./Data/Raw/Ellerbe Creek/durham_AllData.csv")
+```
+
+## Data cleanup
+
 
 ```{r}
-summary(cars)
+## 1. Select columns of interest
+ellerbe.sub <- ellerbe.data %>%
+  select(Stream.Name, Station.Name, Parameter, Date.Time, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition)
+
+## 2. Subsetting data for following metrics: GH, DO, pH, Fecal Coliform, Zn, Cu, TP, TSS, and turbidity
+
+# Where is the metadata? This may be important for the QC column (I think U is the detection limit), and the flow severity (not sure what this means, is it arbitrary?)
+# Did not find GH info...
+# Should we add temp?
+# How do we want to handle different sites for Ellerbe Cr?
+
+ellerbe.sub <- ellerbe.sub %>%
+  filter(Parameter %in% c("Dissolved Oxygen", "pH", "Fecal Coliform", "Zinc", "Copper", "Total Phosphorus", "Total Suspended Solids", "Turbidity"))
+
+## 3. Fix date
+ellerbe.sub <- ellerbe.sub %>%
+  separate(Date.Time, into = c("Date", "Time"), sep = "\\s")
+ellerbe.sub$Date <- as.Date(ellerbe.sub$Date, format = "%m/%d/%y")
+
+## 4. Some sample dates have site duplicates. Averaging these duplicate values to get one value for each parameter at each site on each data. 
+ellerbe.grouped <- ellerbe.sub %>%
+  group_by(Stream.Name, Station.Name, Parameter, Date, Comments, Rain.in.Last.24.Hours, Sky.Condition) %>%
+ summarize(Final_Value = mean(Value)) 
+
+## 5. Make parameters their own columns
+ellerbe.all <- ellerbe.grouped %>%
+  pivot_wider(names_from = Parameter, values_from = Final_Value)
+
+## save final dataset
+write.csv(ellerbe.all, "./Data/Processed//Ellerbe Creek/Ellerbe_processed.csv")
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
