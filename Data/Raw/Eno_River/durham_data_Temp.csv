@@ -1,0 +1,62 @@
+Disclaimer: Although Stormwater Services makes every effort to ensure data quality in the monitoring program, errors do arise and may not be identified at the time the data was uploaded to this database.  The City of Durham does not assume any liability associated with the use of these data and is not obligated to notify parties of modifications or changes to the database.
+
+Query Results: 
+Watershed:Eno River 
+Medium:Water
+Parameters: Temperature    Time Period:2019-01-01 ~ 2020-12-31
+Project:all
+Data was downloaded on March 15 2021 5:26 pm
+The data contains the QA code. 
+For Help with QA code, please check http://www.durhamwaterquality.org/QAcode.php
+
+Watershed,Station Name,Filtered,Parameter,Date/Time,Value,QA Code,Unit,QAQC Sample,Comments,Rain in Last 24 Hours,Sky Condition,Flow Severity,Comp  Code,Thalweg,Lab,Project
+"Eno River","EN10.3WC","","Temperature","2020-01-07 11:05:00","5.7","","C","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Temperature","2020-02-04 11:05:00","9.7","","C","","light rain","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Temperature","2020-03-03 11:10:00","11","","C",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Temperature","2020-07-07 10:50:00","24.5","","C","","Duplicate Site","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Temperature","2020-08-04 10:45:00","24.7","","C","","Heavy rains overnight from hurricane.","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Temperature","2020-09-01 11:05:00","24.8","","C",""," ","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Temperature","2020-10-06 10:50:00","14.2","","C",""," ","No","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Temperature","2020-11-03 10:45:00","9.5","","C",""," ","No","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Temperature","2020-12-01 10:25:00","10.5","","C",""," ","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-01-07 11:40:00","6.4","","C","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-02-04 11:30:00","9.1","","C","","rain stopped","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-03-03 11:25:00","10.4","","C",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-07-07 11:25:00","26.7","","C",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-08-04 11:20:00","25.9","","C","","Duplicate Site; Heavy rains overnight from hurricane.","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-09-01 11:30:00","24.6","","C",""," ","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-10-06 11:15:00","15.5","","C",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-11-03 11:10:00","11.2","","C",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Temperature","2020-12-01 10:55:00","12.1","","C",""," ","Yes","Sunny","4","G","No","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-01-07 09:40:00","6.6","","C",""," ","No","Overcast","3","G","No","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-02-04 09:40:00","8.6","","C",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-03-03 09:45:00","9.9","","C",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-07-07 09:15:00","26.9","","C",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-08-04 09:20:00","24.3","","C","","Heavy rains overnight from hurricane.","Yes","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-09-01 09:40:00","25","","C","","Very high flow","Yes","Overcast","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-10-06 09:35:00","15.6","","C",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-11-03 09:25:00","10.7","","C",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Temperature","2020-12-01 09:10:00","12.3","","C","","Duplicate Site","Yes","Sunny","4","G","No","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-01-15 08:50:00","6","","C","","Duplicate Site","No","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-02-12 08:30:00","8","","C",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-03-12 08:35:00","10.4","","C",""," ","Yes","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-04-09 08:45:00","17","","C","","Sample taken near bank due to very high stage","Yes","Overcast","5","G","No","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-05-14 08:40:00","20","","C",""," ","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-06-11 08:30:00","23.9","","C","","High flow","Yes","Sunny","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-07-16 09:00:00","29.6","","C","","Duplicate Site","Yes","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-08-13 08:55:00","28","","C",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-09-10 08:30:00","26.1","","C",""," ","No","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-10-08 08:20:00","22","","C",""," ","No","Overcast","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-11-12 08:40:00","9.4","","C","","Raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2019-12-04 08:30:00","7.4","","C",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-01-07 10:45:00","6.7","","C","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-02-04 10:40:00","8.8","","C","","starting to rain","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-03-03 10:45:00","14.3","","C",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-05-12 09:00:00","15.6","","C","","Duplicate Site; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-06-09 00:00:00","25.2","","C","","Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-07-07 10:15:00","25.1","","C",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-08-04 10:25:00","24.6","","C","","Heavy rains overnight from hurricane.","Yes","Overcast","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-09-01 10:40:00","25.3","","C","","very high flow","Yes","Overcast","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-10-06 10:30:00","16.1","","C",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-11-03 10:20:00","10.8","","C",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Temperature","2020-12-01 10:05:00","12.2","","C",""," ","Yes","Partly Cloudy","4","G","No","SDWRF","Ambient",

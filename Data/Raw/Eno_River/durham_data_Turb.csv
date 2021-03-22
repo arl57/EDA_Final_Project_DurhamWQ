@@ -1,0 +1,62 @@
+Disclaimer: Although Stormwater Services makes every effort to ensure data quality in the monitoring program, errors do arise and may not be identified at the time the data was uploaded to this database.  The City of Durham does not assume any liability associated with the use of these data and is not obligated to notify parties of modifications or changes to the database.
+
+Query Results: 
+Watershed:Eno River 
+Medium:Water
+Parameters: Turbidity    Time Period:2019-01-01 ~ 2020-12-31
+Project:all
+Data was downloaded on March 15 2021 5:24 pm
+The data contains the QA code. 
+For Help with QA code, please check http://www.durhamwaterquality.org/QAcode.php
+
+Watershed,Station Name,Filtered,Parameter,Date/Time,Value,QA Code,Unit,QAQC Sample,Comments,Rain in Last 24 Hours,Sky Condition,Flow Severity,Comp  Code,Thalweg,Lab,Project
+"Eno River","EN10.3WC","","Turbidity","2020-01-07 11:05:00","13.3","","NTU","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Turbidity","2020-02-04 11:05:00","6.8","","NTU","","light rain","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Turbidity","2020-03-03 11:10:00","4.5","","NTU",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Turbidity","2020-07-07 10:50:00","15.3","","NTU","","Duplicate Site","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Turbidity","2020-08-04 10:45:00","31.7","","NTU","","Heavy rains overnight from hurricane.","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Turbidity","2020-09-01 11:05:00","19.3","","NTU",""," ","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Turbidity","2020-10-06 10:50:00","3.2","","NTU",""," ","No","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Turbidity","2020-11-03 10:45:00","7","","NTU",""," ","No","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Turbidity","2020-12-01 10:25:00","21.5","","NTU",""," ","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-01-07 11:40:00","19.5","","NTU","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-02-04 11:30:00","14.5","","NTU","","rain stopped","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-03-03 11:25:00","8.7","","NTU",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-07-07 11:25:00","5.1","","NTU",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-08-04 11:20:00","16.4","","NTU","","Duplicate Site; Heavy rains overnight from hurricane.","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-09-01 11:30:00","100","","NTU",""," ","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-10-06 11:15:00","7.7","","NTU",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-11-03 11:10:00","7","","NTU",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Turbidity","2020-12-01 10:55:00","49.8","","NTU",""," ","Yes","Sunny","4","G","No","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-01-07 09:40:00","23.1","","NTU",""," ","No","Overcast","3","G","No","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-02-04 09:40:00","16.1","","NTU",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-03-03 09:45:00","8.2","","NTU",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-07-07 09:15:00","10.6","","NTU",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-08-04 09:20:00","137","","NTU","","Heavy rains overnight from hurricane.","Yes","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-09-01 09:40:00","83","","NTU","","Very high flow","Yes","Overcast","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-10-06 09:35:00","11.1","","NTU",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-11-03 09:25:00","6.9","","NTU",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Turbidity","2020-12-01 09:10:00","58.3","","NTU","","Duplicate Site","Yes","Sunny","4","G","No","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-01-15 08:50:00","24.4","","NTU","","Duplicate Site","No","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-02-12 08:30:00","5.2","","NTU",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-03-12 08:35:00","11.1","","NTU",""," ","Yes","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-04-09 08:45:00","150","","NTU","","Sample taken near bank due to very high stage","Yes","Overcast","5","G","No","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-05-14 08:40:00","6.7","","NTU",""," ","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-06-11 08:30:00","32.1","","NTU","","High flow","Yes","Sunny","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-07-16 09:00:00","3.1","","NTU","","Duplicate Site","Yes","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-08-13 08:55:00","5","","NTU",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-09-10 08:30:00","2.3","","NTU",""," ","No","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-10-08 08:20:00","4.9","","NTU",""," ","No","Overcast","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-11-12 08:40:00","4.5","","NTU","","Raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2019-12-04 08:30:00","11.7","","NTU",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-01-07 10:45:00","22.4","","NTU","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-02-04 10:40:00","15.9","","NTU","","starting to rain","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-03-03 10:45:00","8.3","","NTU",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-05-12 09:00:00","7.7","","NTU","","Duplicate Site; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-06-09 00:00:00","5.4","","NTU","","Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-07-07 10:15:00","7.8","","NTU",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-08-04 10:25:00","50.2","","NTU","","Heavy rains overnight from hurricane.","Yes","Overcast","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-09-01 10:40:00","54.4","","NTU","","very high flow","Yes","Overcast","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-10-06 10:30:00","12","","NTU",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-11-03 10:20:00","7.8","","NTU",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Turbidity","2020-12-01 10:05:00","55.2","","NTU",""," ","Yes","Partly Cloudy","4","G","No","SDWRF","Ambient",

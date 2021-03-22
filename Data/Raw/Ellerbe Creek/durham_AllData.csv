@@ -1,0 +1,1270 @@
+Stream Name,Station Name,Filtered,Parameter,Date/Time,Value,QA Code,Unit,QAQC Sample,Comments,Rain in Last 24 Hours,Sky Condition,Flow Severity,Comp  Code,Thalweg,Lab,Project
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,1/8/19 9:50,0.11,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,2/5/19 9:10,0.13,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,3/5/19 9:30,0.68,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,3/5/19 9:30,0.74,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,4/2/19 9:20,0.04,U,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,5/7/19 9:00,0.14,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,6/5/19 9:10,0.06,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,7/9/19 9:00,0.06,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,8/6/19 9:00,0.04,U,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,9/3/19 9:30,0.04,J,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,10/1/19 9:30,0.04,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,11/5/19 9:15,0.05,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,11/5/19 9:15,0.06,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,12/3/19 9:05,0.04,U,mg/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,1/7/20 9:15,0.05,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,2/4/20 9:15,0.04,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,3/3/20 9:20,0.04,U,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,3/3/20 9:20,0.04,J,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,5/12/20 8:15,0.04,U,mg/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,6/9/20 8:45,0.06,,mg/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,7/7/20 8:50,0.07,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,8/4/20 8:50,0.38,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,9/1/20 9:15,0.71,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,10/6/20 9:15,0.04,"U,J2",mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,11/3/20 8:55,0.04,"J,J2",mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,11/3/20 8:55,0.04,"U,J2",mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Ammonia Nitrogen,12/1/20 8:40,0.23,,mg/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,1/8/19 10:30,0.06,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,2/5/19 9:55,0.16,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,3/5/19 10:34,0.05,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,4/2/19 10:15,0.04,U,mg/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,5/7/19 9:45,0.15,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,5/7/19 9:45,0.16,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,6/5/19 9:45,0.17,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,7/9/19 9:35,0.08,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,8/6/19 9:30,0.04,J,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,9/3/19 10:00,0.05,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,10/1/19 10:05,0.04,U,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,11/5/19 9:50,0.04,U,mg/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Ammonia Nitrogen,12/3/19 10:05,0.04,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,1/8/19 11:00,0.04,"U,J",mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,2/5/19 10:15,0.04,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,3/5/19 11:00,0.04,U,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,4/2/19 10:40,0.04,J,mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,5/7/19 10:15,0.12,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,6/5/19 10:15,0.1,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,6/5/19 10:15,0.1,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,7/9/19 9:55,0.05,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,8/6/19 9:55,0.04,U,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,9/3/19 10:20,0.04,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,10/1/19 10:25,0.04,U,mg/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,11/5/19 10:10,0.04,U,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,12/3/19 10:30,0.04,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,1/7/20 8:55,0.04,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,2/4/20 8:50,0.04,U,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,2/4/20 8:50,0.04,U,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,3/3/20 8:45,0.04,U,mg/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,5/12/20 9:30,0.04,U,mg/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,6/9/20 9:50,0.05,,mg/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,7/7/20 8:25,0.12,,mg/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,8/4/20 8:25,0.05,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,9/1/20 8:50,0.04,U,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,10/6/20 8:45,0.04,"U,J2",mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,10/6/20 8:45,0.04,"U,J2",mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,11/3/20 8:25,0.04,"U,J2",mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Ammonia Nitrogen,12/1/20 8:20,0.04,U,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,1/8/19 9:50,2,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,2/5/19 9:10,2,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,3/5/19 9:30,2,U,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,3/5/19 9:30,2,U,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,4/2/19 9:20,2,U,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,5/7/19 9:00,2,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,6/5/19 9:10,2,U,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,7/9/19 9:00,3,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,8/6/19 9:00,2.6,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,9/3/19 9:30,2,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,10/1/19 9:30,2,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,11/5/19 9:15,2,U,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,11/5/19 9:15,2,U,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,12/3/19 9:05,2.8,,mg/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,1/7/20 9:15,2,U,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,2/4/20 9:15,2,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,3/3/20 9:20,2,U,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,3/3/20 9:20,2,U,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,5/12/20 8:15,3.3,,mg/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,6/9/20 8:45,2,U,mg/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,7/7/20 8:50,2,U,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,8/4/20 8:50,4,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,9/1/20 9:15,7.3,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,10/6/20 9:15,2,U,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,11/3/20 8:55,2,U,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,11/3/20 8:55,2,U,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Biochemical Oxygen Demand,12/1/20 8:40,2,U,mg/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,1/8/19 10:30,2,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,2/5/19 9:55,2,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,3/5/19 10:34,2,U,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,4/2/19 10:15,2,U,mg/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,5/7/19 9:45,2,U,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,5/7/19 9:45,2,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,6/5/19 9:45,2,U,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,7/9/19 9:35,2,U,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,8/6/19 9:30,4.4,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,9/3/19 10:00,2,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,10/1/19 10:05,2,U,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,11/5/19 9:50,2,U,mg/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Biochemical Oxygen Demand,12/3/19 10:05,2.2,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,1/8/19 11:00,2,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,2/5/19 10:15,2,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,3/5/19 11:00,2,U,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,4/2/19 10:40,2,U,mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,5/7/19 10:15,2,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,6/5/19 10:15,2,U,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,6/5/19 10:15,2,U,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,7/9/19 9:55,2,U,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,8/6/19 9:55,2.3,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,9/3/19 10:20,2,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,10/1/19 10:25,2,U,mg/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,11/5/19 10:10,2,U,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,12/3/19 10:30,2,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,1/7/20 8:55,2,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,2/4/20 8:50,2,U,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,2/4/20 8:50,2,U,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,3/3/20 8:45,2,U,mg/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,5/12/20 9:30,2,U,mg/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,6/9/20 9:50,2,U,mg/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,7/7/20 8:25,3.3,,mg/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,8/4/20 8:25,4.4,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,9/1/20 8:50,4.5,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,10/6/20 8:45,2,U,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,10/6/20 8:45,2,U,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,11/3/20 8:25,2,U,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Biochemical Oxygen Demand,12/1/20 8:20,2,U,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,1/8/19 9:50,21926,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,2/5/19 9:10,23023,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,3/5/19 9:30,15369,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,3/5/19 9:30,16201,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,4/2/19 9:20,24105,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,5/7/19 9:00,19843,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,6/5/19 9:10,21195,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,7/9/19 9:00,13154,,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,8/6/19 9:00,10288,,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,9/3/19 9:30,16611,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,10/1/19 9:30,13984,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,11/5/19 9:15,15422,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,11/5/19 9:15,15620,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,12/3/19 9:05,17293,,ug/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,1/7/20 9:15,5107,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,2/4/20 9:15,23003,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,3/3/20 9:20,22364,,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,3/3/20 9:20,22807,,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,5/12/20 8:15,22088,,ug/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,6/9/20 8:45,19537,,ug/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,7/7/20 8:50,17700,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,8/4/20 8:50,8156,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,9/1/20 9:15,10724,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,10/6/20 9:15,1827,,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,11/3/20 8:55,1605,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,11/3/20 8:55,1452,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Calcium,12/1/20 8:40,1453,,ug/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,1/8/19 10:30,24794,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,2/5/19 9:55,29704,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,3/5/19 10:34,16536,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,4/2/19 10:15,33669,,ug/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,5/7/19 9:45,18340,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,5/7/19 9:45,18189,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,6/5/19 9:45,23759,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,7/9/19 9:35,11219,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,8/6/19 9:30,7270,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,9/3/19 10:00,25712,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,10/1/19 10:05,28398,,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,11/5/19 9:50,17439,,ug/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Calcium,12/3/19 10:05,16817,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,1/8/19 11:00,20370,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,2/5/19 10:15,19926,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,3/5/19 11:00,12317,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,4/2/19 10:40,25427,,ug/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,5/7/19 10:15,15184,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,6/5/19 10:15,19896,,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,6/5/19 10:15,19303,,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,7/9/19 9:55,9870,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,8/6/19 9:55,6881,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,9/3/19 10:20,18646,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,10/1/19 10:25,15601,,ug/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,11/5/19 10:10,14731,,ug/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,12/3/19 10:30,24168,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,1/7/20 8:55,5907,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,2/4/20 8:50,18927,,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,2/4/20 8:50,19508,,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,3/3/20 8:45,23835,,ug/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,5/12/20 9:30,25918,,ug/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,6/9/20 9:50,25011,,ug/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,7/7/20 8:25,14358,,ug/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,8/4/20 8:25,8251,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,9/1/20 8:50,8712,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,10/6/20 8:45,2012,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,10/6/20 8:45,2190,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,11/3/20 8:25,1329,,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Calcium,12/1/20 8:20,1083,,ug/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,1/8/19 9:50,342,,uS/cm at 25 deg C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,2/5/19 9:10,412,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,3/5/19 9:30,245,,uS/cm at 25 deg C,,Duplicate Site,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,4/2/19 9:20,408,,uS/cm at 25 deg C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,5/7/19 9:00,387,,uS/cm at 25 deg C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,6/5/19 9:10,476,,uS/cm at 25 deg C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,7/9/19 9:00,338,,uS/cm at 25 deg C,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,8/6/19 9:00,248,,uS/cm at 25 deg C,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,9/3/19 9:30,465,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,10/1/19 9:30,454,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,11/5/19 9:15,420,,uS/cm at 25 deg C,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,12/3/19 9:05,217,,uS/cm at 25 deg C,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,1/7/20 9:15,303,,uS/cm at 25 deg C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,2/4/20 9:15,333,,uS/cm at 25 deg C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,3/3/20 9:20,387,,uS/cm at 25 deg C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,5/12/20 8:15,424,,uS/cm at 25 deg C,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,6/9/20 0:00,435,,uS/cm at 25 deg C,,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,7/7/20 8:50,367,J2,uS/cm at 25 deg C,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,8/4/20 8:50,90,,uS/cm at 25 deg C,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,9/1/20 9:15,178,,uS/cm at 25 deg C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,10/6/20 9:15,413,,uS/cm at 25 deg C,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,11/3/20 8:55,339,,uS/cm at 25 deg C,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Conductivity,12/1/20 8:40,215,,uS/cm at 25 deg C,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,1/8/19 10:30,258,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,2/5/19 9:55,316,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,3/5/19 10:34,175,,uS/cm at 25 deg C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,4/2/19 10:15,341,,uS/cm at 25 deg C,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,5/7/19 9:45,182,,uS/cm at 25 deg C,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,6/5/19 9:45,246,,uS/cm at 25 deg C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,7/9/19 9:35,155,,uS/cm at 25 deg C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,8/6/19 9:30,97,,uS/cm at 25 deg C,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,9/3/19 10:00,284,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,10/1/19 10:05,344,,uS/cm at 25 deg C,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,11/5/19 9:50,188,,uS/cm at 25 deg C,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Conductivity,12/3/19 10:05,162,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,1/8/19 11:00,215,,uS/cm at 25 deg C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,2/5/19 10:15,261,,uS/cm at 25 deg C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,3/5/19 11:00,146,,uS/cm at 25 deg C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,4/2/19 10:40,264,,uS/cm at 25 deg C,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,5/7/19 10:15,169,,uS/cm at 25 deg C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,6/5/19 10:15,204,,uS/cm at 25 deg C,,Duplicate Site,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,7/9/19 9:55,139,,uS/cm at 25 deg C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,8/6/19 9:55,87,,uS/cm at 25 deg C,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,9/3/19 10:20,238,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,10/1/19 10:25,256,,uS/cm at 25 deg C,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,11/5/19 10:10,155,,uS/cm at 25 deg C,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,12/3/19 10:30,143,,uS/cm at 25 deg C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,1/7/20 8:55,163,,uS/cm at 25 deg C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,2/4/20 8:50,179,,uS/cm at 25 deg C,,Duplicate Site; green floc algae present,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,3/3/20 8:45,240,,uS/cm at 25 deg C,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,5/12/20 9:30,268,,uS/cm at 25 deg C,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,6/9/20 9:50,266,,uS/cm at 25 deg C,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,7/7/20 8:25,150,J2,uS/cm at 25 deg C,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,8/4/20 8:25,81,,uS/cm at 25 deg C,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,9/1/20 8:50,98,,uS/cm at 25 deg C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,10/6/20 8:45,216,,uS/cm at 25 deg C,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,11/3/20 8:25,132,,uS/cm at 25 deg C,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Conductivity,12/1/20 8:20,100,,uS/cm at 25 deg C,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,1/8/19 9:50,2.9,"J,J7",ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,2/5/19 9:10,2.4,"J,J7",ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,3/5/19 9:30,3.5,"J,J7",ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,3/5/19 9:30,3.6,"J,J7",ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,4/2/19 9:20,3.3,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,5/7/19 9:00,4.3,"J,J7",ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,6/5/19 9:10,2.7,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,7/9/19 9:00,3.6,J,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,8/6/19 9:00,3.3,"J,J7",ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,9/3/19 9:30,2.4,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,10/1/19 9:30,1.9,"J,J7",ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,11/5/19 9:15,3.1,J,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,11/5/19 9:15,3.3,J,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,12/3/19 9:05,2.6,J,ug/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,1/7/20 9:15,3.2,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,2/4/20 9:15,3.7,J,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,3/3/20 9:20,2.7,J,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,3/3/20 9:20,2.4,J,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,5/12/20 8:15,3.8,J,ug/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,8/4/20 8:50,5.58,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,9/1/20 9:15,5.37,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,10/6/20 9:15,3.1,J,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,11/3/20 8:55,3.1,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,11/3/20 8:55,2.98,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Copper,12/1/20 8:40,4.35,J,ug/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,1/8/19 10:30,3.3,"J,J7",ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,2/5/19 9:55,2.4,"J,J7",ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,3/5/19 10:34,4.2,J,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,4/2/19 10:15,3.3,J,ug/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,5/7/19 9:45,3.7,"J,J7",ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,5/7/19 9:45,3.9,"J,J7",ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,6/5/19 9:45,2.6,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,7/9/19 9:35,4.7,J,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,8/6/19 9:30,4.2,"J,J7",ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,9/3/19 10:00,2.5,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,10/1/19 10:05,1.5,"J,J7",ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,11/5/19 9:50,4,J,ug/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Copper,12/3/19 10:05,5.1,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,1/8/19 11:00,4.1,"J,J7",ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,2/5/19 10:15,3,"J,J7",ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,3/5/19 11:00,4,"J,J7",ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,4/2/19 10:40,3.6,J,ug/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,5/7/19 10:15,3.5,"J,J7",ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,6/5/19 10:15,3.8,J,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,6/5/19 10:15,3.3,J,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,7/9/19 9:55,4.7,J,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,8/6/19 9:55,4.7,"J,J7",ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,9/3/19 10:20,3,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,10/1/19 10:25,2,J,ug/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,11/5/19 10:10,3,J,ug/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,12/3/19 10:30,4.5,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,1/7/20 8:55,4.6,J,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,2/4/20 8:50,5.3,J,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,2/4/20 8:50,4.7,J,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,3/3/20 8:45,3.2,J,ug/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,5/12/20 9:30,3.5,J,ug/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,8/4/20 8:25,4.81,J,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,9/1/20 8:50,3.75,"J,J7",ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,10/6/20 8:45,2.59,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,10/6/20 8:45,2.96,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,11/3/20 8:25,3.2,J,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Copper,12/1/20 8:20,4.81,J,ug/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,1/8/19 9:50,3.5,"J,J7",ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,2/5/19 9:10,2.7,"J,J7",ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,3/5/19 9:30,4.4,"J,J7",ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,3/5/19 9:30,5.2,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,4/2/19 9:20,3.8,"J,J7",ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,5/7/19 9:00,6.2,J,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,6/5/19 9:10,4.5,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,7/9/19 9:00,5.3,J,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,8/6/19 9:00,5,"J,J7",ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,9/3/19 9:30,2.7,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,10/1/19 9:30,2.1,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,11/5/19 9:15,3.5,J,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,11/5/19 9:15,4,J,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,12/3/19 9:05,2.7,J,ug/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,1/7/20 9:15,4,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,2/4/20 9:15,4.4,J,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,3/3/20 9:20,4.4,J,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,3/3/20 9:20,5.1,J,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,5/12/20 8:15,4.1,J,ug/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,8/4/20 8:50,11.27,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,9/1/20 9:15,6.81,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,10/6/20 9:15,3.09,J,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,11/3/20 8:55,3.61,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,11/3/20 8:55,3.32,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Copper,12/1/20 8:40,5.64,J,ug/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,1/8/19 10:30,4.4,"J,J7",ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,2/5/19 9:55,3.4,"J,J7",ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,3/5/19 10:34,5.8,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,4/2/19 10:15,3.7,"J,J7",ug/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,5/7/19 9:45,5.6,J,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,5/7/19 9:45,5.9,J,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,6/5/19 9:45,4.9,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,7/9/19 9:35,6.2,J,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,8/6/19 9:30,8.1,"J,J7",ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,9/3/19 10:00,2.6,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,10/1/19 10:05,2.9,J,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,11/5/19 9:50,4.9,J,ug/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Copper,12/3/19 10:05,6.1,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,1/8/19 11:00,5.7,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,2/5/19 10:15,3.1,"J,J7",ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,3/5/19 11:00,4.8,J,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,4/2/19 10:40,4.1,J,ug/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,5/7/19 10:15,5.7,J,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,6/5/19 10:15,3.9,J,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,6/5/19 10:15,4.2,J,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,7/9/19 9:55,5.4,J,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,8/6/19 9:55,6.4,"J,J7",ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,9/3/19 10:20,3.5,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,10/1/19 10:25,2.1,J,ug/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,11/5/19 10:10,4.6,J,ug/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,12/3/19 10:30,6.4,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,1/7/20 8:55,6,J,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,2/4/20 8:50,5.6,J,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,2/4/20 8:50,4.9,J,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,3/3/20 8:45,4.5,J,ug/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,5/12/20 9:30,3.7,J,ug/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,8/4/20 8:25,6.2,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,9/1/20 8:50,4.54,J,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,10/6/20 8:45,3.13,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,10/6/20 8:45,2.69,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,11/3/20 8:25,3.38,J,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Copper,12/1/20 8:20,5.67,J,ug/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,1/8/19 9:50,9.6,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,2/5/19 9:10,9.3,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,3/5/19 9:30,10.4,,mg/L,,Duplicate Site,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,4/2/19 9:20,0.2,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,5/7/19 9:00,6.8,J10,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,6/5/19 9:10,6.6,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,7/9/19 9:00,6.3,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,8/6/19 9:00,6,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,9/3/19 9:30,6.7,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,10/1/19 9:30,5.8,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,11/5/19 9:15,8.1,,mg/L,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,12/3/19 9:05,9,,mg/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,1/7/20 9:15,9.9,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,2/4/20 9:15,8.9,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,3/3/20 9:20,9.6,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,5/12/20 8:15,8.5,,mg/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,6/9/20 0:00,6.7,,mg/L,,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,7/7/20 8:50,6.6,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,8/4/20 8:50,6.8,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,9/1/20 9:15,6.4,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,10/6/20 9:15,7.9,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,11/3/20 8:55,8.4,,mg/L,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen,12/1/20 8:40,8.6,,mg/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,1/8/19 10:30,10.4,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,2/5/19 9:55,10.7,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,3/5/19 10:34,11.6,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,4/2/19 10:15,9.9,,mg/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,5/7/19 9:45,6.1,J10,mg/L,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,6/5/19 9:45,5.1,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,7/9/19 9:35,5.7,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,8/6/19 9:30,6.6,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,9/3/19 10:00,5.9,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,10/1/19 10:05,6.4,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,11/5/19 9:50,8.4,,mg/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen,12/3/19 10:05,9.7,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,1/8/19 11:00,10.4,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,2/5/19 10:15,10.8,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,3/5/19 11:00,11.6,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,4/2/19 10:40,3.5,,mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,5/7/19 10:15,5.5,J10,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,6/5/19 10:15,6,,mg/L,,Duplicate Site,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,7/9/19 9:55,5.6,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,8/6/19 9:55,6.6,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,9/3/19 10:20,5.9,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,10/1/19 10:25,4.7,,mg/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,11/5/19 10:10,8.2,,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,12/3/19 10:30,9.4,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,1/7/20 8:55,10.7,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,2/4/20 8:50,9.8,,mg/L,,Duplicate Site; green floc algae present,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,3/3/20 8:45,10.8,,mg/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,5/12/20 9:30,8.5,,mg/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,6/9/20 9:50,5.6,,mg/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,7/7/20 8:25,5,,mg/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,8/4/20 8:25,7.3,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,9/1/20 8:50,6.7,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,10/6/20 8:45,8,,mg/L,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,11/3/20 8:25,9.5,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen,12/1/20 8:20,10.2,,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,1/8/19 9:50,90,,%,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,2/5/19 9:10,85,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,3/5/19 9:30,91,,%,,Duplicate Site,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,4/2/19 9:20,2,,%,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,5/7/19 9:00,74,J10,%,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,6/5/19 9:10,77,,%,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,7/9/19 9:00,77,,%,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,8/6/19 9:00,73,,%,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,9/3/19 9:30,81,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,10/1/19 9:30,69,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,11/5/19 9:15,82,,%,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,12/3/19 9:05,82,,%,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,1/7/20 9:15,87,,%,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,2/4/20 9:15,84,,%,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,3/3/20 9:20,93,,%,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,5/12/20 8:15,85,,%,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,6/9/20 0:00,78,,%,,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June2020",No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,7/7/20 8:50,79,,%,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,8/4/20 8:50,80,,%,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,9/1/20 9:15,77,,%,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,10/6/20 9:15,83,,%,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,11/3/20 8:55,80,,%,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Dissolved Oxygen Saturation,12/1/20 8:40,82,,%,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,1/8/19 10:30,91,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,2/5/19 9:55,90,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,3/5/19 10:34,96,,%,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,4/2/19 10:15,85,,%,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,5/7/19 9:45,66,J10,%,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,6/5/19 9:45,58,,%,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,7/9/19 9:35,70,,%,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,8/6/19 9:30,78,,%,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,9/3/19 10:00,70,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,10/1/19 10:05,67,,%,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,11/5/19 9:50,76,,%,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Dissolved Oxygen Saturation,12/3/19 10:05,81,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,1/8/19 11:00,92,,%,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,2/5/19 10:15,92,,%,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,3/5/19 11:00,96,,%,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,4/2/19 10:40,31,,%,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,5/7/19 10:15,60,J10,%,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,6/5/19 10:15,69,,%,,Duplicate Site,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,7/9/19 9:55,69,,%,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,8/6/19 9:55,77,,%,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,9/3/19 10:20,69,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,10/1/19 10:25,56,,%,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,11/5/19 10:10,75,,%,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,12/3/19 10:30,78,,%,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,1/7/20 8:55,86,,%,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,2/4/20 8:50,86,,%,,Duplicate Site; green floc algae present,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,3/3/20 8:45,97,,%,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,5/12/20 9:30,81,,%,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,6/9/20 9:50,67,,%,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,7/7/20 8:25,60,,%,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,8/4/20 8:25,87,,%,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,9/1/20 8:50,81,,%,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,10/6/20 8:45,79,,%,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,11/3/20 8:25,83,,%,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Dissolved Oxygen Saturation,12/1/20 8:20,94,,%,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,1/8/19 9:50,373,,cfu/100mL,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,2/5/19 9:10,111,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,3/5/19 9:30,547,,cfu/100mL,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,3/5/19 9:30,473,,cfu/100mL,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,4/2/19 9:20,52,,cfu/100mL,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,5/7/19 9:00,475,,cfu/100mL,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,6/5/19 9:10,427,,cfu/100mL,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,7/9/19 9:00,2000,,cfu/100mL,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,8/6/19 9:00,31000,,cfu/100mL,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,9/3/19 9:30,467,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,10/1/19 9:30,440,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,11/5/19 9:15,553,,cfu/100mL,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,11/5/19 9:15,547,,cfu/100mL,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,12/3/19 9:05,197,,cfu/100mL,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,1/7/20 9:15,120,,cfu/100mL,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,2/4/20 9:15,81,,cfu/100mL,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,3/3/20 9:20,110,,cfu/100mL,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,3/3/20 9:20,105,,cfu/100mL,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,5/12/20 8:15,120,,cfu/100mL,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,6/9/20 8:45,115,,cfu/100mL,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,7/7/20 8:50,2250,,cfu/100mL,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,8/4/20 8:50,38000,,cfu/100mL,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,9/1/20 9:15,35000,,cfu/100mL,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,10/6/20 9:15,140,,cfu/100mL,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,11/3/20 8:55,620,,cfu/100mL,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,11/3/20 8:55,700,,cfu/100mL,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Fecal Coliform,12/1/20 8:40,2100,,cfu/100mL,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,1/8/19 10:30,214,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,2/5/19 9:55,84,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,3/5/19 10:34,2800,,cfu/100mL,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,4/2/19 10:15,56,,cfu/100mL,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,5/7/19 9:45,902,,cfu/100mL,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,5/7/19 9:45,436,,cfu/100mL,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,6/5/19 9:45,680,,cfu/100mL,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,7/9/19 9:35,2300,,cfu/100mL,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,8/6/19 9:30,26000,,cfu/100mL,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,9/3/19 10:00,240,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,10/1/19 10:05,440,,cfu/100mL,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,11/5/19 9:50,665,,cfu/100mL,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Fecal Coliform,12/3/19 10:05,213,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,1/8/19 11:00,124,,cfu/100mL,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,2/5/19 10:15,67,,cfu/100mL,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,3/5/19 11:00,276,,cfu/100mL,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,4/2/19 10:40,48,,cfu/100mL,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,5/7/19 10:15,495,,cfu/100mL,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,6/5/19 10:15,550,,cfu/100mL,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,6/5/19 10:15,600,,cfu/100mL,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,7/9/19 9:55,2300,,cfu/100mL,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,8/6/19 9:55,12000,,cfu/100mL,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,9/3/19 10:20,1476,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,10/1/19 10:25,44,,cfu/100mL,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,11/5/19 10:10,240,,cfu/100mL,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,12/3/19 10:30,127,,cfu/100mL,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,1/7/20 8:55,120,,cfu/100mL,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,2/4/20 8:50,46,,cfu/100mL,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,2/4/20 8:50,66,,cfu/100mL,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,3/3/20 8:45,70,,cfu/100mL,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,5/12/20 9:30,140,,cfu/100mL,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,6/9/20 9:50,440,,cfu/100mL,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,7/7/20 8:25,2100,,cfu/100mL,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,8/4/20 8:25,45000,,cfu/100mL,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,9/1/20 8:50,24000,,cfu/100mL,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,10/6/20 8:45,155,,cfu/100mL,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,10/6/20 8:45,105,,cfu/100mL,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,11/3/20 8:25,210,,cfu/100mL,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Fecal Coliform,12/1/20 8:20,1267,,cfu/100mL,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,1/8/19 9:50,82,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,2/5/19 9:10,86,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,3/5/19 9:30,62,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,3/5/19 9:30,60,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,4/2/19 9:20,89,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,5/7/19 9:00,72,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,6/5/19 9:10,71,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,7/9/19 9:00,48,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,8/6/19 9:00,37,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,9/3/19 9:30,59,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,10/1/19 9:30,49,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,11/5/19 9:15,55.4,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,11/5/19 9:15,54.6,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,12/3/19 9:05,60.5,,mg/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,1/7/20 9:15,34,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,2/4/20 9:15,80,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,3/3/20 9:20,83,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,3/3/20 9:20,81,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,5/12/20 8:15,79.3,,mg/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,6/9/20 8:45,71.9,,mg/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,7/7/20 8:50,62,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,8/4/20 8:50,29.8,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,9/1/20 9:15,39,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,10/6/20 9:15,24,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,11/3/20 8:55,19,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,11/3/20 8:55,22,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Hardness,12/1/20 8:40,19,,mg/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,1/8/19 10:30,90,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,2/5/19 9:55,108,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,3/5/19 10:34,61,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,4/2/19 10:15,121,,mg/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,5/7/19 9:45,67,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,5/7/19 9:45,66,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,6/5/19 9:45,84,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,7/9/19 9:35,42,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,8/6/19 9:30,27,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,9/3/19 10:00,92,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,10/1/19 10:05,150,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,11/5/19 9:50,62.8,,mg/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Hardness,12/3/19 10:05,59,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,1/8/19 11:00,48,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,2/5/19 10:15,82,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,3/5/19 11:00,49,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,4/2/19 10:40,97,,mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,5/7/19 10:15,59,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,6/5/19 10:15,72,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,6/5/19 10:15,73,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,7/9/19 9:55,39,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,8/6/19 9:55,26,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,9/3/19 10:20,72,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,10/1/19 10:25,65,,mg/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,11/5/19 10:10,54.5,,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,12/3/19 10:30,76.6,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,1/7/20 8:55,35,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,2/4/20 8:50,60,,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,2/4/20 8:50,70,,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,3/3/20 8:45,89,,mg/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,5/12/20 9:30,98.7,,mg/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,6/9/20 9:50,96.5,,mg/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,7/7/20 8:25,57,,mg/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,8/4/20 8:25,20.6,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,9/1/20 8:50,36,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,10/6/20 8:45,31,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,10/6/20 8:45,32,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,11/3/20 8:25,17,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Hardness,12/1/20 8:20,15,,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,1/8/19 9:50,6513,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,2/5/19 9:10,6994,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,3/5/19 9:30,5143,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,3/5/19 9:30,5178,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,4/2/19 9:20,7099,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,5/7/19 9:00,5557,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,6/5/19 9:10,4468,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,7/9/19 9:00,3561,,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,8/6/19 9:00,2816,,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,9/3/19 9:30,4234,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,10/1/19 9:30,3373,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,11/5/19 9:15,3919,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,11/5/19 9:15,3973,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,12/3/19 9:05,4210,,ug/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,1/7/20 9:15,5107,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,2/4/20 9:15,5486,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,3/3/20 9:20,6295,,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,3/3/20 9:20,6115,,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,5/12/20 8:15,5861,,ug/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,6/9/20 8:45,5627,,ug/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,7/7/20 8:50,4236,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,8/4/20 8:50,2292,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,9/1/20 9:15,3051,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,10/6/20 9:15,4864,,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,11/3/20 8:55,4320,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,11/3/20 8:55,3722,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Magnesium,12/1/20 8:40,3852,,ug/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,1/8/19 10:30,6832,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,2/5/19 9:55,8254,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,3/5/19 10:34,4784,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,4/2/19 10:15,9005,,ug/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,5/7/19 9:45,4966,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,5/7/19 9:45,5105,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,6/5/19 9:45,5873,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,7/9/19 9:35,3381,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,8/6/19 9:30,2203,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,9/3/19 10:00,6742,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,10/1/19 10:05,8221,,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,11/5/19 9:50,4675,,ug/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Magnesium,12/3/19 10:05,4133,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,1/8/19 11:00,6560,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,2/5/19 10:15,7780,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,3/5/19 11:00,4312,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,4/2/19 10:40,8219,,ug/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,5/7/19 10:15,5031,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,6/5/19 10:15,5713,,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,6/5/19 10:15,5769,,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,7/9/19 9:55,3452,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,8/6/19 9:55,2162,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,9/3/19 10:20,6278,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,10/1/19 10:25,6208,,ug/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,11/5/19 10:10,4300,,ug/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,12/3/19 10:30,3954,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,1/7/20 8:55,5026,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,2/4/20 8:50,5516,,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,2/4/20 8:50,2799,,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,3/3/20 8:45,7139,,ug/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,5/12/20 9:30,8260,,ug/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,6/9/20 9:50,8270,,ug/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,7/7/20 8:25,5232,,ug/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,8/4/20 8:25,2.152,U,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,9/1/20 8:50,3536,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,10/6/20 8:45,6501,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,10/6/20 8:45,6170,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,11/3/20 8:25,3285,,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Magnesium,12/1/20 8:20,3036,,ug/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,1/8/19 9:50,2.5,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,2/5/19 9:10,0.94,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,3/5/19 9:30,1.29,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,3/5/19 9:30,1.25,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,4/2/19 9:20,0.77,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,5/7/19 9:00,0.83,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,6/5/19 9:10,0.55,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,7/9/19 9:00,0.62,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,8/6/19 9:00,0.41,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,9/3/19 9:30,0.29,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,10/1/19 9:30,0.11,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,11/5/19 9:15,0.4,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,11/5/19 9:15,0.39,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,12/3/19 9:05,1.29,,mg/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,1/7/20 9:15,2.3,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,2/4/20 9:15,1.94,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,3/3/20 9:20,2.24,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,3/3/20 9:20,2.24,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,5/12/20 8:15,0.7,,mg/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,6/9/20 8:45,1.2,,mg/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,7/7/20 8:50,1.62,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,8/4/20 8:50,0.61,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,9/1/20 9:15,0.77,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,10/6/20 9:15,1.48,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,11/3/20 8:55,1.6,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,11/3/20 8:55,1.6,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Nitrate + Nitrite as N,12/1/20 8:40,1.45,,mg/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,1/8/19 10:30,0.27,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,2/5/19 9:55,0.21,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,3/5/19 10:34,0.32,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,4/2/19 10:15,0.15,,mg/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,5/7/19 9:45,0.16,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,5/7/19 9:45,0.15,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,6/5/19 9:45,0.09,J,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,7/9/19 9:35,0.22,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,8/6/19 9:30,0.26,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,9/3/19 10:00,0.08,J,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,10/1/19 10:05,0.04,U,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,11/5/19 9:50,0.04,U,mg/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Nitrate + Nitrite as N,12/3/19 10:05,0.3,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,1/8/19 11:00,0.38,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,2/5/19 10:15,0.07,J,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,3/5/19 11:00,0.25,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,4/2/19 10:40,0.04,"U,J",mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,5/7/19 10:15,0.15,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,6/5/19 10:15,0.14,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,6/5/19 10:15,0.09,J,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,7/9/19 9:55,0.11,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,8/6/19 9:55,0.27,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,9/3/19 10:20,0.04,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,10/1/19 10:25,0.04,U,mg/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,11/5/19 10:10,0.04,U,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,12/3/19 10:30,0.26,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,1/7/20 8:55,0.32,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,2/4/20 8:50,0.22,,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,2/4/20 8:50,0.23,,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,3/3/20 8:45,0.07,J,mg/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,5/12/20 9:30,0.14,,mg/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,6/9/20 9:50,0.22,,mg/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,7/7/20 8:25,0.11,,mg/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,8/4/20 8:25,0.45,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,9/1/20 8:50,0.33,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,10/6/20 8:45,0.15,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,10/6/20 8:45,0.15,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,11/3/20 8:25,0.1,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Nitrate + Nitrite as N,12/1/20 8:20,0.23,,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,1/8/19 9:50,7.01,,mg/L,,Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,1/8/19 9:50,6.87,,mg/L,,Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,2/5/19 9:10,5.19,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,3/5/19 9:30,8.42,,mg/L,,Duplicate Site,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,4/2/19 9:20,6.4,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,4/2/19 9:20,6.43,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,5/7/19 9:00,6.15,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,6/5/19 9:10,6.09,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,7/9/19 9:00,6.81,,mg/L,,Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Organic Carbon,7/9/19 9:00,6.44,,mg/L,,Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,1/8/19 11:00,6.91,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,2/5/19 10:15,4.87,,mg/L,,Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,2/5/19 10:15,4.7,,mg/L,,Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,3/5/19 11:00,9.46,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,4/2/19 10:40,5.22,,mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,5/7/19 10:15,7.21,,mg/L,,Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,5/7/19 10:15,7.17,,mg/L,,Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,6/5/19 10:15,8.22,,mg/L,,Duplicate Site,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Organic Carbon,7/9/19 9:55,7.6,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,1/8/19 9:50,7.3,,,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,2/5/19 9:10,7.6,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,3/5/19 9:30,7.4,,,,Duplicate Site,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,4/2/19 9:20,7.6,,,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,5/7/19 9:00,7,,,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,6/5/19 9:10,7.5,,,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,7/9/19 9:00,7.4,,,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,8/6/19 9:00,7.3,,,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,9/3/19 9:30,7.6,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,10/1/19 9:30,7.5,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,11/5/19 9:15,7.2,,,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,12/3/19 9:05,7.5,,,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,1/7/20 9:15,7.4,,,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,2/4/20 9:15,7.2,,,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,3/3/20 9:20,7.3,,,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,5/12/20 8:15,7,,,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,6/9/20 0:00,7.2,,,,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,7/7/20 8:50,7.1,,,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,8/4/20 8:50,6.2,,,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,9/1/20 9:15,6.6,,,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,10/6/20 9:15,7,,,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,11/3/20 8:55,6.8,,,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,pH,12/1/20 8:40,6.6,,,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,1/8/19 10:30,7,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,2/5/19 9:55,7.5,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,3/5/19 10:34,7.4,,,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,4/2/19 10:15,7.6,,,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,5/7/19 9:45,6.8,,,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,6/5/19 9:45,7.2,,,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,7/9/19 9:35,6.7,,,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,8/6/19 9:30,6.8,,,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,9/3/19 10:00,7.2,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,10/1/19 10:05,7.1,,,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,11/5/19 9:50,6.6,,,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,pH,12/3/19 10:05,7,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,1/8/19 11:00,6.9,,,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,2/5/19 10:15,7.4,,,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,3/5/19 11:00,7.2,,,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,4/2/19 10:40,7.7,,,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,5/7/19 10:15,7,,,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,6/5/19 10:15,7.3,,,,Duplicate Site,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,7/9/19 9:55,6.9,,,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,8/6/19 9:55,6.9,,,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,9/3/19 10:20,7.4,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,10/1/19 10:25,7.2,,,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,11/5/19 10:10,7,,,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,12/3/19 10:30,7.2,,,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,1/7/20 8:55,7.3,,,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,2/4/20 8:50,6.9,,,,Duplicate Site; green floc algae present,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,3/3/20 8:45,7,,,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,5/12/20 9:30,7.3,,,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,6/9/20 9:50,6.9,,,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,7/7/20 8:25,6.9,,,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,8/4/20 8:25,6.5,,,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,9/1/20 8:50,6.7,,,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,10/6/20 8:45,7,,,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,11/3/20 8:25,6.9,,,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,pH,12/1/20 8:20,7,,,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,1/8/19 9:50,10.5,,C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,2/5/19 9:10,11.2,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,3/5/19 9:30,9.1,,C,,Duplicate Site,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,4/2/19 9:20,11.6,,C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,5/7/19 9:00,19.3,,C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,6/5/19 9:10,22.7,,C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,7/9/19 9:00,25.5,,C,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,8/6/19 9:00,24.5,,C,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,9/3/19 9:30,24.5,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,10/1/19 9:30,24.5,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,11/5/19 9:15,15.7,,C,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,12/3/19 9:05,10.9,,C,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,1/7/20 9:15,9.5,,C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,2/4/20 9:15,12.9,,C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,3/3/20 9:20,14.2,,C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,5/12/20 8:15,14.6,,C,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,6/9/20 0:00,23.2,,C,,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,7/7/20 8:50,24.3,,C,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,8/4/20 8:50,23.4,,C,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,9/1/20 9:15,24.9,,C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,10/6/20 9:15,17.7,,C,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,11/3/20 8:55,13.5,,C,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Temperature,12/1/20 8:40,13.2,,C,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,1/8/19 10:30,12.8,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,2/5/19 9:55,7.4,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,3/5/19 10:34,7,,C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,4/2/19 10:15,8.8,,C,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,5/7/19 9:45,19.4,,C,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,6/5/19 9:45,22.4,,C,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,7/9/19 9:35,25.5,,C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,8/6/19 9:30,23.8,,C,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,9/3/19 10:00,24,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,10/1/19 10:05,23.6,,C,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,11/5/19 9:50,11.1,,C,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Temperature,12/3/19 10:05,7.1,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,1/8/19 11:00,11.6,,C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,2/5/19 10:15,8.2,,C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,3/5/19 11:00,6.9,,C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,4/2/19 10:40,8.8,,C,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,5/7/19 10:15,19.7,,C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,6/5/19 10:15,22.7,,C,,Duplicate Site,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,7/9/19 9:55,25.7,,C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,8/6/19 9:55,23.5,,C,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,9/3/19 10:20,24.3,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,10/1/19 10:25,24.3,,C,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,11/5/19 10:10,11.4,,C,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,12/3/19 10:30,7.3,,C,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,1/7/20 8:55,5.9,,C,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,2/4/20 8:50,9.7,,C,,Duplicate Site; green floc algae present,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,3/3/20 8:45,10.7,,C,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,5/12/20 9:30,13.3,,C,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,6/9/20 9:50,23.6,,C,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,7/7/20 8:25,24.8,,C,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,8/4/20 8:25,24,,C,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,9/1/20 8:50,24.9,,C,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,10/6/20 8:45,14.4,,C,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,11/3/20 8:25,9.2,,C,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Temperature,12/1/20 8:20,11.2,,C,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,1/8/19 9:50,0.83,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,2/5/19 9:10,0.84,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,3/5/19 9:30,1.43,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,3/5/19 9:30,1.28,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,4/2/19 9:20,0.79,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,5/7/19 9:00,0.48,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,6/5/19 9:10,0.75,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,7/9/19 9:00,0.84,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,8/6/19 9:00,1.21,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,9/3/19 9:30,0.41,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,10/1/19 9:30,0.72,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,12/3/19 9:05,0.75,,mg/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,1/7/20 9:15,0.64,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,2/4/20 9:15,0.59,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,3/3/20 9:20,0.65,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,3/3/20 9:20,0.61,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,5/12/20 8:15,0.72,,mg/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,6/9/20 8:45,0.67,,mg/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,7/7/20 8:50,0.67,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,8/4/20 8:50,0.82,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,9/1/20 9:15,1.36,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,10/6/20 9:15,0.74,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Kjeldahl Nitrogen,12/1/20 8:40,0.95,,mg/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,1/8/19 10:30,0.39,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,2/5/19 9:55,0.33,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,3/5/19 10:34,0.9,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,4/2/19 10:15,0.42,,mg/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,5/7/19 9:45,0.23,J,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,5/7/19 9:45,0.36,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,6/5/19 9:45,0.59,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,7/9/19 9:35,0.77,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,8/6/19 9:30,0.65,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,9/3/19 10:00,0.39,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,10/1/19 10:05,0.47,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Kjeldahl Nitrogen,12/3/19 10:05,0.65,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,1/8/19 11:00,0.27,J,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,2/5/19 10:15,0.23,J,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,3/5/19 11:00,0.51,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,4/2/19 10:40,0.29,J,mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,5/7/19 10:15,0.24,J,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,6/5/19 10:15,0.52,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,6/5/19 10:15,0.48,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,7/9/19 9:55,0.58,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,8/6/19 9:55,1.16,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,9/3/19 10:20,0.26,J,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,10/1/19 10:25,0.34,,mg/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,11/5/19 10:10,0.12,U,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,12/3/19 10:30,0.51,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,1/7/20 8:55,0.43,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,2/4/20 8:50,0.24,J,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,2/4/20 8:50,0.48,,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,3/3/20 8:45,0.36,,mg/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,5/12/20 9:30,0.5,,mg/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,6/9/20 9:50,0.27,J,mg/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,7/7/20 8:25,0.6,,mg/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,8/4/20 8:25,0.61,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,9/1/20 8:50,0.69,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,10/6/20 8:45,0.54,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,10/6/20 8:45,0.4,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Kjeldahl Nitrogen,12/1/20 8:20,0.68,,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,1/8/19 9:50,0.06,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,2/5/19 9:10,0.05,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,3/5/19 9:30,0.1,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,3/5/19 9:30,0.09,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,4/2/19 9:20,0.05,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,5/7/19 9:00,0.07,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,6/5/19 9:10,0.09,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,7/9/19 9:00,0.17,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,8/6/19 9:00,0.25,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,9/3/19 9:30,0.12,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,10/1/19 9:30,0.16,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,11/5/19 9:15,0.5,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,11/5/19 9:15,0.49,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,12/3/19 9:05,0.09,,mg/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,1/7/20 9:15,0.09,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,2/4/20 9:15,0.11,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,3/3/20 9:20,0.06,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,3/3/20 9:20,0.06,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,5/12/20 8:15,0.08,,mg/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,6/9/20 8:45,0.15,,mg/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,7/7/20 8:50,0.11,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,8/4/20 8:50,0.09,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,9/1/20 9:15,0.72,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,10/6/20 9:15,0.14,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,11/3/20 8:55,0.11,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,11/3/20 8:55,0.28,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Phosphorus,12/1/20 8:40,0.08,,mg/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,1/8/19 10:30,0.06,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,2/5/19 9:55,0.05,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,3/5/19 10:34,0.11,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,4/2/19 10:15,0.05,,mg/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,5/7/19 9:45,0.08,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,5/7/19 9:45,0.07,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,6/5/19 9:45,0.14,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,7/9/19 9:35,0.14,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,8/6/19 9:30,0.16,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,9/3/19 10:00,0.05,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,10/1/19 10:05,0.06,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,11/5/19 9:50,0.09,,mg/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Phosphorus,12/3/19 10:05,0.06,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,1/8/19 11:00,0.05,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,2/5/19 10:15,0.03,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,3/5/19 11:00,0.09,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,4/2/19 10:40,0.03,,mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,5/7/19 10:15,0.08,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,6/5/19 10:15,0.35,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,6/5/19 10:15,0.09,,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,7/9/19 9:55,0.1,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,8/6/19 9:55,0.15,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,9/3/19 10:20,0.04,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,10/1/19 10:25,0.09,,mg/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,11/5/19 10:10,0.06,,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,12/3/19 10:30,0.04,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,1/7/20 8:55,0.1,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,2/4/20 8:50,0.05,,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,2/4/20 8:50,0.05,,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,3/3/20 8:45,0.05,,mg/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,5/12/20 9:30,0.08,,mg/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,6/9/20 9:50,0.09,,mg/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,7/7/20 8:25,0.15,,mg/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,8/4/20 8:25,0.15,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,9/1/20 8:50,0.29,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,10/6/20 8:45,0.03,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,10/6/20 8:45,0.04,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,11/3/20 8:25,0.12,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Phosphorus,12/1/20 8:20,0.09,,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,1/8/19 9:50,4.4,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,2/5/19 9:10,2.8,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,3/5/19 9:30,10,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,3/5/19 9:30,10.8,,mg/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,4/2/19 9:20,2.6,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,5/7/19 9:00,7.7,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,6/5/19 9:10,2.6,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,7/9/19 9:00,7.3,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,8/6/19 9:00,19.2,,mg/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,9/3/19 9:30,2.5,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,10/1/19 9:30,2.5,U,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,11/5/19 9:15,2.5,U,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,11/5/19 9:15,2.5,U,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,12/3/19 9:05,4.5,,mg/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,1/7/20 9:15,6.4,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,2/4/20 9:15,4.3,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,3/3/20 9:20,3.7,,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,3/3/20 9:20,5,U,mg/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,5/12/20 8:15,2.5,U,mg/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,6/9/20 8:45,2.5,U,mg/L,, ,,,,,,,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,7/7/20 8:50,3.2,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,8/4/20 8:50,202,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,9/1/20 9:15,61.3,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,10/6/20 9:15,2.5,U,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,11/3/20 8:55,5.1,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,11/3/20 8:55,4.2,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Total Suspended Solids,12/1/20 8:40,17.6,,mg/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,1/8/19 10:30,4.8,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,2/5/19 9:55,5.4,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,3/5/19 10:34,10.6,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,4/2/19 10:15,2.5,,mg/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,5/7/19 9:45,8.2,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,5/7/19 9:45,5.6,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,6/5/19 9:45,5,U,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,7/9/19 9:35,7.7,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,8/6/19 9:30,26.2,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,9/3/19 10:00,4.3,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,10/1/19 10:05,3,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,11/5/19 9:50,3,,mg/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Total Suspended Solids,12/3/19 10:05,11.4,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,1/8/19 11:00,2.5,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,2/5/19 10:15,2.5,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,3/5/19 11:00,7.2,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,4/2/19 10:40,2.9,,mg/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,5/7/19 10:15,3.9,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,6/5/19 10:15,5,U,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,6/5/19 10:15,5,U,mg/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,7/9/19 9:55,4.3,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,8/6/19 9:55,17.2,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,9/3/19 10:20,9.7,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,10/1/19 10:25,2.5,U,mg/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,11/5/19 10:10,2.5,U,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,12/3/19 10:30,4.4,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,1/7/20 8:55,11.3,,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,2/4/20 8:50,3.5,,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,2/4/20 8:50,5,U,mg/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,3/3/20 8:45,2.5,U,mg/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,5/12/20 9:30,13.4,,mg/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,6/9/20 9:50,8.6,,mg/L,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,7/7/20 8:25,20.2,,mg/L,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,8/4/20 8:25,47.4,,mg/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,9/1/20 8:50,22,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,10/6/20 8:45,7.2,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,10/6/20 8:45,6.8,,mg/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,11/3/20 8:25,3.7,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Total Suspended Solids,12/1/20 8:20,8,,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,1/8/19 9:50,7.7,,NTU,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,2/5/19 9:10,5.5,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,3/5/19 9:30,22.3,,NTU,,Duplicate Site,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,4/2/19 9:20,4.4,,NTU,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,5/7/19 9:00,10,,NTU,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,6/5/19 9:10,3.8,,NTU,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,7/9/19 9:00,9.6,,NTU,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,8/6/19 9:00,23.7,,NTU,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,9/3/19 9:30,2.7,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,10/1/19 9:30,1.6,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,11/5/19 9:15,2.2,,NTU,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,12/3/19 9:05,10.1,,NTU,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,1/7/20 9:15,11.7,,NTU,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,2/4/20 9:15,6.5,,NTU,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,3/3/20 9:20,4.5,,NTU,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,5/12/20 8:15,2.6,,NTU,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,6/9/20 0:00,2.6,,NTU,,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,7/7/20 8:50,4.2,,NTU,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,8/4/20 8:50,196,,NTU,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,9/1/20 9:15,77,,NTU,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,10/6/20 9:15,2.1,,NTU,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,11/3/20 8:55,8.1,,NTU,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Turbidity,12/1/20 8:40,34.3,,NTU,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,1/8/19 10:30,11.4,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,2/5/19 9:55,11,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,3/5/19 10:34,24.8,,NTU,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,4/2/19 10:15,5.4,,NTU,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,5/7/19 9:45,8.1,,NTU,,Duplicate Site,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,6/5/19 9:45,6.5,,NTU,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,7/9/19 9:35,15.7,,NTU,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,8/6/19 9:30,36.6,,NTU,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,9/3/19 10:00,5.1,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,10/1/19 10:05,4,,NTU,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,11/5/19 9:50,7.6,,NTU,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Turbidity,12/3/19 10:05,15,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,1/8/19 11:00,8.7,,NTU,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,2/5/19 10:15,5.9,,NTU,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,3/5/19 11:00,22.3,,NTU,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,4/2/19 10:40,4.3,,NTU,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,5/7/19 10:15,5.8,,NTU,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,6/5/19 10:15,11.4,,NTU,,Duplicate Site,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,7/9/19 9:55,10.7,,NTU,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,8/6/19 9:55,33,,NTU,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,9/3/19 10:20,3.8,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,10/1/19 10:25,1.8,,NTU,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,11/5/19 10:10,6.5,,NTU,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,12/3/19 10:30,12.7,,NTU,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,1/7/20 8:55,20.6,,NTU,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,2/4/20 8:50,10.5,,NTU,,Duplicate Site; green floc algae present,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,3/3/20 8:45,4.8,,NTU,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,5/12/20 9:30,18.9,,NTU,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,6/9/20 9:50,16.9,,NTU,,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020",No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,7/7/20 8:25,25.5,,NTU,,Murky Water,Yes,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,8/4/20 8:25,53,,NTU,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,9/1/20 8:50,33.9,,NTU,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,10/6/20 8:45,9.3,,NTU,,Duplicate Site,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,11/3/20 8:25,10.4,,NTU,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Turbidity,12/1/20 8:20,23.5,,NTU,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,1/8/19 9:50,20.4,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,2/5/19 9:10,22.3,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,3/5/19 9:30,16.5,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,3/5/19 9:30,17.2,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,4/2/19 9:20,21.6,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,5/7/19 9:00,18.1,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,6/5/19 9:10,20.5,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,7/9/19 9:00,21.6,,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,8/6/19 9:00,16.2,,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,9/3/19 9:30,23,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,10/1/19 9:30,29.1,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,11/5/19 9:15,29.9,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,11/5/19 9:15,32.7,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,12/3/19 9:05,31,,ug/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,1/7/20 9:15,24.7,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,2/4/20 9:15,27.1,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,3/3/20 9:20,21.7,,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,3/3/20 9:20,18.5,,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,5/12/20 8:15,16,,ug/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,8/4/20 8:50,10.19,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,9/1/20 9:15,12.17,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,10/6/20 9:15,17.24,,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,11/3/20 8:55,12.55,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,11/3/20 8:55,12.63,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,Field,Zinc,12/1/20 8:40,8.63,J,ug/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,1/8/19 10:30,13.1,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,2/5/19 9:55,14,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,3/5/19 10:34,14.1,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,4/2/19 10:15,7.1,J,ug/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,5/7/19 9:45,14.5,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,5/7/19 9:45,13.7,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,6/5/19 9:45,7.7,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,7/9/19 9:35,13,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,8/6/19 9:30,8.6,J,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,9/3/19 10:00,7.2,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,10/1/19 10:05,3.5,"J,J7",ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,11/5/19 9:50,12.3,,ug/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,Field,Zinc,12/3/19 10:05,16.4,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,1/8/19 11:00,7.8,J,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,2/5/19 10:15,9.5,J,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,3/5/19 11:00,11.5,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,4/2/19 10:40,15.5,,ug/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,5/7/19 10:15,21.4,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,6/5/19 10:15,11.3,,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,6/5/19 10:15,11.2,,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,7/9/19 9:55,21.7,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,8/6/19 9:55,13.4,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,9/3/19 10:20,6.6,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,10/1/19 10:25,7.8,J,ug/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,11/5/19 10:10,6.7,J,ug/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,12/3/19 10:30,11.8,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,1/7/20 8:55,11.5,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,2/4/20 8:50,10.1,,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,2/4/20 8:50,9.9,J,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,3/3/20 8:45,8.2,J,ug/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,5/12/20 9:30,7.4,J,ug/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,8/4/20 8:25,7.66,J,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,9/1/20 8:50,4.03,"J,J7",ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,10/6/20 8:45,3.65,"J,J7",ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,10/6/20 8:45,3.84,"J,J7",ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,11/3/20 8:25,4.1,J,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,Field,Zinc,12/1/20 8:20,9.07,J,ug/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,1/8/19 9:50,21,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,2/5/19 9:10,24,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,3/5/19 9:30,17.5,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,3/5/19 9:30,21.6,,ug/L,,Duplicate Site Duplicate,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,4/2/19 9:20,47.1,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,5/7/19 9:00,22.5,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,6/5/19 9:10,22.2,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,7/9/19 9:00,23.9,,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,8/6/19 9:00,31.1,,ug/L,, ,Yes,Overcast,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,9/3/19 9:30,24.4,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,10/1/19 9:30,31.8,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,11/5/19 9:15,30,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,11/5/19 9:15,34.2,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,12/3/19 9:05,32.3,,ug/L,,Organic foam on water surfaace,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,1/7/20 9:15,30.1,,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,2/4/20 9:15,29.3,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,3/3/20 9:20,31.1,,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,3/3/20 9:20,23.2,,ug/L,,Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,5/12/20 8:15,16.9,,ug/L,,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,8/4/20 8:50,36.98,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,9/1/20 9:15,20.04,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,10/6/20 9:15,17.13,,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,11/3/20 8:55,13.68,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,11/3/20 8:55,13.88,,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL1.9EC,,Zinc,12/1/20 8:40,15.75,,ug/L,, ,Yes,Sunny,3,G,No,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,1/8/19 10:30,15.2,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,2/5/19 9:55,21.3,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,3/5/19 10:34,18.4,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,4/2/19 10:15,7.9,J,ug/L,,Raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,5/7/19 9:45,14,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,5/7/19 9:45,14.7,,ug/L,,Duplicate Site Duplicate,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,6/5/19 9:45,8.9,J,ug/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,7/9/19 9:35,13.2,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,8/6/19 9:30,19.2,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,9/3/19 10:00,7.4,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,10/1/19 10:05,8.7,J,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,11/5/19 9:50,13.1,,ug/L,,Large blockage upstream of culvert,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL5.6EC,,Zinc,12/3/19 10:05,26.2,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,1/8/19 11:00,14.5,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,2/5/19 10:15,18.1,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,3/5/19 11:00,13.9,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,4/2/19 10:40,15.7,,ug/L,,Raining; lots of algae matts present,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,5/7/19 10:15,24.3,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,6/5/19 10:15,11.9,,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,6/5/19 10:15,12.5,,ug/L,,Duplicate Site Duplicate,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,7/9/19 9:55,23,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,8/6/19 9:55,23.3,,ug/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,9/3/19 10:20,7,J,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,10/1/19 10:25,7.9,J,ug/L,,low flow and large amount of brown fluffy algae,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,11/5/19 10:10,9.3,J,ug/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,12/3/19 10:30,18.3,,ug/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,1/7/20 8:55,16.2,,ug/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,2/4/20 8:50,14.6,,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,2/4/20 8:50,15.2,,ug/L,,Duplicate Site; green floc algae present Duplicate,No,Partly Cloudy,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,3/3/20 8:45,12.1,,ug/L,,Green floc algae present,No,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,5/12/20 9:30,14.6,,ug/L,,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020",No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,8/4/20 8:25,14.07,,ug/L,,Heavy rains overnight from hurricane.,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,9/1/20 8:50,11,,ug/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,10/6/20 8:45,4.27,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,10/6/20 8:45,6.13,J,ug/L,,Duplicate Site Duplicate,No,Sunny,3,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,11/3/20 8:25,4.88,J,ug/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
+Ellerbe Creek,EL7.1EC,,Zinc,12/1/20 8:20,11.39,,ug/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient

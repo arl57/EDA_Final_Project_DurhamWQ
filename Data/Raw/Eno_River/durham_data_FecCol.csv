@@ -1,0 +1,68 @@
+Disclaimer: Although Stormwater Services makes every effort to ensure data quality in the monitoring program, errors do arise and may not be identified at the time the data was uploaded to this database.  The City of Durham does not assume any liability associated with the use of these data and is not obligated to notify parties of modifications or changes to the database.
+
+Query Results: 
+Watershed:Eno River 
+Medium:Water
+Parameters: Fecal Coliform    Time Period:2019-01-01 ~ 2020-12-31
+Project:all
+Data was downloaded on March 15 2021 5:23 pm
+The data contains the QA code. 
+For Help with QA code, please check http://www.durhamwaterquality.org/QAcode.php
+
+Watershed,Station Name,Filtered,Parameter,Date/Time,Value,QA Code,Unit,QAQC Sample,Comments,Rain in Last 24 Hours,Sky Condition,Flow Severity,Comp  Code,Thalweg,Lab,Project
+"Eno River","EN10.3WC","","Fecal Coliform","2020-01-07 11:05:00","155","","cfu/100mL","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-02-04 11:05:00","100","","cfu/100mL","","light rain","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-03-03 11:10:00","125","","cfu/100mL",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-07-07 10:50:00","1476","","cfu/100mL","","Duplicate Site Duplicate","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-07-07 10:50:00","2800","","cfu/100mL","","Duplicate Site Duplicate","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-08-04 10:45:00","24000","","cfu/100mL","","Heavy rains overnight from hurricane.","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-09-01 11:05:00","33000","","cfu/100mL",""," ","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-10-06 10:50:00","150","","cfu/100mL",""," ","No","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-11-03 10:45:00","560","","cfu/100mL",""," ","No","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN10.3WC","","Fecal Coliform","2020-12-01 10:25:00","720","","cfu/100mL",""," ","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-01-07 11:40:00","180","","cfu/100mL","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-02-04 11:30:00","88","","cfu/100mL","","rain stopped","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-03-03 11:35:00","38","","cfu/100mL",""," ","","","","","","","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-07-07 11:25:00","420","","cfu/100mL",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-08-04 11:20:00","3500","","cfu/100mL","","Duplicate Site; Heavy rains overnight from hurricane. Duplicate","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-08-04 11:20:00","2500","","cfu/100mL","","Duplicate Site; Heavy rains overnight from hurricane. Duplicate","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-09-01 11:30:00","23000","","cfu/100mL",""," ","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-10-06 11:15:00","111","","cfu/100mL",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-11-03 11:10:00","130","","cfu/100mL",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN13.3ER","","Fecal Coliform","2020-12-01 10:55:00","3200","","cfu/100mL",""," ","Yes","Sunny","4","G","No","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-01-07 09:40:00","440","","cfu/100mL",""," ","No","Overcast","3","G","No","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-02-04 09:40:00","78","","cfu/100mL",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-03-03 09:45:00","110","","cfu/100mL",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-07-07 09:15:00","420","","cfu/100mL",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-08-04 09:20:00","36000","","cfu/100mL","","Heavy rains overnight from hurricane.","Yes","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-09-01 09:40:00","27000","","cfu/100mL","","Very high flow","Yes","Overcast","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-10-06 09:35:00","140","","cfu/100mL",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-11-03 09:25:00","130","","cfu/100mL",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-12-01 09:10:00","3850","","cfu/100mL","","Duplicate Site Duplicate","Yes","Sunny","4","G","No","SDWRF","Ambient",
+"Eno River","EN4.9ER","","Fecal Coliform","2020-12-01 09:10:00","2900","","cfu/100mL","","Duplicate Site Duplicate","Yes","Sunny","4","G","No","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-01-15 08:50:00","400","","cfu/100mL","","Duplicate Site Duplicate","No","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-01-15 08:50:00","273","","cfu/100mL","","Duplicate Site Duplicate","No","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-02-12 08:30:00","340","","cfu/100mL",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-03-12 08:35:00","32","","cfu/100mL",""," ","Yes","Partly Cloudy","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-04-09 08:45:00","4800","","cfu/100mL","","Sample taken near bank due to very high stage","Yes","Overcast","5","G","No","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-05-14 08:40:00","96","","cfu/100mL",""," ","Yes","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-06-11 08:30:00","1160","","cfu/100mL","","High flow","Yes","Sunny","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-07-16 09:00:00","124","","cfu/100mL","","Duplicate Site Duplicate","Yes","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-07-16 09:00:00","136","","cfu/100mL","","Duplicate Site Duplicate","Yes","Sunny","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-08-13 08:55:00","50","","cfu/100mL",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-09-10 08:30:00","108","","cfu/100mL",""," ","No","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-10-08 08:20:00","20","","cfu/100mL",""," ","No","Overcast","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-11-12 08:40:00","106","","cfu/100mL","","Raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2019-12-04 08:30:00","180","","cfu/100mL",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-01-07 10:45:00","920","","cfu/100mL","","raining","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-02-04 10:40:00","84","","cfu/100mL","","starting to rain","Yes","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-03-03 10:45:00","15","","cfu/100mL",""," ","No","Overcast","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-05-12 09:00:00","100","","cfu/100mL","","Duplicate Site; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Duplicate","No","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-05-12 09:00:00","105","","cfu/100mL","","Duplicate Site; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Duplicate","No","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-06-09 09:15:00","123","","cfu/100mL",""," ","","","","","","","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-07-07 10:15:00","640","","cfu/100mL",""," ","Yes","Partly Cloudy","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-08-04 10:25:00","28000","","cfu/100mL","","Heavy rains overnight from hurricane.","Yes","Overcast","2","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-09-01 10:40:00","13000","","cfu/100mL","","very high flow","Yes","Overcast","4","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-10-06 10:30:00","115","","cfu/100mL",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-11-03 10:20:00","145","","cfu/100mL",""," ","No","Sunny","3","G","Yes","SDWRF","Ambient",
+"Eno River","EN8.9ER","","Fecal Coliform","2020-12-01 10:05:00","3000","","cfu/100mL",""," ","Yes","Partly Cloudy","4","G","No","SDWRF","Ambient",
