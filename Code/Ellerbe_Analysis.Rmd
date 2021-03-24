@@ -29,15 +29,14 @@ ellerbe.data <- read.csv("./Data/Raw/Ellerbe Creek/durham_AllData.csv")
 
 ```{r}
 ## 1. Select columns of interest
+# I could not find the metadata. This may be important for the QC column (I think U in the QC column means that the value was set to the detection limit (because the value was likely below the dtection limit), but I am not sure). Also not sure what flow severity is or if we would want to use it. 
 ellerbe.sub <- ellerbe.data %>%
   select(Stream.Name, Station.Name, Parameter, Date.Time, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition)
 
 ## 2. Subsetting data for following metrics: GH, DO, pH, Fecal Coliform, Zn, Cu, TP, TSS, and turbidity
-
-# Where is the metadata? This may be important for the QC column (I think U is the detection limit), and the flow severity (not sure what this means, is it arbitrary?)
-# Did not find GH info...
-# Should we add temp?
-# How do we want to handle different sites for Ellerbe Cr?
+# Did not find GH info for Ellerbe Creek. Are we pulling this from USGS?
+# Should we add temp? Could be interesting to see if temp has changed between the two years.
+# How do we want to handle different sites for Ellerbe Creek and Eno River?
 
 ellerbe.sub <- ellerbe.sub %>%
   filter(Parameter %in% c("Dissolved Oxygen", "pH", "Fecal Coliform", "Zinc", "Copper", "Total Phosphorus", "Total Suspended Solids", "Turbidity"))
@@ -52,7 +51,7 @@ ellerbe.grouped <- ellerbe.sub %>%
   group_by(Stream.Name, Station.Name, Parameter, Date, Comments, Rain.in.Last.24.Hours, Sky.Condition) %>%
  summarize(Final_Value = mean(Value)) 
 
-## 5. Make parameters their own columns
+## 5. Make WQ parameters their own columns for ease of comparison later on
 ellerbe.all <- ellerbe.grouped %>%
   pivot_wider(names_from = Parameter, values_from = Final_Value)
 
