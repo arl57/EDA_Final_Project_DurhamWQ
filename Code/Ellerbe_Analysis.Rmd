@@ -17,9 +17,6 @@ knitr::opts_knit$set(root.dir = '/Users/analiselindborg/Desktop/Desktop - Analis
 getwd()
 library(tidyverse)
 library(lubridate)
-library(sf)
-library(mapview)
-library(leaflet)
 
 ellerbe.data <- read.csv("./Data/Raw/Ellerbe Creek/durham_AllData.csv")
 ```
@@ -29,33 +26,112 @@ ellerbe.data <- read.csv("./Data/Raw/Ellerbe Creek/durham_AllData.csv")
 
 ```{r}
 ## 1. Select columns of interest
-# I could not find the metadata. This may be important for the QC column (I think U in the QC column means that the value was set to the detection limit (because the value was likely below the dtection limit), but I am not sure). Also not sure what flow severity is or if we would want to use it. 
+# I could not find the metadata. This may be important for the QC column (I think U in the QC column means that the value was set to the detection limit (because the value was likely below the detection limit), but I am not sure). Also not sure what flow severity is or if we would want to use it. 
 ellerbe.sub <- ellerbe.data %>%
   select(Stream.Name, Station.Name, Parameter, Date.Time, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition)
 
-## 2. Subsetting data for following metrics: GH, DO, pH, Fecal Coliform, Zn, Cu, TP, TSS, and turbidity
-# Did not find GH info for Ellerbe Creek. Are we pulling this from USGS?
-# Should we add temp? Could be interesting to see if temp has changed between the two years.
-# How do we want to handle different sites for Ellerbe Creek and Eno River?
+## 2. Subsetting data for following metrics: DO, pH, Fecal Coliform, Zn, Cu, temp, TP, TSS, and turbidity and sites 1.9 and 7.1 (5.6 does not have 2020 data)
 
 ellerbe.sub <- ellerbe.sub %>%
-  filter(Parameter %in% c("Dissolved Oxygen", "pH", "Fecal Coliform", "Zinc", "Copper", "Total Phosphorus", "Total Suspended Solids", "Turbidity"))
+  filter(Parameter %in% c("Dissolved Oxygen", "pH", "Fecal Coliform", "Zinc", "Copper", "Temperature", "Total Phosphorus", "Total Suspended Solids", "Turbidity")) %>%
+  filter(Station.Name != "EL5.6EC")
 
 ## 3. Fix date
 ellerbe.sub <- ellerbe.sub %>%
   separate(Date.Time, into = c("Date", "Time"), sep = "\\s")
+
 ellerbe.sub$Date <- as.Date(ellerbe.sub$Date, format = "%m/%d/%y")
 
-## 4. Some sample dates have site duplicates. Averaging these duplicate values to get one value for each parameter at each site on each data. 
+## 4. Some sample dates have site duplicates. Averaging these duplicate values to get one value for each parameter at each site on each data. Create a year column
 ellerbe.grouped <- ellerbe.sub %>%
   group_by(Stream.Name, Station.Name, Parameter, Date, Comments, Rain.in.Last.24.Hours, Sky.Condition) %>%
- summarize(Final_Value = mean(Value)) 
+ summarize(Final_Value = mean(Value)) %>%
+  mutate(Year = year(Date))
 
-## 5. Make WQ parameters their own columns for ease of comparison later on
-ellerbe.all <- ellerbe.grouped %>%
-  pivot_wider(names_from = Parameter, values_from = Final_Value)
+ellerbe.grouped$Year <- as.character(ellerbe.grouped$Year)
+## 5. Make WQ parameters their own columns. **Might save this until later when we actually need it
+#ellerbe.all <- ellerbe.grouped %>%
+  #pivot_wider(names_from = Parameter, values_from = Final_Value)
 
 ## save final dataset
 write.csv(ellerbe.all, "./Data/Processed/Ellerbe_processed.csv")
+```
+
+Analysis ideas
+  # look at other parameters individually and compare between years, keeping sites separate
+  # Combine Zn and copper?
+  # look at temp and DO and temp and fecal coliform
+    # bacteria is temp and flow driven
+  # tss and turbidity comparison (as indicator of which to do and inputs) - scatterplot
+  # temp and sky condition (as indicator of cover) - box plot
+  # spikes in turbid with rain in last 24 hours - box plot
+
+```{r}
+theme <- 
+  theme_bw() +
+  theme(panel.grid.minor = element_blank(),
+        text = element_text(color = "black", size = 10),
+        axis.text.x = element_text(color = "black"),
+        axis.text.y = element_text(color = "black"))
+
+theme_set(theme)
+```
+Explore metal concentrations at each of the sites between 2019 and 2020
+
+```{r}
+ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Date, y = Final_Value, color = Parameter)) +
+  geom_point() +
+  scale_color_viridis_d(option = "magma", begin = 0.8, end = 0.2, name = "Metal") +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  labs(y = "Concentration (ug/L)", x = "Date") +
+  theme+
+  theme(panel.grid.major = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~Station.Name, nrow = 2)
+```
+
+
+Comparison of temperature and sky conditions. May indicate canopy cover (tell us something about the sites and riparian area). 
+
+Does not appear that there is any relationship here. I think we would need more finite data (like hourly) to make this kind of determination. 
+```{r}
+ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
+  geom_boxplot() +
+  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Temperature (Celcius)", x = "Sky Condition") +
+  theme+
+  theme(panel.grid.major = element_blank())
+
+#Over time (since this likely changes with season)
+ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Date, y = Final_Value, color = Sky.Condition)) +
+  geom_point() +
+  scale_color_viridis_d(option = "magma", begin = 0.8, end = 0.2, name = "Sky Condition") +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  labs(y = "Temperature (Celcius)", x = "Date") +
+  theme+
+  theme(panel.grid.major = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~Station.Name, nrow = 2)
+```
+
+Comparison of turbidity and rain. Determine if the sites are highly influenced by storm events. Could also be an indication of erosion. This could fit with general exploration of the site and trying to set up context for this being a highly degraded creek in need of restoration/additional monitoring. Could compare this to observations of Eno River sites. Comparison condudcted for 2019 and 2020 combined Not sure it totally fits with project scope/year comparisons...
+
+Figure shows that turbidity is higher after rain event, indicating sediment loading.
+```{r}
+ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
+  geom_boxplot() +
+  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
+  theme+
+  theme(panel.grid.major = element_blank())
+
+#without outlier (this changed how the data calucated the boxplots, not sure how to fix that...)
+ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
+  geom_boxplot() +
+  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  ylim(0, 100) +
+  labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
+  theme +
+  theme(panel.grid.major = element_blank())
 ```
 
