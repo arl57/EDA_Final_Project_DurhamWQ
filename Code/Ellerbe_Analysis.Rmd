@@ -49,12 +49,9 @@ ellerbe.grouped <- ellerbe.sub %>%
   mutate(Year = year(Date))
 
 ellerbe.grouped$Year <- as.character(ellerbe.grouped$Year)
-## 5. Make WQ parameters their own columns. **Might save this until later when we actually need it
-#ellerbe.all <- ellerbe.grouped %>%
-  #pivot_wider(names_from = Parameter, values_from = Final_Value)
 
 ## save final dataset
-write.csv(ellerbe.all, "./Data/Processed/Ellerbe_processed.csv")
+#write.csv(ellerbe.all, "./Data/Processed/Ellerbe_processed.csv")
 ```
 
 Analysis ideas
@@ -70,11 +67,106 @@ Analysis ideas
 theme <- 
   theme_bw() +
   theme(panel.grid.minor = element_blank(),
+        panel.grid.major = element_blank(),
         text = element_text(color = "black", size = 10),
         axis.text.x = element_text(color = "black"),
         axis.text.y = element_text(color = "black"))
 
 theme_set(theme)
+```
+Visualizing changes in all parameters over time
+
+DO: There are no distinguishable trends over time and do not appear to be differences between the two sites. Looks like there may be seasonality, we could use seasonal Mann Kendall to explore further
+
+pH: Looks like there may be a downward trend from 2019 to 2020. Run lm stats on this. 
+
+Fecal Coliform: Relatively low with spikes at both stations in August of both years. Could be indicative of seasonal variations in natural E. coli (or other bacteria)? I am not sure what they culture for in this study. Seems unlikely this is gross wastewater effluent contamination since it is seasonal. 
+
+Temperature: Temp measurements are sporadic (there are gaps in data) and temp is seasonal (obviously). Summer and winter temps appear similar for 2019 and 2020, but hard to tell beccause of data gaps. Could do some extrapolation?
+
+TP: Could be a slight increase over time, site 1.9 also has higher spikes. Appears to be some seasonality but difficult to tell
+
+TSS: Again, could be slight increase over time and site 1.9 has spike fall
+
+turbidity: Appears similar to TSS
+```{r}
+#creating pivot wider dataframe to make WQ parameters their own columns. 
+ellerbe.wide <- ellerbe.grouped %>%
+  pivot_wider(names_from = Parameter, values_from = Final_Value)
+
+#DO
+ggplot(ellerbe.wide, aes(x = Date, y = `Dissolved Oxygen`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Dissolved Oxygen (mg/L)", x = "Date") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#pH
+ggplot(ellerbe.wide, aes(x = Date, y = pH, color = Station.Name)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "pH", x = "Date") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#Fecal Coliform
+ggplot(ellerbe.wide, aes(x = Date, y = `Fecal Coliform`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Fecal Coliform (cfu/100mL)", x = "Date") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#Temp
+ggplot(ellerbe.wide, aes(x = Date, y = Temperature, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Temperature (Celcius)", x = "Date") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#TP
+ggplot(ellerbe.wide, aes(x = Date, y = `Total Phosphorus`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Total Phosphorus (mg/L)", x = "Date") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#TSS
+ggplot(ellerbe.wide, aes(x = Date, y = `Total Suspended Solids`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Total Suspended Solids (mg/L)", x = "Date") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#turbidity
+ggplot(ellerbe.wide, aes(x = Date, y = `Turbidity`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Turbidity (NTU)", x = "Date") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 Explore metal concentrations at each of the sites between 2019 and 2020
 
@@ -85,8 +177,7 @@ ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Date
   scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
   labs(y = "Concentration (ug/L)", x = "Date") +
   theme+
-  theme(panel.grid.major = element_blank(),
-        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   facet_wrap(~Station.Name, nrow = 2)
 ```
 
@@ -135,3 +226,27 @@ ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.2
   theme(panel.grid.major = element_blank())
 ```
 
+Comparison of turbidity and TSS. How well do these correlate? Indicative of certain types of pollution
+
+Measurements appear highly correlated. Need to add statistics. But this could be indicative of certain types of pollution such as sediment, algae, etc. This also indicates that Durham could rely on turbidity alone as a measure for clarity. TSS is expensive to sample.
+```{r}
+ggplot(ellerbe.wide, aes(x = Turbidity, y = `Total Suspended Solids`, color = Station.Name)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Total Suspended Solids (mg/L)", x = "Turbidity (NTU)") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#removing outlier point to better show trend
+ggplot(ellerbe.wide, aes(x = Turbidity, y = `Total Suspended Solids`, color = Station.Name)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  xlim(0,80)+
+  ylim(0,80) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Total Suspended Solids (mg/L)", x = "Turbidity (NTU)") +
+  theme +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
