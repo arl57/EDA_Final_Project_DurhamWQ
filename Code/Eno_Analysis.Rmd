@@ -1,0 +1,304 @@
+---
+title: "Eno_Analysis"
+author: "Olivia August"
+date: "4/5/2021"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+
+```{r}
+#get directory
+getwd()
+
+#load packages
+library(tidyverse)
+library(lubridate)
+library(sf)
+#remotes::install_github("r-spatial/mapview")
+library(mapview)
+library(ggplot2)
+```
+
+```{r}
+# import all data
+Durham_stations <- read.csv('./Data/Raw/durham_station.csv',header = TRUE, row.names=NULL)[,1:3]
+colNames <- read.csv('./Data/Raw/Eno_River/durham_data_Cu.csv',skip = 11, nrows=1, header = F)
+Eno_River_Cu <- read.csv('./Data/Raw/Eno_River/durham_data_Cu.csv',skip = 12, row.names=NULL, header = F)[,1:17]
+Eno_River_DO <- read.csv('./Data/Raw/Eno_River/durham_data_DO.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_FecCol <- read.csv('./Data/Raw/Eno_River/durham_data_FecCol.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_pH <- read.csv('./Data/Raw/Eno_River/durham_data_pH.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_Temp <- read.csv('./Data/Raw/Eno_River/durham_data_Temp.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_TP <- read.csv('./Data/Raw/Eno_River/durham_data_TP.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_TSS <- read.csv('./Data/Raw/Eno_River/durham_data_TSS.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_Turb <- read.csv('./Data/Raw/Eno_River/durham_data_Turb.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_Zn <- read.csv('./Data/Raw/Eno_River/durham_data_Zn.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+
+# compile into one dataframe
+Eno_River_All_raw <- rbind(Eno_River_Cu,Eno_River_DO,Eno_River_FecCol,Eno_River_pH,Eno_River_Temp,Eno_River_TP,Eno_River_TSS,Eno_River_Turb,Eno_River_Zn)
+
+# name columns
+colnames(Eno_River_All_raw) <- c("Stream.Name","Station.Name",colNames[3:4],"Date.Time",colNames[6],"QA.Code",colNames[8:10],"Rain.in.Last.24.Hours","Sky.Condition",colNames[13:17])
+```
+
+
+```{r}
+# keep relevant columns for analysis
+Eno_River_parameters <- Eno_River_All_raw%>% 
+  select(Stream.Name, Station.Name, Parameter, Date.Time, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition) 
+
+# Make date correct form
+Eno_River_parameters<- Eno_River_parameters %>%
+  separate(Date.Time, into = c("Date", "Time"), sep = "\\s")
+Eno_River_parameters$Date <- as.Date(Eno_River_parameters$Date, format = "%m/%d/%Y")
+
+# average duplicates 
+Eno_River_parameters_clean <- Eno_River_parameters %>%
+  group_by(Stream.Name, Station.Name, Parameter, Date, Comments, Rain.in.Last.24.Hours, Sky.Condition) %>%
+  summarize(Final_Value = mean(Value)) %>%
+  mutate(Month = month(Date))%>%
+  mutate(Year = year(Date))
+
+#split parameters into their own columns
+Eno_River_parameters_split <- Eno_River_parameters_clean %>%
+  pivot_wider(names_from = Parameter, values_from = Final_Value)
+
+
+#join with Station coordinate data
+Eno_River_parameters_stations <- merge(x = Eno_River_parameters_split,
+                                       y=Durham_stations,
+                                       by.x = "Station.Name",
+                                       by.y = "Name")
+
+#split into 2019 and 2020
+Eno_River_Data_2019 <- Eno_River_parameters_stations %>% 
+  filter(between(Date,as.Date("2019-01-01"),as.Date("2019-12-31")))
+Eno_River_Data_2020 <- Eno_River_parameters_stations %>% 
+  filter(between(Date,as.Date("2020-01-01"),as.Date("2020-12-31")))
+
+
+#create spatial dataframe
+Eno_River_parameters_stations_sf <- Eno_River_parameters_stations %>% 
+  st_as_sf(coords = c('Longitude','Latitude'),crs=4269)
+mapview(Eno_River_parameters_stations_sf)
+```
+
+
+```{r}
+```{r}
+theme <- 
+  theme_bw() +
+  theme(panel.grid.minor = element_blank(),
+        panel.grid.major = element_blank(),
+        text = element_text(color = "black", size = 10),
+        axis.text.x = element_text(color = "black"),
+        axis.text.y = element_text(color = "black"))
+
+theme_set(theme)
+```
+
+
+```{r}
+
+#DO
+DO_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Dissolved Oxygen`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Dissolved Oxygen (mg/L)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+show(DO_Year.Plot)
+  
+#ph 
+pH_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = pH, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "pH", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+show(pH_Year.Plot)
+
+#Fecal Coliform 
+FC_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Fecal Coliform`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_y_log10()+
+  labs(y = "Fecal Coliform (cfu/100mL)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+show(FC_Year.Plot)
+
+#Temperature
+Temp_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = Temperature, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Temperature (C)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+show(Temp_Year.Plot)
+
+#TP 
+TP_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Total Phosphorus`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Total Phosphorus (mg/L)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+show(TP_Year.Plot)
+
+#TSS
+TSS_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Total Suspended Solids`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Total Suspended Solids (mg/L)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+show(TSS_Year.Plot)
+
+#Turbidity
+Turbidity_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = Turbidity, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Turbidity (NTU)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+show(Turbidity_Year.Plot)
+
+
+#Metals 
+Metals_Year.Plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Zinc", "Copper")),aes(x = Month, y = Final_Value, color = Parameter, shape = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Metal Concentration (ug/L)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+show(Metals_Year.Plot)
+```
+
+Summarize Results 
+DO: The data for Dissolved Oxygen has a simlar trend across stations and across years. The smoothed plot line shows that Dissolved Oxygen was overall slightly higher in 2019 than in 2020.
+
+pH: The smoothed line for pH is similar across stations and from 2019 to 2020. However, the maximum pH during the Summer peak is high in 2019, ~ 7.5, than in 2020, 7.
+
+Fecal Coliform: The fecal coliform has no discernible trend in both the 2019 and 2020 grpahs. However, the smoothed line shows an overall decrease in Fecal Coliform concentration acrosss the year for 2019. However, the 2020 data shows an overall increase in Fecal Coliform across the year. The max values in 2020 are much higher, > 10,000, than in 2019, < 10,000.
+
+Temperature: The temperature data across stations and years showsa similar pattern of max temperatures occuring in the late summer months. There is no significant difference in temperature between 2019 and 2020.
+
+TP: Total phoshorus has no discenible pattern in the 2019 or 2020 plots. The concentration increases across the year in 2020 and decreases in 2020 based on the smoothed graph. Overall, concentrations seem relatively comparable besides a greater max value in the 2019 data.
+
+TSS: The TSS shows very different patterns across 2019 and 2020. There is a peas in Sring of 2019 and late Summer in 2020. The smoothed line shows that overall greater concentrations of TSS were observed in 2020.
+
+Turb: The plots of Turbidity show very different trends across 2019 and 2020. There is a peak in the Spring of 2019 and the late Summer of 2020. The overall concentrations of Turbidity are greater in 2020.
+
+Metals: The concentrations of Zinc are much higher than Copper in both 2019 and 2020 plots. The Zinc concentrations are much higher in 2019 than in 2020. The Copper concentrations do not vary significantly between 2019 and 2020. 
+
+```{r}
+#Temp and Sky condition
+Temp_Sky.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
+  geom_boxplot() +
+  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Temperature (Celcius)", x = "Sky Condition") +
+  theme+
+  theme(panel.grid.major = element_blank())
+show(Temp_Sky.plot)
+
+#Temp and Sky condition over time
+Temp_Sky_ts.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Temperature"), aes(x = Month, y = Final_Value, color = Sky.Condition, shape = Station.Name)) +
+  geom_point() +
+  scale_color_viridis_d(option = "magma", begin = 0.8, end = 0.2, name = "Sky Condition") +
+  #scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  labs(y = "Temperature (Celcius)", x = "Date") +
+  theme+
+  theme(panel.grid.major = element_blank(),
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~Year, nrow = 2)
+show(Temp_Sky_ts.plot)
+```
+
+There is not significant difference in measured temperature based on the observed Sky Condition. The variation across the various Sky Conditions is not consistent across the different monitoring stations. However, there is a noticeable difference in temperature across stations which may give information about the monitoring location.
+
+Across the year, the there is not noticeable trned between the Sky Condition and the temperature. The temperature seems to be more seasonally affected than by the Sky Condition.
+
+
+```{r}
+#turbidity and Recent Rain
+Turbidity_Rain.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
+  geom_boxplot() +
+  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
+  theme+
+  theme(panel.grid.major = element_blank())+
+  facet_wrap(~Year, nrow = 2)
+show(Turbidity_Rain.plot)
+```
+
+There is noticeable difference in the Turbidity and recent rain. This trend is less noticeable in the 2019, but the 2020 data shows a clear disparity between recent rain and the turbidity readings.
+
+```{r}
+#TSS & Turbidity
+Turbidity_TSS.plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Turbidity", "Total Suspended Solids")), aes(x = Month, y = Final_Value, color = Parameter, shape= Station.Name)) +
+  geom_point() +
+  geom_line()+
+  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
+  theme+
+  theme(panel.grid.major = element_blank())+
+  facet_wrap(~Year, nrow = 2)
+show(Turbidity_TSS.plot)
+
+```
+
+The plot shows that TSS and Turbidity readings are closely linked and follow the same trend across stations and across years. These parameters have similar peaks. There is some variation across stations, but the pattern remains the same across.
+
+
+```{r}
+# Temp & DO 
+Temp_DO.plot <- ggplot(Eno_River_parameters_stations, aes(x = Temperature, y = `Dissolved Oxygen`, color = Station.Name)) +
+  geom_point() +
+  geom_line()+
+  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Dissolved Oxygen", x = "Temperature (Celcius)") +
+  theme+
+  theme(panel.grid.major = element_blank())+
+  facet_wrap(~Year, nrow = 2)
+show(Temp_DO.plot)
+
+
+#Temp & Fec Col
+Temp_FC.plot <- ggplot(Eno_River_parameters_stations, aes(x = Temperature, y = `Fecal Coliform`, color = Station.Name)) +
+  geom_point() +
+  geom_line()+
+  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Fecal Coliform (cfu/100mL)", x = "Temperature (Celcius)") +
+  theme+
+  theme(panel.grid.major = element_blank())+
+  facet_wrap(~Year, nrow = 2)
+show(Temp_FC.plot)
+```
+
+##DO & Temp
+There is a clear relationship with Temperature and DO. The DO decreases linerarly as temperature increases. This is true for all monitoring stations and both years.
+
+##FC & Temp
+For the 2019 data there is not a clear relationship between Fecal Coliform concentration and temperature. However, in 2020 there is a peak in the Fecal Coliform concentration at the higher temperatures. It can not be concluded that there is a relationship between these parameters, but further investigation should occur. 
