@@ -2,8 +2,10 @@
 title: "Ellerbe_Analysis"
 author: "Analise Lindborg"
 date: "3/22/2021"
-output: pdf_document
-editor_options: 
+output:
+  html_document:
+    df_print: paged
+editor_options:
   chunk_output_type: console
 ---
 
@@ -11,6 +13,24 @@ editor_options:
 knitr::opts_knit$set(root.dir = '/Users/analiselindborg/Desktop/Desktop - Analise’s MacBook Pro/Data Analytics/EDA_Final_Project_DurhamWQ')
 ```
 
+
+Write 1-2 paragraph(s) detailing the rationale for your study. This should include both the context of the topic as well as a rationale for your choice of dataset (reason for location, variables, etc.). You may choose to include citations if you like (optional).
+
+At the end of your rationale, introduce a numbered list of your questions (or an overarching question and sub-questions).
+------
+  Water quality of urban streams and rivers has been studied across the United States for the past several decades. These evaluations typically provide important insights about stressors on aquatic systems in urban environments, particularly natural pollutants such as nutrients, sediment, and heavy metals, as well as anthropogenic contaminants such as pesticides and other man-made chemicals. Many cities have programs dedicated to monitoring the health of local rivers and streams for the protection of humans and wildlife. 
+  
+  Certain water quality parameters are commonly collected and used to assess health of urban streams. These include measurements of chemical, physical, and biological parameters that can be used independently or together to determine stream health. These parameters are often evaluated over time to highlight general trends in water quality in urban environments. In general, health of urban streams in the United States has been improving since the Clean Water Act was introduced in the 1970s.    
+  
+  Of interest in our project is specifically how water quality may have changed in local urban streams response to the global COVID-19 pandemic. Certain studies have shown that surface water quality improved in 2020 due to the pandemic. Eno River and Ellerbe Creek in Durham, North Carolina were selected for evaluation in our study primarily because they are two of the most well-known streams in the area and because they each are considered to have impaired water quality due to urban pollution from Durham. These streams were chosen to provide a local context for evaluating recent changes in stream health. Additionally, the City of Durham collects monthly monitoring data for both Eno River and Ellerbe Creek. This project includes an evaluation of the most common surface water quality parameters for which the City of Durham had data, including temperature, pH, dissolved oxygen, metals (zinc and copper), total phosphorus, fecal coliform, turbidity, and total suspended solids. All sites for each waterbody evaluated by the City of Durham are included. 
+  
+Research Question: 
+
+1. Has water quality changed between 2019 and 2020 for Ellerbe Creek and/or Eno River based on the various water quality parameters?
+  a. Are there differences between sites for each stream?
+  b. Have certain water quality parameters changed while others have not?
+
+  
 ## Setting up R session
 
 ```{r, message = FALSE}
@@ -23,14 +43,13 @@ ellerbe.data <- read.csv("./Data/Raw/Ellerbe Creek/durham_AllData.csv")
 
 ## Data cleanup
 
-
 ```{r}
 ## 1. Select columns of interest
 # I could not find the metadata. This may be important for the QC column (I think U in the QC column means that the value was set to the detection limit (because the value was likely below the detection limit), but I am not sure). Also not sure what flow severity is or if we would want to use it. 
 ellerbe.sub <- ellerbe.data %>%
   select(Stream.Name, Station.Name, Parameter, Date.Time, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition)
 
-## 2. Subsetting data for following metrics: DO, pH, Fecal Coliform, Zn, Cu, temp, TP, TSS, and turbidity and sites 1.9 and 7.1 (5.6 does not have 2020 data)
+## 2. Subsetting data for following metrics: DO, pH, Fecal Coliform, Zn, Cu, temp, TP, TSS, and turbidity
 
 ellerbe.sub <- ellerbe.sub %>%
   filter(Parameter %in% c("Dissolved Oxygen", "pH", "Fecal Coliform", "Zinc", "Copper", "Temperature", "Total Phosphorus", "Total Suspended Solids", "Turbidity"))
@@ -53,7 +72,7 @@ ellerbe.grouped <- ellerbe.sub %>%
 ellerbe.grouped$Year <- as.character(ellerbe.grouped$Year)
 
 ## save final dataset
-#write.csv(ellerbe.all, "./Data/Processed/Ellerbe_processed.csv")
+#write.csv(ellerbe.grouped, "./Data/Processed/Ellerbe_processed.csv")
 ```
 
 Analysis ideas

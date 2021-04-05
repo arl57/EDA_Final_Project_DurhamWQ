@@ -1,69 +1,515 @@
-"","Stream.Name","Station.Name","Date","Comments","Rain.in.Last.24.Hours","Sky.Condition","Copper","Dissolved Oxygen","Fecal Coliform","pH","Temperature","Total Phosphorus","Total Suspended Solids","Turbidity","Zinc"
-"1","Ellerbe Creek","EL1.9EC",2019-01-08," ","No","Partly Cloudy",3.2,9.6,373,7.3,10.5,0.06,4.4,7.7,20.7
-"2","Ellerbe Creek","EL1.9EC",2019-02-05," ","No","Sunny",2.55,9.3,111,7.6,11.2,0.05,2.8,5.5,23.15
-"3","Ellerbe Creek","EL1.9EC",2019-03-05,"Duplicate Site Duplicate","Yes","Overcast",4.175,NA,510,NA,NA,0.095,10.4,NA,18.2
-"4","Ellerbe Creek","EL1.9EC",2019-04-02," ","No","Overcast",3.55,0.2,52,7.6,11.6,0.05,2.6,4.4,34.35
-"5","Ellerbe Creek","EL1.9EC",2019-05-07," ","No","Partly Cloudy",5.25,6.8,475,7,19.3,0.07,7.7,10,20.3
-"6","Ellerbe Creek","EL1.9EC",2019-06-05," ","No","Overcast",3.6,6.6,427,7.5,22.7,0.09,2.6,3.8,21.35
-"7","Ellerbe Creek","EL1.9EC",2019-07-09," ","Yes","Overcast",4.45,6.3,2000,7.4,25.5,0.17,7.3,9.6,22.75
-"8","Ellerbe Creek","EL1.9EC",2019-08-06," ","Yes","Overcast",4.15,6,31000,7.3,24.5,0.25,19.2,23.7,23.65
-"9","Ellerbe Creek","EL1.9EC",2019-09-03," ","No","Sunny",2.55,6.7,467,7.6,24.5,0.12,2.5,2.7,23.7
-"10","Ellerbe Creek","EL1.9EC",2019-10-01," ","No","Sunny",2,5.8,440,7.5,24.5,0.16,2.5,1.6,30.45
-"11","Ellerbe Creek","EL1.9EC",2019-11-05,"Duplicate Site Duplicate","No","Partly Cloudy",3.475,NA,550,NA,NA,0.495,2.5,NA,31.7
-"12","Ellerbe Creek","EL1.9EC",2019-12-03,"Organic foam on water surfaace","No","Sunny",2.65,9,197,7.5,10.9,0.09,4.5,10.1,31.65
-"13","Ellerbe Creek","EL1.9EC",2020-01-07," ","No","Overcast",3.6,9.9,120,7.4,9.5,0.09,6.4,11.7,27.4
-"14","Ellerbe Creek","EL1.9EC",2020-02-04," ","No","Partly Cloudy",4.05,8.9,81,7.2,12.9,0.11,4.3,6.5,28.2
-"15","Ellerbe Creek","EL1.9EC",2020-03-03,"Duplicate","No","Overcast",3.65,NA,107.5,NA,NA,0.06,4.35,NA,23.625
-"16","Ellerbe Creek","EL1.9EC",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",3.95,8.5,120,7,14.6,0.08,2.5,2.6,16.45
-"17","Ellerbe Creek","EL1.9EC",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",8.425,6.8,38000,6.2,23.4,0.09,202,196,23.585
-"18","Ellerbe Creek","EL1.9EC",2020-09-01," ","Yes","Overcast",6.09,6.4,35000,6.6,24.9,0.72,61.3,77,16.105
-"19","Ellerbe Creek","EL1.9EC",2020-10-06," ","No","Sunny",3.095,7.9,140,7,17.7,0.14,2.5,2.1,17.185
-"20","Ellerbe Creek","EL1.9EC",2020-11-03,"Duplicate Site Duplicate","No","Sunny",3.2525,NA,660,NA,NA,0.195,4.65,NA,13.185
-"21","Ellerbe Creek","EL1.9EC",2020-12-01," ","Yes","Sunny",4.995,8.6,2100,6.6,13.2,0.08,17.6,34.3,12.19
-"22","Ellerbe Creek","EL1.9EC",2019-03-05,"Duplicate Site","Yes","Overcast",NA,10.4,NA,7.4,9.1,NA,NA,22.3,NA
-"23","Ellerbe Creek","EL1.9EC",2019-11-05,"Duplicate Site","No","Partly Cloudy",NA,8.1,NA,7.2,15.7,NA,NA,2.2,NA
-"24","Ellerbe Creek","EL1.9EC",2020-03-03," ","No","Overcast",NA,9.6,NA,7.3,14.2,NA,NA,4.5,NA
-"25","Ellerbe Creek","EL1.9EC",2020-06-09,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",NA,6.7,NA,7.2,23.2,NA,NA,2.6,NA
-"26","Ellerbe Creek","EL1.9EC",2020-07-07," ","Yes","Partly Cloudy",NA,6.6,2250,7.1,24.3,0.11,3.2,4.2,NA
-"27","Ellerbe Creek","EL1.9EC",2020-11-03,"Duplicate Site","No","Sunny",NA,8.4,NA,6.8,13.5,NA,NA,8.1,NA
-"28","Ellerbe Creek","EL1.9EC",2020-06-09," ","","",NA,NA,115,NA,NA,0.15,2.5,NA,NA
-"29","Ellerbe Creek","EL5.6EC",2019-01-08," ","No","Sunny",3.85,10.4,214,7,12.8,0.06,4.8,11.4,14.15
-"30","Ellerbe Creek","EL5.6EC",2019-02-05," ","No","Sunny",2.9,10.7,84,7.5,7.4,0.05,5.4,11,17.65
-"31","Ellerbe Creek","EL5.6EC",2019-03-05," ","Yes","Overcast",5,11.6,2800,7.4,7,0.11,10.6,24.8,16.25
-"32","Ellerbe Creek","EL5.6EC",2019-04-02,"Raining","Yes","Overcast",3.5,9.9,56,7.6,8.8,0.05,2.5,5.4,7.5
-"33","Ellerbe Creek","EL5.6EC",2019-05-07,"Duplicate Site Duplicate","No","Partly Cloudy",4.775,NA,669,NA,NA,0.075,6.9,NA,14.225
-"34","Ellerbe Creek","EL5.6EC",2019-06-05," ","No","Overcast",3.75,5.1,680,7.2,22.4,0.14,5,6.5,8.3
-"35","Ellerbe Creek","EL5.6EC",2019-07-09," ","Yes","Overcast",5.45,5.7,2300,6.7,25.5,0.14,7.7,15.7,13.1
-"36","Ellerbe Creek","EL5.6EC",2019-08-06," ","Yes","Partly Cloudy",6.15,6.6,26000,6.8,23.8,0.16,26.2,36.6,13.9
-"37","Ellerbe Creek","EL5.6EC",2019-09-03," ","No","Sunny",2.55,5.9,240,7.2,24,0.05,4.3,5.1,7.3
-"38","Ellerbe Creek","EL5.6EC",2019-10-01," ","No","Sunny",2.2,6.4,440,7.1,23.6,0.06,3,4,6.1
-"39","Ellerbe Creek","EL5.6EC",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",4.45,8.4,665,6.6,11.1,0.09,3,7.6,12.7
-"40","Ellerbe Creek","EL5.6EC",2019-12-03," ","No","Sunny",5.6,9.7,213,7,7.1,0.06,11.4,15,21.3
-"41","Ellerbe Creek","EL5.6EC",2019-05-07,"Duplicate Site","No","Partly Cloudy",NA,6.1,NA,6.8,19.4,NA,NA,8.1,NA
-"42","Ellerbe Creek","EL7.1EC",2019-01-08," ","No","Partly Cloudy",4.9,10.4,124,6.9,11.6,0.05,2.5,8.7,11.15
-"43","Ellerbe Creek","EL7.1EC",2019-02-05," ","No","Partly Cloudy",3.05,10.8,67,7.4,8.2,0.03,2.5,5.9,13.8
-"44","Ellerbe Creek","EL7.1EC",2019-03-05," ","Yes","Overcast",4.4,11.6,276,7.2,6.9,0.09,7.2,22.3,12.7
-"45","Ellerbe Creek","EL7.1EC",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",3.85,3.5,48,7.7,8.8,0.03,2.9,4.3,15.6
-"46","Ellerbe Creek","EL7.1EC",2019-05-07," ","No","Partly Cloudy",4.6,5.5,495,7,19.7,0.08,3.9,5.8,22.85
-"47","Ellerbe Creek","EL7.1EC",2019-06-05,"Duplicate Site Duplicate","No","Overcast",3.8,NA,575,NA,NA,0.22,5,NA,11.725
-"48","Ellerbe Creek","EL7.1EC",2019-07-09," ","Yes","Overcast",5.05,5.6,2300,6.9,25.7,0.1,4.3,10.7,22.35
-"49","Ellerbe Creek","EL7.1EC",2019-08-06," ","Yes","Partly Cloudy",5.55,6.6,12000,6.9,23.5,0.15,17.2,33,18.35
-"50","Ellerbe Creek","EL7.1EC",2019-09-03," ","No","Sunny",3.25,5.9,1476,7.4,24.3,0.04,9.7,3.8,6.8
-"51","Ellerbe Creek","EL7.1EC",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",2.05,4.7,44,7.2,24.3,0.09,2.5,1.8,7.85
-"52","Ellerbe Creek","EL7.1EC",2019-11-05," ","No","Overcast",3.8,8.2,240,7,11.4,0.06,2.5,6.5,8
-"53","Ellerbe Creek","EL7.1EC",2019-12-03," ","No","Sunny",5.45,9.4,127,7.2,7.3,0.04,4.4,12.7,15.05
-"54","Ellerbe Creek","EL7.1EC",2020-01-07," ","No","Partly Cloudy",5.3,10.7,120,7.3,5.9,0.1,11.3,20.6,13.85
-"55","Ellerbe Creek","EL7.1EC",2020-02-04,"Duplicate Site; green floc algae present Duplicate","No","Partly Cloudy",5.125,NA,56,NA,NA,0.05,4.25,NA,12.45
-"56","Ellerbe Creek","EL7.1EC",2020-03-03,"Green floc algae present","No","Overcast",3.85,10.8,70,7,10.7,0.05,2.5,4.8,10.15
-"57","Ellerbe Creek","EL7.1EC",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",3.6,8.5,140,7.3,13.3,0.08,13.4,18.9,11
-"58","Ellerbe Creek","EL7.1EC",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",5.505,7.3,45000,6.5,24,0.15,47.4,53,10.865
-"59","Ellerbe Creek","EL7.1EC",2020-09-01," ","Yes","Overcast",4.145,6.7,24000,6.7,24.9,0.29,22,33.9,7.515
-"60","Ellerbe Creek","EL7.1EC",2020-10-06,"Duplicate Site Duplicate","No","Sunny",2.8425,NA,130,NA,NA,0.035,7,NA,4.4725
-"61","Ellerbe Creek","EL7.1EC",2020-11-03," ","No","Sunny",3.29,9.5,210,6.9,9.2,0.12,3.7,10.4,4.49
-"62","Ellerbe Creek","EL7.1EC",2020-12-01," ","Yes","Sunny",5.24,10.2,1267,7,11.2,0.09,8,23.5,10.23
-"63","Ellerbe Creek","EL7.1EC",2019-06-05,"Duplicate Site","No","Overcast",NA,6,NA,7.3,22.7,NA,NA,11.4,NA
-"64","Ellerbe Creek","EL7.1EC",2020-02-04,"Duplicate Site; green floc algae present","No","Partly Cloudy",NA,9.8,NA,6.9,9.7,NA,NA,10.5,NA
-"65","Ellerbe Creek","EL7.1EC",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",NA,5.6,NA,6.9,23.6,NA,NA,16.9,NA
-"66","Ellerbe Creek","EL7.1EC",2020-07-07,"Murky Water","Yes","Partly Cloudy",NA,5,2100,6.9,24.8,0.15,20.2,25.5,NA
-"67","Ellerbe Creek","EL7.1EC",2020-10-06,"Duplicate Site","No","Sunny",NA,8,NA,7,14.4,NA,NA,9.3,NA
-"68","Ellerbe Creek","EL7.1EC",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Overcast",NA,NA,440,NA,NA,0.09,8.6,NA,NA
+"","Stream.Name","Station.Name","Parameter","Date","Comments","Rain.in.Last.24.Hours","Sky.Condition","Final_Value","Year","Month"
+"1","Ellerbe Creek","EL1.9EC","Copper",2019-01-08," ","No","Partly Cloudy",3.2,"2019",1
+"2","Ellerbe Creek","EL1.9EC","Copper",2019-02-05," ","No","Sunny",2.55,"2019",2
+"3","Ellerbe Creek","EL1.9EC","Copper",2019-03-05,"Duplicate Site Duplicate","Yes","Overcast",4.175,"2019",3
+"4","Ellerbe Creek","EL1.9EC","Copper",2019-04-02," ","No","Overcast",3.55,"2019",4
+"5","Ellerbe Creek","EL1.9EC","Copper",2019-05-07," ","No","Partly Cloudy",5.25,"2019",5
+"6","Ellerbe Creek","EL1.9EC","Copper",2019-06-05," ","No","Overcast",3.6,"2019",6
+"7","Ellerbe Creek","EL1.9EC","Copper",2019-07-09," ","Yes","Overcast",4.45,"2019",7
+"8","Ellerbe Creek","EL1.9EC","Copper",2019-08-06," ","Yes","Overcast",4.15,"2019",8
+"9","Ellerbe Creek","EL1.9EC","Copper",2019-09-03," ","No","Sunny",2.55,"2019",9
+"10","Ellerbe Creek","EL1.9EC","Copper",2019-10-01," ","No","Sunny",2,"2019",10
+"11","Ellerbe Creek","EL1.9EC","Copper",2019-11-05,"Duplicate Site Duplicate","No","Partly Cloudy",3.475,"2019",11
+"12","Ellerbe Creek","EL1.9EC","Copper",2019-12-03,"Organic foam on water surfaace","No","Sunny",2.65,"2019",12
+"13","Ellerbe Creek","EL1.9EC","Copper",2020-01-07," ","No","Overcast",3.6,"2020",1
+"14","Ellerbe Creek","EL1.9EC","Copper",2020-02-04," ","No","Partly Cloudy",4.05,"2020",2
+"15","Ellerbe Creek","EL1.9EC","Copper",2020-03-03,"Duplicate","No","Overcast",3.65,"2020",3
+"16","Ellerbe Creek","EL1.9EC","Copper",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",3.95,"2020",5
+"17","Ellerbe Creek","EL1.9EC","Copper",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",8.425,"2020",8
+"18","Ellerbe Creek","EL1.9EC","Copper",2020-09-01," ","Yes","Overcast",6.09,"2020",9
+"19","Ellerbe Creek","EL1.9EC","Copper",2020-10-06," ","No","Sunny",3.095,"2020",10
+"20","Ellerbe Creek","EL1.9EC","Copper",2020-11-03,"Duplicate Site Duplicate","No","Sunny",3.2525,"2020",11
+"21","Ellerbe Creek","EL1.9EC","Copper",2020-12-01," ","Yes","Sunny",4.995,"2020",12
+"22","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-01-08," ","No","Partly Cloudy",9.6,"2019",1
+"23","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-02-05," ","No","Sunny",9.3,"2019",2
+"24","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-03-05,"Duplicate Site","Yes","Overcast",10.4,"2019",3
+"25","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-04-02," ","No","Overcast",0.2,"2019",4
+"26","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-05-07," ","No","Partly Cloudy",6.8,"2019",5
+"27","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-06-05," ","No","Overcast",6.6,"2019",6
+"28","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-07-09," ","Yes","Overcast",6.3,"2019",7
+"29","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-08-06," ","Yes","Overcast",6,"2019",8
+"30","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-09-03," ","No","Sunny",6.7,"2019",9
+"31","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-10-01," ","No","Sunny",5.8,"2019",10
+"32","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-11-05,"Duplicate Site","No","Partly Cloudy",8.1,"2019",11
+"33","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2019-12-03,"Organic foam on water surfaace","No","Sunny",9,"2019",12
+"34","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-01-07," ","No","Overcast",9.9,"2020",1
+"35","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-02-04," ","No","Partly Cloudy",8.9,"2020",2
+"36","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-03-03," ","No","Overcast",9.6,"2020",3
+"37","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",8.5,"2020",5
+"38","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-06-09,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",6.7,"2020",6
+"39","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-07-07," ","Yes","Partly Cloudy",6.6,"2020",7
+"40","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",6.8,"2020",8
+"41","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-09-01," ","Yes","Overcast",6.4,"2020",9
+"42","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-10-06," ","No","Sunny",7.9,"2020",10
+"43","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-11-03,"Duplicate Site","No","Sunny",8.4,"2020",11
+"44","Ellerbe Creek","EL1.9EC","Dissolved Oxygen",2020-12-01," ","Yes","Sunny",8.6,"2020",12
+"45","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-01-08," ","No","Partly Cloudy",373,"2019",1
+"46","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-02-05," ","No","Sunny",111,"2019",2
+"47","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-03-05,"Duplicate Site Duplicate","Yes","Overcast",510,"2019",3
+"48","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-04-02," ","No","Overcast",52,"2019",4
+"49","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-05-07," ","No","Partly Cloudy",475,"2019",5
+"50","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-06-05," ","No","Overcast",427,"2019",6
+"51","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-07-09," ","Yes","Overcast",2000,"2019",7
+"52","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-08-06," ","Yes","Overcast",31000,"2019",8
+"53","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-09-03," ","No","Sunny",467,"2019",9
+"54","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-10-01," ","No","Sunny",440,"2019",10
+"55","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-11-05,"Duplicate Site Duplicate","No","Partly Cloudy",550,"2019",11
+"56","Ellerbe Creek","EL1.9EC","Fecal Coliform",2019-12-03,"Organic foam on water surfaace","No","Sunny",197,"2019",12
+"57","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-01-07," ","No","Overcast",120,"2020",1
+"58","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-02-04," ","No","Partly Cloudy",81,"2020",2
+"59","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-03-03,"Duplicate","No","Overcast",107.5,"2020",3
+"60","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",120,"2020",5
+"61","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-06-09," ","","",115,"2020",6
+"62","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-07-07," ","Yes","Partly Cloudy",2250,"2020",7
+"63","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",38000,"2020",8
+"64","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-09-01," ","Yes","Overcast",35000,"2020",9
+"65","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-10-06," ","No","Sunny",140,"2020",10
+"66","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-11-03,"Duplicate Site Duplicate","No","Sunny",660,"2020",11
+"67","Ellerbe Creek","EL1.9EC","Fecal Coliform",2020-12-01," ","Yes","Sunny",2100,"2020",12
+"68","Ellerbe Creek","EL1.9EC","pH",2019-01-08," ","No","Partly Cloudy",7.3,"2019",1
+"69","Ellerbe Creek","EL1.9EC","pH",2019-02-05," ","No","Sunny",7.6,"2019",2
+"70","Ellerbe Creek","EL1.9EC","pH",2019-03-05,"Duplicate Site","Yes","Overcast",7.4,"2019",3
+"71","Ellerbe Creek","EL1.9EC","pH",2019-04-02," ","No","Overcast",7.6,"2019",4
+"72","Ellerbe Creek","EL1.9EC","pH",2019-05-07," ","No","Partly Cloudy",7,"2019",5
+"73","Ellerbe Creek","EL1.9EC","pH",2019-06-05," ","No","Overcast",7.5,"2019",6
+"74","Ellerbe Creek","EL1.9EC","pH",2019-07-09," ","Yes","Overcast",7.4,"2019",7
+"75","Ellerbe Creek","EL1.9EC","pH",2019-08-06," ","Yes","Overcast",7.3,"2019",8
+"76","Ellerbe Creek","EL1.9EC","pH",2019-09-03," ","No","Sunny",7.6,"2019",9
+"77","Ellerbe Creek","EL1.9EC","pH",2019-10-01," ","No","Sunny",7.5,"2019",10
+"78","Ellerbe Creek","EL1.9EC","pH",2019-11-05,"Duplicate Site","No","Partly Cloudy",7.2,"2019",11
+"79","Ellerbe Creek","EL1.9EC","pH",2019-12-03,"Organic foam on water surfaace","No","Sunny",7.5,"2019",12
+"80","Ellerbe Creek","EL1.9EC","pH",2020-01-07," ","No","Overcast",7.4,"2020",1
+"81","Ellerbe Creek","EL1.9EC","pH",2020-02-04," ","No","Partly Cloudy",7.2,"2020",2
+"82","Ellerbe Creek","EL1.9EC","pH",2020-03-03," ","No","Overcast",7.3,"2020",3
+"83","Ellerbe Creek","EL1.9EC","pH",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",7,"2020",5
+"84","Ellerbe Creek","EL1.9EC","pH",2020-06-09,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",7.2,"2020",6
+"85","Ellerbe Creek","EL1.9EC","pH",2020-07-07," ","Yes","Partly Cloudy",7.1,"2020",7
+"86","Ellerbe Creek","EL1.9EC","pH",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",6.2,"2020",8
+"87","Ellerbe Creek","EL1.9EC","pH",2020-09-01," ","Yes","Overcast",6.6,"2020",9
+"88","Ellerbe Creek","EL1.9EC","pH",2020-10-06," ","No","Sunny",7,"2020",10
+"89","Ellerbe Creek","EL1.9EC","pH",2020-11-03,"Duplicate Site","No","Sunny",6.8,"2020",11
+"90","Ellerbe Creek","EL1.9EC","pH",2020-12-01," ","Yes","Sunny",6.6,"2020",12
+"91","Ellerbe Creek","EL1.9EC","Temperature",2019-01-08," ","No","Partly Cloudy",10.5,"2019",1
+"92","Ellerbe Creek","EL1.9EC","Temperature",2019-02-05," ","No","Sunny",11.2,"2019",2
+"93","Ellerbe Creek","EL1.9EC","Temperature",2019-03-05,"Duplicate Site","Yes","Overcast",9.1,"2019",3
+"94","Ellerbe Creek","EL1.9EC","Temperature",2019-04-02," ","No","Overcast",11.6,"2019",4
+"95","Ellerbe Creek","EL1.9EC","Temperature",2019-05-07," ","No","Partly Cloudy",19.3,"2019",5
+"96","Ellerbe Creek","EL1.9EC","Temperature",2019-06-05," ","No","Overcast",22.7,"2019",6
+"97","Ellerbe Creek","EL1.9EC","Temperature",2019-07-09," ","Yes","Overcast",25.5,"2019",7
+"98","Ellerbe Creek","EL1.9EC","Temperature",2019-08-06," ","Yes","Overcast",24.5,"2019",8
+"99","Ellerbe Creek","EL1.9EC","Temperature",2019-09-03," ","No","Sunny",24.5,"2019",9
+"100","Ellerbe Creek","EL1.9EC","Temperature",2019-10-01," ","No","Sunny",24.5,"2019",10
+"101","Ellerbe Creek","EL1.9EC","Temperature",2019-11-05,"Duplicate Site","No","Partly Cloudy",15.7,"2019",11
+"102","Ellerbe Creek","EL1.9EC","Temperature",2019-12-03,"Organic foam on water surfaace","No","Sunny",10.9,"2019",12
+"103","Ellerbe Creek","EL1.9EC","Temperature",2020-01-07," ","No","Overcast",9.5,"2020",1
+"104","Ellerbe Creek","EL1.9EC","Temperature",2020-02-04," ","No","Partly Cloudy",12.9,"2020",2
+"105","Ellerbe Creek","EL1.9EC","Temperature",2020-03-03," ","No","Overcast",14.2,"2020",3
+"106","Ellerbe Creek","EL1.9EC","Temperature",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",14.6,"2020",5
+"107","Ellerbe Creek","EL1.9EC","Temperature",2020-06-09,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",23.2,"2020",6
+"108","Ellerbe Creek","EL1.9EC","Temperature",2020-07-07," ","Yes","Partly Cloudy",24.3,"2020",7
+"109","Ellerbe Creek","EL1.9EC","Temperature",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",23.4,"2020",8
+"110","Ellerbe Creek","EL1.9EC","Temperature",2020-09-01," ","Yes","Overcast",24.9,"2020",9
+"111","Ellerbe Creek","EL1.9EC","Temperature",2020-10-06," ","No","Sunny",17.7,"2020",10
+"112","Ellerbe Creek","EL1.9EC","Temperature",2020-11-03,"Duplicate Site","No","Sunny",13.5,"2020",11
+"113","Ellerbe Creek","EL1.9EC","Temperature",2020-12-01," ","Yes","Sunny",13.2,"2020",12
+"114","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-01-08," ","No","Partly Cloudy",0.06,"2019",1
+"115","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-02-05," ","No","Sunny",0.05,"2019",2
+"116","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-03-05,"Duplicate Site Duplicate","Yes","Overcast",0.095,"2019",3
+"117","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-04-02," ","No","Overcast",0.05,"2019",4
+"118","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-05-07," ","No","Partly Cloudy",0.07,"2019",5
+"119","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-06-05," ","No","Overcast",0.09,"2019",6
+"120","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-07-09," ","Yes","Overcast",0.17,"2019",7
+"121","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-08-06," ","Yes","Overcast",0.25,"2019",8
+"122","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-09-03," ","No","Sunny",0.12,"2019",9
+"123","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-10-01," ","No","Sunny",0.16,"2019",10
+"124","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-11-05,"Duplicate Site Duplicate","No","Partly Cloudy",0.495,"2019",11
+"125","Ellerbe Creek","EL1.9EC","Total Phosphorus",2019-12-03,"Organic foam on water surfaace","No","Sunny",0.09,"2019",12
+"126","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-01-07," ","No","Overcast",0.09,"2020",1
+"127","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-02-04," ","No","Partly Cloudy",0.11,"2020",2
+"128","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-03-03,"Duplicate","No","Overcast",0.06,"2020",3
+"129","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",0.08,"2020",5
+"130","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-06-09," ","","",0.15,"2020",6
+"131","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-07-07," ","Yes","Partly Cloudy",0.11,"2020",7
+"132","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",0.09,"2020",8
+"133","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-09-01," ","Yes","Overcast",0.72,"2020",9
+"134","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-10-06," ","No","Sunny",0.14,"2020",10
+"135","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-11-03,"Duplicate Site Duplicate","No","Sunny",0.195,"2020",11
+"136","Ellerbe Creek","EL1.9EC","Total Phosphorus",2020-12-01," ","Yes","Sunny",0.08,"2020",12
+"137","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-01-08," ","No","Partly Cloudy",4.4,"2019",1
+"138","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-02-05," ","No","Sunny",2.8,"2019",2
+"139","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-03-05,"Duplicate Site Duplicate","Yes","Overcast",10.4,"2019",3
+"140","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-04-02," ","No","Overcast",2.6,"2019",4
+"141","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-05-07," ","No","Partly Cloudy",7.7,"2019",5
+"142","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-06-05," ","No","Overcast",2.6,"2019",6
+"143","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-07-09," ","Yes","Overcast",7.3,"2019",7
+"144","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-08-06," ","Yes","Overcast",19.2,"2019",8
+"145","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-09-03," ","No","Sunny",2.5,"2019",9
+"146","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-10-01," ","No","Sunny",2.5,"2019",10
+"147","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-11-05,"Duplicate Site Duplicate","No","Partly Cloudy",2.5,"2019",11
+"148","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2019-12-03,"Organic foam on water surfaace","No","Sunny",4.5,"2019",12
+"149","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-01-07," ","No","Overcast",6.4,"2020",1
+"150","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-02-04," ","No","Partly Cloudy",4.3,"2020",2
+"151","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-03-03,"Duplicate","No","Overcast",4.35,"2020",3
+"152","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",2.5,"2020",5
+"153","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-06-09," ","","",2.5,"2020",6
+"154","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-07-07," ","Yes","Partly Cloudy",3.2,"2020",7
+"155","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",202,"2020",8
+"156","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-09-01," ","Yes","Overcast",61.3,"2020",9
+"157","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-10-06," ","No","Sunny",2.5,"2020",10
+"158","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-11-03,"Duplicate Site Duplicate","No","Sunny",4.65,"2020",11
+"159","Ellerbe Creek","EL1.9EC","Total Suspended Solids",2020-12-01," ","Yes","Sunny",17.6,"2020",12
+"160","Ellerbe Creek","EL1.9EC","Turbidity",2019-01-08," ","No","Partly Cloudy",7.7,"2019",1
+"161","Ellerbe Creek","EL1.9EC","Turbidity",2019-02-05," ","No","Sunny",5.5,"2019",2
+"162","Ellerbe Creek","EL1.9EC","Turbidity",2019-03-05,"Duplicate Site","Yes","Overcast",22.3,"2019",3
+"163","Ellerbe Creek","EL1.9EC","Turbidity",2019-04-02," ","No","Overcast",4.4,"2019",4
+"164","Ellerbe Creek","EL1.9EC","Turbidity",2019-05-07," ","No","Partly Cloudy",10,"2019",5
+"165","Ellerbe Creek","EL1.9EC","Turbidity",2019-06-05," ","No","Overcast",3.8,"2019",6
+"166","Ellerbe Creek","EL1.9EC","Turbidity",2019-07-09," ","Yes","Overcast",9.6,"2019",7
+"167","Ellerbe Creek","EL1.9EC","Turbidity",2019-08-06," ","Yes","Overcast",23.7,"2019",8
+"168","Ellerbe Creek","EL1.9EC","Turbidity",2019-09-03," ","No","Sunny",2.7,"2019",9
+"169","Ellerbe Creek","EL1.9EC","Turbidity",2019-10-01," ","No","Sunny",1.6,"2019",10
+"170","Ellerbe Creek","EL1.9EC","Turbidity",2019-11-05,"Duplicate Site","No","Partly Cloudy",2.2,"2019",11
+"171","Ellerbe Creek","EL1.9EC","Turbidity",2019-12-03,"Organic foam on water surfaace","No","Sunny",10.1,"2019",12
+"172","Ellerbe Creek","EL1.9EC","Turbidity",2020-01-07," ","No","Overcast",11.7,"2020",1
+"173","Ellerbe Creek","EL1.9EC","Turbidity",2020-02-04," ","No","Partly Cloudy",6.5,"2020",2
+"174","Ellerbe Creek","EL1.9EC","Turbidity",2020-03-03," ","No","Overcast",4.5,"2020",3
+"175","Ellerbe Creek","EL1.9EC","Turbidity",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",2.6,"2020",5
+"176","Ellerbe Creek","EL1.9EC","Turbidity",2020-06-09,"Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Slight dead fish smell; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",2.6,"2020",6
+"177","Ellerbe Creek","EL1.9EC","Turbidity",2020-07-07," ","Yes","Partly Cloudy",4.2,"2020",7
+"178","Ellerbe Creek","EL1.9EC","Turbidity",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",196,"2020",8
+"179","Ellerbe Creek","EL1.9EC","Turbidity",2020-09-01," ","Yes","Overcast",77,"2020",9
+"180","Ellerbe Creek","EL1.9EC","Turbidity",2020-10-06," ","No","Sunny",2.1,"2020",10
+"181","Ellerbe Creek","EL1.9EC","Turbidity",2020-11-03,"Duplicate Site","No","Sunny",8.1,"2020",11
+"182","Ellerbe Creek","EL1.9EC","Turbidity",2020-12-01," ","Yes","Sunny",34.3,"2020",12
+"183","Ellerbe Creek","EL1.9EC","Zinc",2019-01-08," ","No","Partly Cloudy",20.7,"2019",1
+"184","Ellerbe Creek","EL1.9EC","Zinc",2019-02-05," ","No","Sunny",23.15,"2019",2
+"185","Ellerbe Creek","EL1.9EC","Zinc",2019-03-05,"Duplicate Site Duplicate","Yes","Overcast",18.2,"2019",3
+"186","Ellerbe Creek","EL1.9EC","Zinc",2019-04-02," ","No","Overcast",34.35,"2019",4
+"187","Ellerbe Creek","EL1.9EC","Zinc",2019-05-07," ","No","Partly Cloudy",20.3,"2019",5
+"188","Ellerbe Creek","EL1.9EC","Zinc",2019-06-05," ","No","Overcast",21.35,"2019",6
+"189","Ellerbe Creek","EL1.9EC","Zinc",2019-07-09," ","Yes","Overcast",22.75,"2019",7
+"190","Ellerbe Creek","EL1.9EC","Zinc",2019-08-06," ","Yes","Overcast",23.65,"2019",8
+"191","Ellerbe Creek","EL1.9EC","Zinc",2019-09-03," ","No","Sunny",23.7,"2019",9
+"192","Ellerbe Creek","EL1.9EC","Zinc",2019-10-01," ","No","Sunny",30.45,"2019",10
+"193","Ellerbe Creek","EL1.9EC","Zinc",2019-11-05,"Duplicate Site Duplicate","No","Partly Cloudy",31.7,"2019",11
+"194","Ellerbe Creek","EL1.9EC","Zinc",2019-12-03,"Organic foam on water surfaace","No","Sunny",31.65,"2019",12
+"195","Ellerbe Creek","EL1.9EC","Zinc",2020-01-07," ","No","Overcast",27.4,"2020",1
+"196","Ellerbe Creek","EL1.9EC","Zinc",2020-02-04," ","No","Partly Cloudy",28.2,"2020",2
+"197","Ellerbe Creek","EL1.9EC","Zinc",2020-03-03,"Duplicate","No","Overcast",23.625,"2020",3
+"198","Ellerbe Creek","EL1.9EC","Zinc",2020-05-12,"Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Partly Cloudy",16.45,"2020",5
+"199","Ellerbe Creek","EL1.9EC","Zinc",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",23.585,"2020",8
+"200","Ellerbe Creek","EL1.9EC","Zinc",2020-09-01," ","Yes","Overcast",16.105,"2020",9
+"201","Ellerbe Creek","EL1.9EC","Zinc",2020-10-06," ","No","Sunny",17.185,"2020",10
+"202","Ellerbe Creek","EL1.9EC","Zinc",2020-11-03,"Duplicate Site Duplicate","No","Sunny",13.185,"2020",11
+"203","Ellerbe Creek","EL1.9EC","Zinc",2020-12-01," ","Yes","Sunny",12.19,"2020",12
+"204","Ellerbe Creek","EL5.6EC","Copper",2019-01-08," ","No","Sunny",3.85,"2019",1
+"205","Ellerbe Creek","EL5.6EC","Copper",2019-02-05," ","No","Sunny",2.9,"2019",2
+"206","Ellerbe Creek","EL5.6EC","Copper",2019-03-05," ","Yes","Overcast",5,"2019",3
+"207","Ellerbe Creek","EL5.6EC","Copper",2019-04-02,"Raining","Yes","Overcast",3.5,"2019",4
+"208","Ellerbe Creek","EL5.6EC","Copper",2019-05-07,"Duplicate Site Duplicate","No","Partly Cloudy",4.775,"2019",5
+"209","Ellerbe Creek","EL5.6EC","Copper",2019-06-05," ","No","Overcast",3.75,"2019",6
+"210","Ellerbe Creek","EL5.6EC","Copper",2019-07-09," ","Yes","Overcast",5.45,"2019",7
+"211","Ellerbe Creek","EL5.6EC","Copper",2019-08-06," ","Yes","Partly Cloudy",6.15,"2019",8
+"212","Ellerbe Creek","EL5.6EC","Copper",2019-09-03," ","No","Sunny",2.55,"2019",9
+"213","Ellerbe Creek","EL5.6EC","Copper",2019-10-01," ","No","Sunny",2.2,"2019",10
+"214","Ellerbe Creek","EL5.6EC","Copper",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",4.45,"2019",11
+"215","Ellerbe Creek","EL5.6EC","Copper",2019-12-03," ","No","Sunny",5.6,"2019",12
+"216","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-01-08," ","No","Sunny",10.4,"2019",1
+"217","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-02-05," ","No","Sunny",10.7,"2019",2
+"218","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-03-05," ","Yes","Overcast",11.6,"2019",3
+"219","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-04-02,"Raining","Yes","Overcast",9.9,"2019",4
+"220","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-05-07,"Duplicate Site","No","Partly Cloudy",6.1,"2019",5
+"221","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-06-05," ","No","Overcast",5.1,"2019",6
+"222","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-07-09," ","Yes","Overcast",5.7,"2019",7
+"223","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-08-06," ","Yes","Partly Cloudy",6.6,"2019",8
+"224","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-09-03," ","No","Sunny",5.9,"2019",9
+"225","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-10-01," ","No","Sunny",6.4,"2019",10
+"226","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",8.4,"2019",11
+"227","Ellerbe Creek","EL5.6EC","Dissolved Oxygen",2019-12-03," ","No","Sunny",9.7,"2019",12
+"228","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-01-08," ","No","Sunny",214,"2019",1
+"229","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-02-05," ","No","Sunny",84,"2019",2
+"230","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-03-05," ","Yes","Overcast",2800,"2019",3
+"231","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-04-02,"Raining","Yes","Overcast",56,"2019",4
+"232","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-05-07,"Duplicate Site Duplicate","No","Partly Cloudy",669,"2019",5
+"233","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-06-05," ","No","Overcast",680,"2019",6
+"234","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-07-09," ","Yes","Overcast",2300,"2019",7
+"235","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-08-06," ","Yes","Partly Cloudy",26000,"2019",8
+"236","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-09-03," ","No","Sunny",240,"2019",9
+"237","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-10-01," ","No","Sunny",440,"2019",10
+"238","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",665,"2019",11
+"239","Ellerbe Creek","EL5.6EC","Fecal Coliform",2019-12-03," ","No","Sunny",213,"2019",12
+"240","Ellerbe Creek","EL5.6EC","pH",2019-01-08," ","No","Sunny",7,"2019",1
+"241","Ellerbe Creek","EL5.6EC","pH",2019-02-05," ","No","Sunny",7.5,"2019",2
+"242","Ellerbe Creek","EL5.6EC","pH",2019-03-05," ","Yes","Overcast",7.4,"2019",3
+"243","Ellerbe Creek","EL5.6EC","pH",2019-04-02,"Raining","Yes","Overcast",7.6,"2019",4
+"244","Ellerbe Creek","EL5.6EC","pH",2019-05-07,"Duplicate Site","No","Partly Cloudy",6.8,"2019",5
+"245","Ellerbe Creek","EL5.6EC","pH",2019-06-05," ","No","Overcast",7.2,"2019",6
+"246","Ellerbe Creek","EL5.6EC","pH",2019-07-09," ","Yes","Overcast",6.7,"2019",7
+"247","Ellerbe Creek","EL5.6EC","pH",2019-08-06," ","Yes","Partly Cloudy",6.8,"2019",8
+"248","Ellerbe Creek","EL5.6EC","pH",2019-09-03," ","No","Sunny",7.2,"2019",9
+"249","Ellerbe Creek","EL5.6EC","pH",2019-10-01," ","No","Sunny",7.1,"2019",10
+"250","Ellerbe Creek","EL5.6EC","pH",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",6.6,"2019",11
+"251","Ellerbe Creek","EL5.6EC","pH",2019-12-03," ","No","Sunny",7,"2019",12
+"252","Ellerbe Creek","EL5.6EC","Temperature",2019-01-08," ","No","Sunny",12.8,"2019",1
+"253","Ellerbe Creek","EL5.6EC","Temperature",2019-02-05," ","No","Sunny",7.4,"2019",2
+"254","Ellerbe Creek","EL5.6EC","Temperature",2019-03-05," ","Yes","Overcast",7,"2019",3
+"255","Ellerbe Creek","EL5.6EC","Temperature",2019-04-02,"Raining","Yes","Overcast",8.8,"2019",4
+"256","Ellerbe Creek","EL5.6EC","Temperature",2019-05-07,"Duplicate Site","No","Partly Cloudy",19.4,"2019",5
+"257","Ellerbe Creek","EL5.6EC","Temperature",2019-06-05," ","No","Overcast",22.4,"2019",6
+"258","Ellerbe Creek","EL5.6EC","Temperature",2019-07-09," ","Yes","Overcast",25.5,"2019",7
+"259","Ellerbe Creek","EL5.6EC","Temperature",2019-08-06," ","Yes","Partly Cloudy",23.8,"2019",8
+"260","Ellerbe Creek","EL5.6EC","Temperature",2019-09-03," ","No","Sunny",24,"2019",9
+"261","Ellerbe Creek","EL5.6EC","Temperature",2019-10-01," ","No","Sunny",23.6,"2019",10
+"262","Ellerbe Creek","EL5.6EC","Temperature",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",11.1,"2019",11
+"263","Ellerbe Creek","EL5.6EC","Temperature",2019-12-03," ","No","Sunny",7.1,"2019",12
+"264","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-01-08," ","No","Sunny",0.06,"2019",1
+"265","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-02-05," ","No","Sunny",0.05,"2019",2
+"266","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-03-05," ","Yes","Overcast",0.11,"2019",3
+"267","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-04-02,"Raining","Yes","Overcast",0.05,"2019",4
+"268","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-05-07,"Duplicate Site Duplicate","No","Partly Cloudy",0.075,"2019",5
+"269","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-06-05," ","No","Overcast",0.14,"2019",6
+"270","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-07-09," ","Yes","Overcast",0.14,"2019",7
+"271","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-08-06," ","Yes","Partly Cloudy",0.16,"2019",8
+"272","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-09-03," ","No","Sunny",0.05,"2019",9
+"273","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-10-01," ","No","Sunny",0.06,"2019",10
+"274","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",0.09,"2019",11
+"275","Ellerbe Creek","EL5.6EC","Total Phosphorus",2019-12-03," ","No","Sunny",0.06,"2019",12
+"276","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-01-08," ","No","Sunny",4.8,"2019",1
+"277","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-02-05," ","No","Sunny",5.4,"2019",2
+"278","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-03-05," ","Yes","Overcast",10.6,"2019",3
+"279","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-04-02,"Raining","Yes","Overcast",2.5,"2019",4
+"280","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-05-07,"Duplicate Site Duplicate","No","Partly Cloudy",6.9,"2019",5
+"281","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-06-05," ","No","Overcast",5,"2019",6
+"282","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-07-09," ","Yes","Overcast",7.7,"2019",7
+"283","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-08-06," ","Yes","Partly Cloudy",26.2,"2019",8
+"284","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-09-03," ","No","Sunny",4.3,"2019",9
+"285","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-10-01," ","No","Sunny",3,"2019",10
+"286","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",3,"2019",11
+"287","Ellerbe Creek","EL5.6EC","Total Suspended Solids",2019-12-03," ","No","Sunny",11.4,"2019",12
+"288","Ellerbe Creek","EL5.6EC","Turbidity",2019-01-08," ","No","Sunny",11.4,"2019",1
+"289","Ellerbe Creek","EL5.6EC","Turbidity",2019-02-05," ","No","Sunny",11,"2019",2
+"290","Ellerbe Creek","EL5.6EC","Turbidity",2019-03-05," ","Yes","Overcast",24.8,"2019",3
+"291","Ellerbe Creek","EL5.6EC","Turbidity",2019-04-02,"Raining","Yes","Overcast",5.4,"2019",4
+"292","Ellerbe Creek","EL5.6EC","Turbidity",2019-05-07,"Duplicate Site","No","Partly Cloudy",8.1,"2019",5
+"293","Ellerbe Creek","EL5.6EC","Turbidity",2019-06-05," ","No","Overcast",6.5,"2019",6
+"294","Ellerbe Creek","EL5.6EC","Turbidity",2019-07-09," ","Yes","Overcast",15.7,"2019",7
+"295","Ellerbe Creek","EL5.6EC","Turbidity",2019-08-06," ","Yes","Partly Cloudy",36.6,"2019",8
+"296","Ellerbe Creek","EL5.6EC","Turbidity",2019-09-03," ","No","Sunny",5.1,"2019",9
+"297","Ellerbe Creek","EL5.6EC","Turbidity",2019-10-01," ","No","Sunny",4,"2019",10
+"298","Ellerbe Creek","EL5.6EC","Turbidity",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",7.6,"2019",11
+"299","Ellerbe Creek","EL5.6EC","Turbidity",2019-12-03," ","No","Sunny",15,"2019",12
+"300","Ellerbe Creek","EL5.6EC","Zinc",2019-01-08," ","No","Sunny",14.15,"2019",1
+"301","Ellerbe Creek","EL5.6EC","Zinc",2019-02-05," ","No","Sunny",17.65,"2019",2
+"302","Ellerbe Creek","EL5.6EC","Zinc",2019-03-05," ","Yes","Overcast",16.25,"2019",3
+"303","Ellerbe Creek","EL5.6EC","Zinc",2019-04-02,"Raining","Yes","Overcast",7.5,"2019",4
+"304","Ellerbe Creek","EL5.6EC","Zinc",2019-05-07,"Duplicate Site Duplicate","No","Partly Cloudy",14.225,"2019",5
+"305","Ellerbe Creek","EL5.6EC","Zinc",2019-06-05," ","No","Overcast",8.3,"2019",6
+"306","Ellerbe Creek","EL5.6EC","Zinc",2019-07-09," ","Yes","Overcast",13.1,"2019",7
+"307","Ellerbe Creek","EL5.6EC","Zinc",2019-08-06," ","Yes","Partly Cloudy",13.9,"2019",8
+"308","Ellerbe Creek","EL5.6EC","Zinc",2019-09-03," ","No","Sunny",7.3,"2019",9
+"309","Ellerbe Creek","EL5.6EC","Zinc",2019-10-01," ","No","Sunny",6.1,"2019",10
+"310","Ellerbe Creek","EL5.6EC","Zinc",2019-11-05,"Large blockage upstream of culvert","No","Partly Cloudy",12.7,"2019",11
+"311","Ellerbe Creek","EL5.6EC","Zinc",2019-12-03," ","No","Sunny",21.3,"2019",12
+"312","Ellerbe Creek","EL7.1EC","Copper",2019-01-08," ","No","Partly Cloudy",4.9,"2019",1
+"313","Ellerbe Creek","EL7.1EC","Copper",2019-02-05," ","No","Partly Cloudy",3.05,"2019",2
+"314","Ellerbe Creek","EL7.1EC","Copper",2019-03-05," ","Yes","Overcast",4.4,"2019",3
+"315","Ellerbe Creek","EL7.1EC","Copper",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",3.85,"2019",4
+"316","Ellerbe Creek","EL7.1EC","Copper",2019-05-07," ","No","Partly Cloudy",4.6,"2019",5
+"317","Ellerbe Creek","EL7.1EC","Copper",2019-06-05,"Duplicate Site Duplicate","No","Overcast",3.8,"2019",6
+"318","Ellerbe Creek","EL7.1EC","Copper",2019-07-09," ","Yes","Overcast",5.05,"2019",7
+"319","Ellerbe Creek","EL7.1EC","Copper",2019-08-06," ","Yes","Partly Cloudy",5.55,"2019",8
+"320","Ellerbe Creek","EL7.1EC","Copper",2019-09-03," ","No","Sunny",3.25,"2019",9
+"321","Ellerbe Creek","EL7.1EC","Copper",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",2.05,"2019",10
+"322","Ellerbe Creek","EL7.1EC","Copper",2019-11-05," ","No","Overcast",3.8,"2019",11
+"323","Ellerbe Creek","EL7.1EC","Copper",2019-12-03," ","No","Sunny",5.45,"2019",12
+"324","Ellerbe Creek","EL7.1EC","Copper",2020-01-07," ","No","Partly Cloudy",5.3,"2020",1
+"325","Ellerbe Creek","EL7.1EC","Copper",2020-02-04,"Duplicate Site; green floc algae present Duplicate","No","Partly Cloudy",5.125,"2020",2
+"326","Ellerbe Creek","EL7.1EC","Copper",2020-03-03,"Green floc algae present","No","Overcast",3.85,"2020",3
+"327","Ellerbe Creek","EL7.1EC","Copper",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",3.6,"2020",5
+"328","Ellerbe Creek","EL7.1EC","Copper",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",5.505,"2020",8
+"329","Ellerbe Creek","EL7.1EC","Copper",2020-09-01," ","Yes","Overcast",4.145,"2020",9
+"330","Ellerbe Creek","EL7.1EC","Copper",2020-10-06,"Duplicate Site Duplicate","No","Sunny",2.8425,"2020",10
+"331","Ellerbe Creek","EL7.1EC","Copper",2020-11-03," ","No","Sunny",3.29,"2020",11
+"332","Ellerbe Creek","EL7.1EC","Copper",2020-12-01," ","Yes","Sunny",5.24,"2020",12
+"333","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-01-08," ","No","Partly Cloudy",10.4,"2019",1
+"334","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-02-05," ","No","Partly Cloudy",10.8,"2019",2
+"335","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-03-05," ","Yes","Overcast",11.6,"2019",3
+"336","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",3.5,"2019",4
+"337","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-05-07," ","No","Partly Cloudy",5.5,"2019",5
+"338","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-06-05,"Duplicate Site","No","Overcast",6,"2019",6
+"339","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-07-09," ","Yes","Overcast",5.6,"2019",7
+"340","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-08-06," ","Yes","Partly Cloudy",6.6,"2019",8
+"341","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-09-03," ","No","Sunny",5.9,"2019",9
+"342","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",4.7,"2019",10
+"343","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-11-05," ","No","Overcast",8.2,"2019",11
+"344","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2019-12-03," ","No","Sunny",9.4,"2019",12
+"345","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-01-07," ","No","Partly Cloudy",10.7,"2020",1
+"346","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-02-04,"Duplicate Site; green floc algae present","No","Partly Cloudy",9.8,"2020",2
+"347","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-03-03,"Green floc algae present","No","Overcast",10.8,"2020",3
+"348","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",8.5,"2020",5
+"349","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",5.6,"2020",6
+"350","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-07-07,"Murky Water","Yes","Partly Cloudy",5,"2020",7
+"351","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",7.3,"2020",8
+"352","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-09-01," ","Yes","Overcast",6.7,"2020",9
+"353","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-10-06,"Duplicate Site","No","Sunny",8,"2020",10
+"354","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-11-03," ","No","Sunny",9.5,"2020",11
+"355","Ellerbe Creek","EL7.1EC","Dissolved Oxygen",2020-12-01," ","Yes","Sunny",10.2,"2020",12
+"356","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-01-08," ","No","Partly Cloudy",124,"2019",1
+"357","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-02-05," ","No","Partly Cloudy",67,"2019",2
+"358","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-03-05," ","Yes","Overcast",276,"2019",3
+"359","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",48,"2019",4
+"360","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-05-07," ","No","Partly Cloudy",495,"2019",5
+"361","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-06-05,"Duplicate Site Duplicate","No","Overcast",575,"2019",6
+"362","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-07-09," ","Yes","Overcast",2300,"2019",7
+"363","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-08-06," ","Yes","Partly Cloudy",12000,"2019",8
+"364","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-09-03," ","No","Sunny",1476,"2019",9
+"365","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",44,"2019",10
+"366","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-11-05," ","No","Overcast",240,"2019",11
+"367","Ellerbe Creek","EL7.1EC","Fecal Coliform",2019-12-03," ","No","Sunny",127,"2019",12
+"368","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-01-07," ","No","Partly Cloudy",120,"2020",1
+"369","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-02-04,"Duplicate Site; green floc algae present Duplicate","No","Partly Cloudy",56,"2020",2
+"370","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-03-03,"Green floc algae present","No","Overcast",70,"2020",3
+"371","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",140,"2020",5
+"372","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Overcast",440,"2020",6
+"373","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-07-07,"Murky Water","Yes","Partly Cloudy",2100,"2020",7
+"374","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",45000,"2020",8
+"375","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-09-01," ","Yes","Overcast",24000,"2020",9
+"376","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-10-06,"Duplicate Site Duplicate","No","Sunny",130,"2020",10
+"377","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-11-03," ","No","Sunny",210,"2020",11
+"378","Ellerbe Creek","EL7.1EC","Fecal Coliform",2020-12-01," ","Yes","Sunny",1267,"2020",12
+"379","Ellerbe Creek","EL7.1EC","pH",2019-01-08," ","No","Partly Cloudy",6.9,"2019",1
+"380","Ellerbe Creek","EL7.1EC","pH",2019-02-05," ","No","Partly Cloudy",7.4,"2019",2
+"381","Ellerbe Creek","EL7.1EC","pH",2019-03-05," ","Yes","Overcast",7.2,"2019",3
+"382","Ellerbe Creek","EL7.1EC","pH",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",7.7,"2019",4
+"383","Ellerbe Creek","EL7.1EC","pH",2019-05-07," ","No","Partly Cloudy",7,"2019",5
+"384","Ellerbe Creek","EL7.1EC","pH",2019-06-05,"Duplicate Site","No","Overcast",7.3,"2019",6
+"385","Ellerbe Creek","EL7.1EC","pH",2019-07-09," ","Yes","Overcast",6.9,"2019",7
+"386","Ellerbe Creek","EL7.1EC","pH",2019-08-06," ","Yes","Partly Cloudy",6.9,"2019",8
+"387","Ellerbe Creek","EL7.1EC","pH",2019-09-03," ","No","Sunny",7.4,"2019",9
+"388","Ellerbe Creek","EL7.1EC","pH",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",7.2,"2019",10
+"389","Ellerbe Creek","EL7.1EC","pH",2019-11-05," ","No","Overcast",7,"2019",11
+"390","Ellerbe Creek","EL7.1EC","pH",2019-12-03," ","No","Sunny",7.2,"2019",12
+"391","Ellerbe Creek","EL7.1EC","pH",2020-01-07," ","No","Partly Cloudy",7.3,"2020",1
+"392","Ellerbe Creek","EL7.1EC","pH",2020-02-04,"Duplicate Site; green floc algae present","No","Partly Cloudy",6.9,"2020",2
+"393","Ellerbe Creek","EL7.1EC","pH",2020-03-03,"Green floc algae present","No","Overcast",7,"2020",3
+"394","Ellerbe Creek","EL7.1EC","pH",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",7.3,"2020",5
+"395","Ellerbe Creek","EL7.1EC","pH",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",6.9,"2020",6
+"396","Ellerbe Creek","EL7.1EC","pH",2020-07-07,"Murky Water","Yes","Partly Cloudy",6.9,"2020",7
+"397","Ellerbe Creek","EL7.1EC","pH",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",6.5,"2020",8
+"398","Ellerbe Creek","EL7.1EC","pH",2020-09-01," ","Yes","Overcast",6.7,"2020",9
+"399","Ellerbe Creek","EL7.1EC","pH",2020-10-06,"Duplicate Site","No","Sunny",7,"2020",10
+"400","Ellerbe Creek","EL7.1EC","pH",2020-11-03," ","No","Sunny",6.9,"2020",11
+"401","Ellerbe Creek","EL7.1EC","pH",2020-12-01," ","Yes","Sunny",7,"2020",12
+"402","Ellerbe Creek","EL7.1EC","Temperature",2019-01-08," ","No","Partly Cloudy",11.6,"2019",1
+"403","Ellerbe Creek","EL7.1EC","Temperature",2019-02-05," ","No","Partly Cloudy",8.2,"2019",2
+"404","Ellerbe Creek","EL7.1EC","Temperature",2019-03-05," ","Yes","Overcast",6.9,"2019",3
+"405","Ellerbe Creek","EL7.1EC","Temperature",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",8.8,"2019",4
+"406","Ellerbe Creek","EL7.1EC","Temperature",2019-05-07," ","No","Partly Cloudy",19.7,"2019",5
+"407","Ellerbe Creek","EL7.1EC","Temperature",2019-06-05,"Duplicate Site","No","Overcast",22.7,"2019",6
+"408","Ellerbe Creek","EL7.1EC","Temperature",2019-07-09," ","Yes","Overcast",25.7,"2019",7
+"409","Ellerbe Creek","EL7.1EC","Temperature",2019-08-06," ","Yes","Partly Cloudy",23.5,"2019",8
+"410","Ellerbe Creek","EL7.1EC","Temperature",2019-09-03," ","No","Sunny",24.3,"2019",9
+"411","Ellerbe Creek","EL7.1EC","Temperature",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",24.3,"2019",10
+"412","Ellerbe Creek","EL7.1EC","Temperature",2019-11-05," ","No","Overcast",11.4,"2019",11
+"413","Ellerbe Creek","EL7.1EC","Temperature",2019-12-03," ","No","Sunny",7.3,"2019",12
+"414","Ellerbe Creek","EL7.1EC","Temperature",2020-01-07," ","No","Partly Cloudy",5.9,"2020",1
+"415","Ellerbe Creek","EL7.1EC","Temperature",2020-02-04,"Duplicate Site; green floc algae present","No","Partly Cloudy",9.7,"2020",2
+"416","Ellerbe Creek","EL7.1EC","Temperature",2020-03-03,"Green floc algae present","No","Overcast",10.7,"2020",3
+"417","Ellerbe Creek","EL7.1EC","Temperature",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",13.3,"2020",5
+"418","Ellerbe Creek","EL7.1EC","Temperature",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",23.6,"2020",6
+"419","Ellerbe Creek","EL7.1EC","Temperature",2020-07-07,"Murky Water","Yes","Partly Cloudy",24.8,"2020",7
+"420","Ellerbe Creek","EL7.1EC","Temperature",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",24,"2020",8
+"421","Ellerbe Creek","EL7.1EC","Temperature",2020-09-01," ","Yes","Overcast",24.9,"2020",9
+"422","Ellerbe Creek","EL7.1EC","Temperature",2020-10-06,"Duplicate Site","No","Sunny",14.4,"2020",10
+"423","Ellerbe Creek","EL7.1EC","Temperature",2020-11-03," ","No","Sunny",9.2,"2020",11
+"424","Ellerbe Creek","EL7.1EC","Temperature",2020-12-01," ","Yes","Sunny",11.2,"2020",12
+"425","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-01-08," ","No","Partly Cloudy",0.05,"2019",1
+"426","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-02-05," ","No","Partly Cloudy",0.03,"2019",2
+"427","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-03-05," ","Yes","Overcast",0.09,"2019",3
+"428","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",0.03,"2019",4
+"429","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-05-07," ","No","Partly Cloudy",0.08,"2019",5
+"430","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-06-05,"Duplicate Site Duplicate","No","Overcast",0.22,"2019",6
+"431","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-07-09," ","Yes","Overcast",0.1,"2019",7
+"432","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-08-06," ","Yes","Partly Cloudy",0.15,"2019",8
+"433","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-09-03," ","No","Sunny",0.04,"2019",9
+"434","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",0.09,"2019",10
+"435","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-11-05," ","No","Overcast",0.06,"2019",11
+"436","Ellerbe Creek","EL7.1EC","Total Phosphorus",2019-12-03," ","No","Sunny",0.04,"2019",12
+"437","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-01-07," ","No","Partly Cloudy",0.1,"2020",1
+"438","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-02-04,"Duplicate Site; green floc algae present Duplicate","No","Partly Cloudy",0.05,"2020",2
+"439","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-03-03,"Green floc algae present","No","Overcast",0.05,"2020",3
+"440","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",0.08,"2020",5
+"441","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Overcast",0.09,"2020",6
+"442","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-07-07,"Murky Water","Yes","Partly Cloudy",0.15,"2020",7
+"443","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",0.15,"2020",8
+"444","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-09-01," ","Yes","Overcast",0.29,"2020",9
+"445","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-10-06,"Duplicate Site Duplicate","No","Sunny",0.035,"2020",10
+"446","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-11-03," ","No","Sunny",0.12,"2020",11
+"447","Ellerbe Creek","EL7.1EC","Total Phosphorus",2020-12-01," ","Yes","Sunny",0.09,"2020",12
+"448","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-01-08," ","No","Partly Cloudy",2.5,"2019",1
+"449","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-02-05," ","No","Partly Cloudy",2.5,"2019",2
+"450","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-03-05," ","Yes","Overcast",7.2,"2019",3
+"451","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",2.9,"2019",4
+"452","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-05-07," ","No","Partly Cloudy",3.9,"2019",5
+"453","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-06-05,"Duplicate Site Duplicate","No","Overcast",5,"2019",6
+"454","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-07-09," ","Yes","Overcast",4.3,"2019",7
+"455","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-08-06," ","Yes","Partly Cloudy",17.2,"2019",8
+"456","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-09-03," ","No","Sunny",9.7,"2019",9
+"457","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",2.5,"2019",10
+"458","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-11-05," ","No","Overcast",2.5,"2019",11
+"459","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2019-12-03," ","No","Sunny",4.4,"2019",12
+"460","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-01-07," ","No","Partly Cloudy",11.3,"2020",1
+"461","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-02-04,"Duplicate Site; green floc algae present Duplicate","No","Partly Cloudy",4.25,"2020",2
+"462","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-03-03,"Green floc algae present","No","Overcast",2.5,"2020",3
+"463","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",13.4,"2020",5
+"464","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Overcast",8.6,"2020",6
+"465","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-07-07,"Murky Water","Yes","Partly Cloudy",20.2,"2020",7
+"466","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",47.4,"2020",8
+"467","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-09-01," ","Yes","Overcast",22,"2020",9
+"468","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-10-06,"Duplicate Site Duplicate","No","Sunny",7,"2020",10
+"469","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-11-03," ","No","Sunny",3.7,"2020",11
+"470","Ellerbe Creek","EL7.1EC","Total Suspended Solids",2020-12-01," ","Yes","Sunny",8,"2020",12
+"471","Ellerbe Creek","EL7.1EC","Turbidity",2019-01-08," ","No","Partly Cloudy",8.7,"2019",1
+"472","Ellerbe Creek","EL7.1EC","Turbidity",2019-02-05," ","No","Partly Cloudy",5.9,"2019",2
+"473","Ellerbe Creek","EL7.1EC","Turbidity",2019-03-05," ","Yes","Overcast",22.3,"2019",3
+"474","Ellerbe Creek","EL7.1EC","Turbidity",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",4.3,"2019",4
+"475","Ellerbe Creek","EL7.1EC","Turbidity",2019-05-07," ","No","Partly Cloudy",5.8,"2019",5
+"476","Ellerbe Creek","EL7.1EC","Turbidity",2019-06-05,"Duplicate Site","No","Overcast",11.4,"2019",6
+"477","Ellerbe Creek","EL7.1EC","Turbidity",2019-07-09," ","Yes","Overcast",10.7,"2019",7
+"478","Ellerbe Creek","EL7.1EC","Turbidity",2019-08-06," ","Yes","Partly Cloudy",33,"2019",8
+"479","Ellerbe Creek","EL7.1EC","Turbidity",2019-09-03," ","No","Sunny",3.8,"2019",9
+"480","Ellerbe Creek","EL7.1EC","Turbidity",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",1.8,"2019",10
+"481","Ellerbe Creek","EL7.1EC","Turbidity",2019-11-05," ","No","Overcast",6.5,"2019",11
+"482","Ellerbe Creek","EL7.1EC","Turbidity",2019-12-03," ","No","Sunny",12.7,"2019",12
+"483","Ellerbe Creek","EL7.1EC","Turbidity",2020-01-07," ","No","Partly Cloudy",20.6,"2020",1
+"484","Ellerbe Creek","EL7.1EC","Turbidity",2020-02-04,"Duplicate Site; green floc algae present","No","Partly Cloudy",10.5,"2020",2
+"485","Ellerbe Creek","EL7.1EC","Turbidity",2020-03-03,"Green floc algae present","No","Overcast",4.8,"2020",3
+"486","Ellerbe Creek","EL7.1EC","Turbidity",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",18.9,"2020",5
+"487","Ellerbe Creek","EL7.1EC","Turbidity",2020-06-09,"Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Murky water; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in June 2020","No","Overcast",16.9,"2020",6
+"488","Ellerbe Creek","EL7.1EC","Turbidity",2020-07-07,"Murky Water","Yes","Partly Cloudy",25.5,"2020",7
+"489","Ellerbe Creek","EL7.1EC","Turbidity",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",53,"2020",8
+"490","Ellerbe Creek","EL7.1EC","Turbidity",2020-09-01," ","Yes","Overcast",33.9,"2020",9
+"491","Ellerbe Creek","EL7.1EC","Turbidity",2020-10-06,"Duplicate Site","No","Sunny",9.3,"2020",10
+"492","Ellerbe Creek","EL7.1EC","Turbidity",2020-11-03," ","No","Sunny",10.4,"2020",11
+"493","Ellerbe Creek","EL7.1EC","Turbidity",2020-12-01," ","Yes","Sunny",23.5,"2020",12
+"494","Ellerbe Creek","EL7.1EC","Zinc",2019-01-08," ","No","Partly Cloudy",11.15,"2019",1
+"495","Ellerbe Creek","EL7.1EC","Zinc",2019-02-05," ","No","Partly Cloudy",13.8,"2019",2
+"496","Ellerbe Creek","EL7.1EC","Zinc",2019-03-05," ","Yes","Overcast",12.7,"2019",3
+"497","Ellerbe Creek","EL7.1EC","Zinc",2019-04-02,"Raining; lots of algae matts present","Yes","Overcast",15.6,"2019",4
+"498","Ellerbe Creek","EL7.1EC","Zinc",2019-05-07," ","No","Partly Cloudy",22.85,"2019",5
+"499","Ellerbe Creek","EL7.1EC","Zinc",2019-06-05,"Duplicate Site Duplicate","No","Overcast",11.725,"2019",6
+"500","Ellerbe Creek","EL7.1EC","Zinc",2019-07-09," ","Yes","Overcast",22.35,"2019",7
+"501","Ellerbe Creek","EL7.1EC","Zinc",2019-08-06," ","Yes","Partly Cloudy",18.35,"2019",8
+"502","Ellerbe Creek","EL7.1EC","Zinc",2019-09-03," ","No","Sunny",6.8,"2019",9
+"503","Ellerbe Creek","EL7.1EC","Zinc",2019-10-01,"low flow and large amount of brown fluffy algae","No","Sunny",7.85,"2019",10
+"504","Ellerbe Creek","EL7.1EC","Zinc",2019-11-05," ","No","Overcast",8,"2019",11
+"505","Ellerbe Creek","EL7.1EC","Zinc",2019-12-03," ","No","Sunny",15.05,"2019",12
+"506","Ellerbe Creek","EL7.1EC","Zinc",2020-01-07," ","No","Partly Cloudy",13.85,"2020",1
+"507","Ellerbe Creek","EL7.1EC","Zinc",2020-02-04,"Duplicate Site; green floc algae present Duplicate","No","Partly Cloudy",12.45,"2020",2
+"508","Ellerbe Creek","EL7.1EC","Zinc",2020-03-03,"Green floc algae present","No","Overcast",10.15,"2020",3
+"509","Ellerbe Creek","EL7.1EC","Zinc",2020-05-12,"low flow; due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020","No","Sunny",11,"2020",5
+"510","Ellerbe Creek","EL7.1EC","Zinc",2020-08-04,"Heavy rains overnight from hurricane.","Yes","Partly Cloudy",10.865,"2020",8
+"511","Ellerbe Creek","EL7.1EC","Zinc",2020-09-01," ","Yes","Overcast",7.515,"2020",9
+"512","Ellerbe Creek","EL7.1EC","Zinc",2020-10-06,"Duplicate Site Duplicate","No","Sunny",4.4725,"2020",10
+"513","Ellerbe Creek","EL7.1EC","Zinc",2020-11-03," ","No","Sunny",4.49,"2020",11
+"514","Ellerbe Creek","EL7.1EC","Zinc",2020-12-01," ","Yes","Sunny",10.23,"2020",12
