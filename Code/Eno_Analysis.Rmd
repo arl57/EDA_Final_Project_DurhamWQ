@@ -82,7 +82,7 @@ Eno_River_Data_2020 <- Eno_River_parameters_stations %>%
   filter(between(Date,as.Date("2020-01-01"),as.Date("2020-12-31")))
 
 ## save processed data
-write_csv(Eno_River_parameters_stations, './Data/Processed/Eno_processed.csv')
+#write_csv(Eno_River_parameters_stations, '../Data/Processed/Eno_processed.csv')
 
 #create spatial dataframe
 Eno_River_parameters_stations_sf <- Eno_River_parameters_stations %>% 
