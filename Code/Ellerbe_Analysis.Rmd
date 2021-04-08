@@ -189,8 +189,18 @@ ggplot(ellerbe.wide, aes(x = Month, y = `Turbidity`, color = Station.Name)) +
   labs(y = "Turbidity (NTU)", x = "Month") +
   theme 
 ```
+
+pH analysis shows that pH is significantly lower in 2020 compared to 2019. However, mean pH for both years is within what is considered the "normal" pH for streams (6.5-8.5). Downward trend is concerning though should continue to be monitored. 
+
+```{r}
+#*significant, p-value = 0.0009
+aov <- aov(ellerbe.wide$pH ~ ellerbe.wide$Year)
+summary(aov)
+TukeyHSD(aov)
+```
 Explore metal concentrations at each of the sites between 2019 and 2020
 
+Both Zinc and Copper concentrations are not statistically different between 2019 and 2020. However, there does appear to be a downward trend for Zinc in 2020. 
 ```{r}
 ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Month, y = Final_Value, color = Station.Name)) +
   geom_point() +
@@ -201,6 +211,14 @@ ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Mont
   facet_grid(Year~Parameter) +
   labs(y = "Concentration (ug/L)", x = "Month") +
   theme
+
+##ANOVA
+#compare zinc and copper concentrations between 2019 and 2020. **Not significant
+aov <- aov(ellerbe.wide$Zinc ~ ellerbe.wide$Year)
+summary(aov)
+ 
+aov <- aov(ellerbe.wide$Copper ~ ellerbe.wide$Year)
+summary(aov)          
 ```
 
 
@@ -211,7 +229,7 @@ Does not appear that there is any relationship here. I think we would need more 
 ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
   scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
-  facet_wrap(~Year, nrow=2) +
+  facet_wrap(~Year, nrow=1) +
   labs(y = "Temperature (Celcius)", x = "Sky Condition") +
   theme
 
@@ -226,35 +244,55 @@ ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Month, y = F
   facet_grid(Year~Sky.Condition)
 ```
 
-Comparison of turbidity and rain. Determine if the sites are highly influenced by storm events. Could also be an indication of erosion. This could fit with general exploration of the site and trying to set up context for this being a highly degraded creek in need of restoration/additional monitoring. Could compare this to observations of Eno River sites. Comparison condudcted for 2019 and 2020 combined Not sure it totally fits with project scope/year comparisons...
+Comparison of turbidity and rain. Determine if the sites are highly influenced by storm events. Could also be an indication of erosion. This could fit with general exploration of the site and trying to set up context for this being a highly degraded creek in need of restoration/additional monitoring. Could compare this to observations of Eno River sites. Comparison conducted for 2019 and 2020 combined Not sure it totally fits with project scope/year comparisons...
 
-Figure shows that turbidity is higher after rain event, indicating sediment loading.
+Statistics show that for both 2019 and 2020 across all sites, turbidity is higher after rain event. The relationship is less strong in 2020, however, turbidity was significantly higher in 2020 compared to 2019 
 ```{r}
 ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
-  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+   scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  facet_wrap(~Year, nrow=1, scales = "free") +
   labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
-  theme+
-  theme(panel.grid.major = element_blank())
+  theme
 
-#without outlier (this changed how the data calucated the boxplots, not sure how to fix that...)
-ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
-  geom_boxplot() +
-  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  ylim(0, 100) +
-  labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
-  theme +
-  theme(panel.grid.major = element_blank())
+##ANOVA
+
+#comparing turbidity and rain in last 24 hours for 2019 (all sites combined, combined sites because we have different numnber of sites between 2019 and 2020 so want to make the comparison similar)
+d.2019 <- ellerbe.wide %>%
+  filter(Year == 2019)
+
+#*significant, pvalue = 1.48e-5
+aov <- aov(d.2019$Turbidity ~ d.2019$Rain.in.Last.24.Hours)
+summary(aov)
+
+#comparing turbidity and rain in last 24 hours for 2020
+d.2020 <- ellerbe.wide %>%
+  filter(Year == 2020)
+
+#*significant, p-value = 0.0086
+aov <- aov(d.2020$Turbidity ~ d.2020$Rain.in.Last.24.Hours)
+summary(aov)
+
+
+#compare turbidity between 2019 and 2020
+#*significant, p-value = 0.03
+aov <- aov(ellerbe.wide$Turbidity ~ ellerbe.wide$Year)
+summary(aov)
+TukeyHSD(aov)
+
 ```
 
 Comparison of turbidity and TSS. How well do these correlate? Indicative of certain types of pollution
 
-Measurements appear highly correlated. Need to add statistics. But this could be indicative of certain types of pollution such as sediment, algae, etc. This also indicates that Durham could rely on turbidity alone as a measure for clarity. TSS is expensive to sample.
+Measurements appear highly correlated. Need to add statistics. But this could be indicative of certain types of pollution such as sediment, algae, etc. 
+
+Also of note, turbidity and TSS were both much higher in 2020 compared to 2019
 ```{r}
 ggplot(ellerbe.wide, aes(x = Turbidity, y = `Total Suspended Solids`, color = Station.Name)) +
   geom_point() +
   geom_smooth(method = "lm", se = FALSE) +
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  facet_wrap(~Year, nrow = 1, scales = "free") +
   labs(y = "Total Suspended Solids (mg/L)", x = "Turbidity (NTU)") +
   theme 
 
@@ -282,6 +320,7 @@ ggplot(ellerbe.wide, aes(x = Temperature, y = `Dissolved Oxygen`, color = Statio
   geom_point() +
   geom_smooth(method = "lm", se = FALSE) +
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  facet_wrap(~Year, nrow = 1) +
   labs(y = "Dissolved Oxygen (mg/L)", x = "Temperature (Celcius)") +
   theme 
 
@@ -291,6 +330,7 @@ ggplot(ellerbe.wide, aes(x = Temperature, y = `Fecal Coliform`, color = Station.
   geom_point() +
   geom_smooth(method = "lm", se = FALSE) +
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  facet_wrap(~Year, nrow = 1) +
   labs(y = "Fecal Coliform (cfu/100mL)", x = "Temperature (Celcius)") +
   theme 
 ```

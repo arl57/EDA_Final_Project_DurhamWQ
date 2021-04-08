@@ -49,7 +49,23 @@ The main objective of our project was to understand current water quality trends
 
 # Dataset Information
 
+The data was collected from the City of Durham's water quality data web portal. The portal includes data collected by the City's Stormwater Services as part of the Water Quality Monitoring and Assessment Program. The program performs ambient stream monitoring to assess compliance with regulatory benchmarks, assess surface water impairment, identify sources for illicit discharge, and support watershed planning.  The monitoring data includes information regarding the monitoring location, conditions, weather, and measurements. Nine parameters were chosen for analysis because of their monthly measurement frequency for 2019 and 2020 at the two streams of interest. The parameters of interest include Copper, Dissolved Oxygen, Fecal Coliform, pH, Total Phosphorus, Total Suspended Solids, Temperature, Turbidity, and Zinc. To extract relevant data from the portal the stream, water quality parameters, and dates of interest were selected for the user interface and downloaded to CSV files.
 
+Once datasets for each of the parameters were downloaded, they were read into R and compiled into a single dataframe. First, a subset of the dataframe was created to keep only relevant columns for analysis. Next, the date column to read as a date to enable plotting and time series analysis. To address duplicate measurements, measurements for the same parameter, with the same date, monitoring location, and weather were averaged. Then, the parameters measurements were pivoted to include a column for each of the nine parameters.  To map the locations of each of the monitoring stations, the water quality dataframe was joined with station coordinates. 
+
+Water Quality Parameters | Unit | Range | Data Source
+-------------------------|------|-------|-------------
+Copper| ug/L | 1.1-4.135 | Durham Water Quality Web Portal
+Dissolved Oxygen | mg/L | 4.7-12.1 | Durham Water Quality Web Portal
+Fecal Coliform | cfu/100mL | 17.5-36000 | Durham Water Quality Web Portal
+pH | Standard Units | 6.1-7.5 | Durham Water Quality Web Portal
+Total Phosphorus | mg/L | 0.003 - 0.38 | Durham Water Quality Web Portal
+Total Suspended Solids| mg/L | 2.5-134 | Durham Water Quality Web Portal
+Temperature| C | 5.7-29.6 | Durham Water Quality Web Portal
+Turbidity| NTU | 2.3-150 | Durham Water Quality Web Portal
+Zinc| ug/L | 0.975-19.2 | Durham Water Quality Web Portal
+Rain in the last 24 Hours | NA | Yes/No | Durham Water Quality Web Portal
+Sky Condition | NA | Sunny, Partly Cloudy, Overcast | Durham Water Quality Web Portal 
 
 \newpage
 
