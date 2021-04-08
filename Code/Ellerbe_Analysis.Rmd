@@ -2,8 +2,10 @@
 title: "Ellerbe_Analysis"
 author: "Analise Lindborg"
 date: "3/22/2021"
-output: pdf_document
-editor_options: 
+output:
+  html_document:
+    df_print: paged
+editor_options:
   chunk_output_type: console
 ---
 
@@ -11,6 +13,24 @@ editor_options:
 knitr::opts_knit$set(root.dir = '/Users/analiselindborg/Desktop/Desktop - Analise’s MacBook Pro/Data Analytics/EDA_Final_Project_DurhamWQ')
 ```
 
+
+Write 1-2 paragraph(s) detailing the rationale for your study. This should include both the context of the topic as well as a rationale for your choice of dataset (reason for location, variables, etc.). You may choose to include citations if you like (optional).
+
+At the end of your rationale, introduce a numbered list of your questions (or an overarching question and sub-questions).
+------
+  Water quality of urban streams and rivers has been studied across the United States for the past several decades. These evaluations typically provide important insights about stressors on aquatic systems in urban environments, particularly natural pollutants such as nutrients, sediment, and heavy metals, as well as anthropogenic contaminants such as pesticides and other man-made chemicals. Many cities have programs dedicated to monitoring the health of local rivers and streams for the protection of humans and wildlife. 
+  
+  Certain water quality parameters are commonly collected and used to assess health of urban streams. These include measurements of chemical, physical, and biological parameters that can be used independently or together to determine stream health. These parameters are often evaluated over time to highlight general trends in water quality in urban environments. In general, health of urban streams in the United States has been improving since the Clean Water Act was introduced in the 1970s.    
+  
+  Of interest in our project is specifically how water quality may have changed in local urban streams response to the global COVID-19 pandemic. Certain studies have shown that surface water quality improved in 2020 due to the pandemic. Eno River and Ellerbe Creek in Durham, North Carolina were selected for evaluation in our study primarily because they are two of the most well-known streams in the area and because they each are considered to have impaired water quality due to urban pollution from Durham. These streams were chosen to provide a local context for evaluating recent changes in stream health. Additionally, the City of Durham collects monthly monitoring data for both Eno River and Ellerbe Creek. This project includes an evaluation of the most common surface water quality parameters for which the City of Durham had data, including temperature, pH, dissolved oxygen, metals (zinc and copper), total phosphorus, fecal coliform, turbidity, and total suspended solids. All sites for each waterbody evaluated by the City of Durham are included. 
+  
+Research Question: 
+
+1. Has water quality changed between 2019 and 2020 for Ellerbe Creek and/or Eno River based on the various water quality parameters?
+  a. Are there differences between sites for each stream?
+  b. Have certain water quality parameters changed while others have not?
+
+  
 ## Setting up R session
 
 ```{r, message = FALSE}
@@ -23,18 +43,16 @@ ellerbe.data <- read.csv("./Data/Raw/Ellerbe Creek/durham_AllData.csv")
 
 ## Data cleanup
 
-
 ```{r}
 ## 1. Select columns of interest
 # I could not find the metadata. This may be important for the QC column (I think U in the QC column means that the value was set to the detection limit (because the value was likely below the detection limit), but I am not sure). Also not sure what flow severity is or if we would want to use it. 
 ellerbe.sub <- ellerbe.data %>%
   select(Stream.Name, Station.Name, Parameter, Date.Time, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition)
 
-## 2. Subsetting data for following metrics: DO, pH, Fecal Coliform, Zn, Cu, temp, TP, TSS, and turbidity and sites 1.9 and 7.1 (5.6 does not have 2020 data)
+## 2. Subsetting data for following metrics: DO, pH, Fecal Coliform, Zn, Cu, temp, TP, TSS, and turbidity
 
 ellerbe.sub <- ellerbe.sub %>%
-  filter(Parameter %in% c("Dissolved Oxygen", "pH", "Fecal Coliform", "Zinc", "Copper", "Temperature", "Total Phosphorus", "Total Suspended Solids", "Turbidity")) %>%
-  filter(Station.Name != "EL5.6EC")
+  filter(Parameter %in% c("Dissolved Oxygen", "pH", "Fecal Coliform", "Zinc", "Copper", "Temperature", "Total Phosphorus", "Total Suspended Solids", "Turbidity"))
 
 ## 3. Fix date
 ellerbe.sub <- ellerbe.sub %>%
@@ -46,12 +64,15 @@ ellerbe.sub$Date <- as.Date(ellerbe.sub$Date, format = "%m/%d/%y")
 ellerbe.grouped <- ellerbe.sub %>%
   group_by(Stream.Name, Station.Name, Parameter, Date, Comments, Rain.in.Last.24.Hours, Sky.Condition) %>%
  summarize(Final_Value = mean(Value)) %>%
-  mutate(Year = year(Date))
+  mutate(Year = year(Date),
+         Month = month(Date))
+
+#ellerbe.grouped$Month <- factor(ellerbe.grouped$Month, levels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"))
 
 ellerbe.grouped$Year <- as.character(ellerbe.grouped$Year)
 
 ## save final dataset
-#write.csv(ellerbe.all, "./Data/Processed/Ellerbe_processed.csv")
+#write.csv(ellerbe.grouped, "./Data/Processed/Ellerbe_processed.csv")
 ```
 
 Analysis ideas
@@ -95,90 +116,91 @@ ellerbe.wide <- ellerbe.grouped %>%
   pivot_wider(names_from = Parameter, values_from = Final_Value)
 
 #DO
-ggplot(ellerbe.wide, aes(x = Date, y = `Dissolved Oxygen`, color = Station.Name)) +
+ggplot(ellerbe.wide, aes(x = Month, y = `Dissolved Oxygen`, color = Station.Name)) +
   geom_point() +
   geom_line() +
   geom_smooth(method = "lm", se = FALSE) +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  labs(y = "Dissolved Oxygen (mg/L)", x = "Date") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Dissolved Oxygen (mg/L)", x = "Month") +
+  facet_wrap(~Year, nrow=2) +
+  theme 
 
 #pH
-ggplot(ellerbe.wide, aes(x = Date, y = pH, color = Station.Name)) +
+ggplot(ellerbe.wide, aes(x = Month, y = pH, color = Station.Name)) +
   geom_point() +
+  geom_line() +
   geom_smooth(method = "lm", se = FALSE) +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  labs(y = "pH", x = "Date") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "pH", x = "Month") +
+  theme
 
 #Fecal Coliform
-ggplot(ellerbe.wide, aes(x = Date, y = `Fecal Coliform`, color = Station.Name)) +
+ggplot(ellerbe.wide, aes(x = Month, y = `Fecal Coliform`, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  labs(y = "Fecal Coliform (cfu/100mL)", x = "Date") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Fecal Coliform (cfu/100mL)", x = "Month") +
+  theme 
 
 #Temp
-ggplot(ellerbe.wide, aes(x = Date, y = Temperature, color = Station.Name)) +
+ggplot(ellerbe.wide, aes(x = Month, y = Temperature, color = Station.Name)) +
   geom_point() +
   geom_line() +
   geom_smooth(method = "lm", se = FALSE) +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  labs(y = "Temperature (Celcius)", x = "Date") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Temperature (Celcius)", x = "Month") +
+  theme 
 
 #TP
-ggplot(ellerbe.wide, aes(x = Date, y = `Total Phosphorus`, color = Station.Name)) +
+ggplot(ellerbe.wide, aes(x = Month, y = `Total Phosphorus`, color = Station.Name)) +
   geom_point() +
   geom_line() +
   geom_smooth(method = "lm", se = FALSE) +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  labs(y = "Total Phosphorus (mg/L)", x = "Date") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Total Phosphorus (mg/L)", x = "Month") +
+  theme
 
 #TSS
-ggplot(ellerbe.wide, aes(x = Date, y = `Total Suspended Solids`, color = Station.Name)) +
+ggplot(ellerbe.wide, aes(x = Month, y = `Total Suspended Solids`, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  geom_smooth(method = "lm", se = FALSE) +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  labs(y = "Total Suspended Solids (mg/L)", x = "Date") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Total Suspended Solids (mg/L)", x = "Month") +
+  theme 
 
 #turbidity
-ggplot(ellerbe.wide, aes(x = Date, y = `Turbidity`, color = Station.Name)) +
+ggplot(ellerbe.wide, aes(x = Month, y = `Turbidity`, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  labs(y = "Turbidity (NTU)", x = "Date") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Turbidity (NTU)", x = "Month") +
+  theme 
 ```
 Explore metal concentrations at each of the sites between 2019 and 2020
 
 ```{r}
-ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Date, y = Final_Value, color = Parameter)) +
+ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Month, y = Final_Value, color = Station.Name)) +
   geom_point() +
-  scale_color_viridis_d(option = "magma", begin = 0.8, end = 0.2, name = "Metal") +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  labs(y = "Concentration (ug/L)", x = "Date") +
-  theme+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  facet_wrap(~Station.Name, nrow = 2)
+  geom_line()+
+  #geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_grid(Year~Parameter) +
+  labs(y = "Concentration (ug/L)", x = "Month") +
+  theme
 ```
 
 
@@ -188,21 +210,20 @@ Does not appear that there is any relationship here. I think we would need more 
 ```{r}
 ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
-  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  facet_wrap(~Year, nrow=2) +
   labs(y = "Temperature (Celcius)", x = "Sky Condition") +
-  theme+
-  theme(panel.grid.major = element_blank())
+  theme
 
 #Over time (since this likely changes with season)
-ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Date, y = Final_Value, color = Sky.Condition)) +
+ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Month, y = Final_Value, color = Station.Name)) +
   geom_point() +
-  scale_color_viridis_d(option = "magma", begin = 0.8, end = 0.2, name = "Sky Condition") +
-  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
-  labs(y = "Temperature (Celcius)", x = "Date") +
+  geom_line() +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Temperature (Celcius)", x = "Month") +
   theme+
-  theme(panel.grid.major = element_blank(),
-        axis.text.x = element_text(angle = 45, hjust = 1)) +
-  facet_wrap(~Station.Name, nrow = 2)
+  facet_grid(Year~Sky.Condition)
 ```
 
 Comparison of turbidity and rain. Determine if the sites are highly influenced by storm events. Could also be an indication of erosion. This could fit with general exploration of the site and trying to set up context for this being a highly degraded creek in need of restoration/additional monitoring. Could compare this to observations of Eno River sites. Comparison condudcted for 2019 and 2020 combined Not sure it totally fits with project scope/year comparisons...
@@ -233,10 +254,9 @@ Measurements appear highly correlated. Need to add statistics. But this could be
 ggplot(ellerbe.wide, aes(x = Turbidity, y = `Total Suspended Solids`, color = Station.Name)) +
   geom_point() +
   geom_smooth(method = "lm", se = FALSE) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   labs(y = "Total Suspended Solids (mg/L)", x = "Turbidity (NTU)") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme 
 
 #removing outlier point to better show trend
 ggplot(ellerbe.wide, aes(x = Turbidity, y = `Total Suspended Solids`, color = Station.Name)) +
@@ -244,10 +264,35 @@ ggplot(ellerbe.wide, aes(x = Turbidity, y = `Total Suspended Solids`, color = St
   geom_smooth(method = "lm", se = FALSE) +
   xlim(0,80)+
   ylim(0,80) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   labs(y = "Total Suspended Solids (mg/L)", x = "Turbidity (NTU)") +
-  theme +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
+  theme 
 
 ```
+
+
+##DO & Temp
+There is a clear relationship with Temperature and DO. The DO decreases linerarly as temperature increases. This is true for all monitoring stations and both years.
+
+##FC & Temp
+ 
+```{r}
+# Temp & DO 
+ggplot(ellerbe.wide, aes(x = Temperature, y = `Dissolved Oxygen`, color = Station.Name)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  labs(y = "Dissolved Oxygen (mg/L)", x = "Temperature (Celcius)") +
+  theme 
+
+
+#Temp & Fec Col
+ggplot(ellerbe.wide, aes(x = Temperature, y = `Fecal Coliform`, color = Station.Name)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  labs(y = "Fecal Coliform (cfu/100mL)", x = "Temperature (Celcius)") +
+  theme 
+```
+
+

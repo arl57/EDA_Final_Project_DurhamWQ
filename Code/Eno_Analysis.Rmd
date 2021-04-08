@@ -81,8 +81,11 @@ Eno_River_Data_2019 <- Eno_River_parameters_stations %>%
 Eno_River_Data_2020 <- Eno_River_parameters_stations %>% 
   filter(between(Date,as.Date("2020-01-01"),as.Date("2020-12-31")))
 
+<<<<<<< HEAD
 ## save processed data
 #write_csv(Eno_River_parameters_stations, '../Data/Processed/Eno_processed.csv')
+=======
+>>>>>>> 14cb6c2bdc0849ac0a8a0e3f404757f58875013e
 
 #create spatial dataframe
 Eno_River_parameters_stations_sf <- Eno_River_parameters_stations %>% 
@@ -92,6 +95,10 @@ mapview(Eno_River_parameters_stations_sf)
 
 
 ```{r}
+<<<<<<< HEAD
+=======
+```{r}
+>>>>>>> 14cb6c2bdc0849ac0a8a0e3f404757f58875013e
 theme <- 
   theme_bw() +
   theme(panel.grid.minor = element_blank(),
