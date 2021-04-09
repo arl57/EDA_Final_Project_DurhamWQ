@@ -40,7 +40,7 @@ Eno_River_Turb <- read.csv('../Data/Raw/Eno_River/durham_data_Turb.csv',skip = 1
 Eno_River_Zn <- read.csv('../Data/Raw/Eno_River/durham_data_Zn.csv',skip = 12, header = F, row.names=NULL)[,1:17]
 
 # compile into one dataframe
-Eno_River_All_raw <- rbind(Eno_River_Cu,Eno_River_DO,Eno_River_FecCol,Eno_River_pH,Eno_River_Temp,Eno_River_TP,Eno_River_TSS,Eno_River_Turb,Eno_River_Zn)
+Eno_River_All_raw <- rbind(Eno_River_Cu,Eno_River_DO,Eno_River_FecCol,Eno_River_pH,Eno_River_Temp,Eno_River_Turb,Eno_River_Zn)
 
 # name columns
 colnames(Eno_River_All_raw) <- c("Stream.Name","Station.Name",colNames[3:4],"Date.Time",colNames[6],"QA.Code",colNames[8:10],"Rain.in.Last.24.Hours","Sky.Condition",colNames[13:17])
@@ -48,14 +48,26 @@ colnames(Eno_River_All_raw) <- c("Stream.Name","Station.Name",colNames[3:4],"Dat
 
 
 ```{r}
-# keep relevant columns for analysis
-Eno_River_parameters <- Eno_River_All_raw%>% 
-  select(Stream.Name, Station.Name, Parameter, Date.Time, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition) 
-
 # Make date correct form
-Eno_River_parameters<- Eno_River_parameters %>%
+Eno_River_parameters_sub<- Eno_River_All_raw %>%
   separate(Date.Time, into = c("Date", "Time"), sep = "\\s")
-Eno_River_parameters$Date <- as.Date(Eno_River_parameters$Date, format = "%m/%d/%Y")
+Eno_River_parameters_sub$Date <- as.Date(Eno_River_parameters_sub$Date, format = "%Y-%m-%d")
+
+# fix date for TSS and TP
+Eno_River_TSS_TP <- rbind(Eno_River_TP,Eno_River_TSS)
+colnames(Eno_River_TSS_TP) <- c("Stream.Name","Station.Name",colNames[3:4],"Date.Time",colNames[6],"QA.Code",colNames[8:10],"Rain.in.Last.24.Hours","Sky.Condition",colNames[13:17])
+Eno_River_TSS_TP<- Eno_River_TSS_TP %>%
+  separate(Date.Time, into = c("Date", "Time"), sep = "\\s")
+Eno_River_TSS_TP$Date <- as.Date(Eno_River_TSS_TP$Date, format = "%m/%d/%Y")
+
+#combine TSS and TP with rest
+Eno_River_parameters<- rbind(Eno_River_parameters_sub,Eno_River_TSS_TP)
+
+# keep relevant columns for analysis
+Eno_River_parameters <- Eno_River_parameters%>% 
+  select(Stream.Name, Station.Name, Parameter, Date, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition) 
+
+
 
 # average duplicates 
 Eno_River_parameters_clean <- Eno_River_parameters %>%
@@ -66,7 +78,8 @@ Eno_River_parameters_clean <- Eno_River_parameters %>%
 
 #split parameters into their own columns
 Eno_River_parameters_split <- Eno_River_parameters_clean %>%
-  pivot_wider(names_from = Parameter, values_from = Final_Value)
+  pivot_wider(names_from = Parameter, values_from = Final_Value) %>% 
+  drop_na(Date)
 
 
 #join with Station coordinate data
