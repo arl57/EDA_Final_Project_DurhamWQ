@@ -27,17 +27,17 @@ library(ggplot2)
 
 ```{r}
 # import all data
-Durham_stations <- read.csv('./Data/Raw/durham_station.csv',header = TRUE, row.names=NULL)[,1:3]
-colNames <- read.csv('./Data/Raw/Eno_River/durham_data_Cu.csv',skip = 11, nrows=1, header = F)
-Eno_River_Cu <- read.csv('./Data/Raw/Eno_River/durham_data_Cu.csv',skip = 12, row.names=NULL, header = F)[,1:17]
-Eno_River_DO <- read.csv('./Data/Raw/Eno_River/durham_data_DO.csv',skip = 12, header = F, row.names=NULL)[,1:17]
-Eno_River_FecCol <- read.csv('./Data/Raw/Eno_River/durham_data_FecCol.csv',skip = 12, header = F, row.names=NULL)[,1:17]
-Eno_River_pH <- read.csv('./Data/Raw/Eno_River/durham_data_pH.csv',skip = 12, header = F, row.names=NULL)[,1:17]
-Eno_River_Temp <- read.csv('./Data/Raw/Eno_River/durham_data_Temp.csv',skip = 12, header = F, row.names=NULL)[,1:17]
-Eno_River_TP <- read.csv('./Data/Raw/Eno_River/durham_data_TP.csv',skip = 12, header = F, row.names=NULL)[,1:17]
-Eno_River_TSS <- read.csv('./Data/Raw/Eno_River/durham_data_TSS.csv',skip = 12, header = F, row.names=NULL)[,1:17]
-Eno_River_Turb <- read.csv('./Data/Raw/Eno_River/durham_data_Turb.csv',skip = 12, header = F, row.names=NULL)[,1:17]
-Eno_River_Zn <- read.csv('./Data/Raw/Eno_River/durham_data_Zn.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Durham_stations <- read.csv('../Data/Raw/durham_station.csv',header = TRUE, row.names=NULL)[,1:3]
+colNames <- read.csv('../Data/Raw/Eno_River/durham_data_Cu.csv',skip = 11, nrows=1, header = F)
+Eno_River_Cu <- read.csv('../Data/Raw/Eno_River/durham_data_Cu.csv',skip = 12, row.names=NULL, header = F)[,1:17]
+Eno_River_DO <- read.csv('../Data/Raw/Eno_River/durham_data_DO.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_FecCol <- read.csv('../Data/Raw/Eno_River/durham_data_FecCol.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_pH <- read.csv('../Data/Raw/Eno_River/durham_data_pH.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_Temp <- read.csv('../Data/Raw/Eno_River/durham_data_Temp.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_TP <- read.csv('../Data/Raw/Eno_River/durham_data_TP.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_TSS <- read.csv('../Data/Raw/Eno_River/durham_data_TSS.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_Turb <- read.csv('../Data/Raw/Eno_River/durham_data_Turb.csv',skip = 12, header = F, row.names=NULL)[,1:17]
+Eno_River_Zn <- read.csv('../Data/Raw/Eno_River/durham_data_Zn.csv',skip = 12, header = F, row.names=NULL)[,1:17]
 
 # compile into one dataframe
 Eno_River_All_raw <- rbind(Eno_River_Cu,Eno_River_DO,Eno_River_FecCol,Eno_River_pH,Eno_River_Temp,Eno_River_TP,Eno_River_TSS,Eno_River_Turb,Eno_River_Zn)
