@@ -1,25 +1,15 @@
 Disclaimer: Although Stormwater Services makes every effort to ensure data quality in the monitoring program, errors do arise and may not be identified at the time the data was uploaded to this database.  The City of Durham does not assume any liability associated with the use of these data and is not obligated to notify parties of modifications or changes to the database.,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 Query Results: ,,,,,,,,,,,,,,,,
-Watershed:Eno River ,,,,,,,,,,,,,,,,
+Stream Name:Eno River ,,,,,,,,,,,,,,,,
 Medium:Water,,,,,,,,,,,,,,,,
 Parameters: Total Suspended Solids    Time Period:2019-01-01 ~ 2020-12-31,,,,,,,,,,,,,,,,
-Project:Ambient,,,,,,,,,,,,,,,,
-Data was downloaded on March 23 2021 12:37 pm,,,,,,,,,,,,,,,,
+Project:all,,,,,,,,,,,,,,,,
+Data was downloaded on March 23 2021 1:28 pm,,,,,,,,,,,,,,,,
 The data contains the QA code. ,,,,,,,,,,,,,,,,
 For Help with QA code, please check http://www.durhamwaterquality.org/QAcode.php,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
-Watershed,Station Name,Filtered,Parameter,Date/Time,Value,QA Code,Unit,QAQC Sample,Comments,Rain in Last 24 Hours,Sky Condition,Flow Severity,Comp  Code,Thalweg,Lab,Project
-Eno River,EN10.3WC,,Total Suspended Solids,1/7/2020 11:05,5.7,,mg/L,,raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,2/4/2020 11:05,2.8,,mg/L,,light rain,Yes,Overcast,3,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,3/3/2020 11:10,2.5,U,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,7/7/2020 10:50,6.1,,mg/L,,Duplicate Site Duplicate,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,7/7/2020 10:50,7.7,,mg/L,,Duplicate Site Duplicate,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,8/4/2020 10:45,19.2,,mg/L,,Heavy rains overnight from hurricane.,Yes,Sunny,3,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,9/1/2020 11:05,13.7,,mg/L,, ,Yes,Overcast,3,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,10/6/2020 10:50,2.5,U,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,11/3/2020 10:45,3.3,,mg/L,, ,No,Sunny,2,G,Yes,SDWRF,Ambient
-Eno River,EN10.3WC,,Total Suspended Solids,12/1/2020 10:25,9.4,,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
+Stream Name,Station Name,Filtered,Parameter,Date/Time,Value,QA Code,Unit,QAQC Sample,Comments,Rain in Last 24 Hours,Sky Condition,Flow Severity,Comp  Code,Thalweg,Lab,Project
 Eno River,EN13.3ER,,Total Suspended Solids,1/7/2020 11:40,6.9,,mg/L,,raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
 Eno River,EN13.3ER,,Total Suspended Solids,2/4/2020 11:30,5.1,,mg/L,,rain stopped,Yes,Overcast,3,G,Yes,SDWRF,Ambient
 Eno River,EN13.3ER,,Total Suspended Solids,3/3/2020 11:35,3.3,,mg/L,, ,,,,,,,Ambient
@@ -40,15 +30,15 @@ Eno River,EN4.9ER,,Total Suspended Solids,10/6/2020 9:35,6.7,,mg/L,, ,No,Sunny,3
 Eno River,EN4.9ER,,Total Suspended Solids,11/3/2020 9:25,2.8,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
 Eno River,EN4.9ER,,Total Suspended Solids,12/1/2020 9:10,46.6,,mg/L,,Duplicate Site Duplicate,Yes,Sunny,4,G,No,SDWRF,Ambient
 Eno River,EN4.9ER,,Total Suspended Solids,12/1/2020 9:10,54.8,,mg/L,,Duplicate Site Duplicate,Yes,Sunny,4,G,No,SDWRF,Ambient
-Eno River,EN8.9ER,,Total Suspended Solids,1/15/2019 8:50,9.8,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,4,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,1/15/2019 8:50,9.6,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,4,G,Yes,SDWRF,Ambient
+Eno River,EN8.9ER,,Total Suspended Solids,1/15/2019 8:50,9.8,,mg/L,,Duplicate Site Duplicate,No,Partly Cloudy,4,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,2/12/2019 8:30,2.5,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,3/12/2019 8:35,5,U,mg/L,, ,Yes,Partly Cloudy,4,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,4/9/2019 8:45,134,,mg/L,,Sample taken near bank due to very high stage,Yes,Overcast,5,G,No,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,5/14/2019 8:40,5.2,,mg/L,, ,Yes,Sunny,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,6/11/2019 8:30,18.7,,mg/L,,High flow,Yes,Sunny,4,G,Yes,SDWRF,Ambient
-Eno River,EN8.9ER,,Total Suspended Solids,7/16/2019 9:00,2.7,,mg/L,,Duplicate Site Duplicate,Yes,Sunny,2,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,7/16/2019 9:00,2.5,U,mg/L,,Duplicate Site Duplicate,Yes,Sunny,2,G,Yes,SDWRF,Ambient
+Eno River,EN8.9ER,,Total Suspended Solids,7/16/2019 9:00,2.7,,mg/L,,Duplicate Site Duplicate,Yes,Sunny,2,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,8/13/2019 8:55,3.4,,mg/L,, ,No,Sunny,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,9/10/2019 8:30,2.5,U,mg/L,, ,No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,10/8/2019 8:20,4.2,,mg/L,, ,No,Overcast,2,G,Yes,SDWRF,Ambient
@@ -57,8 +47,8 @@ Eno River,EN8.9ER,,Total Suspended Solids,12/4/2019 8:30,4.8,,mg/L,, ,No,Sunny,3
 Eno River,EN8.9ER,,Total Suspended Solids,1/7/2020 10:45,7.9,,mg/L,,raining,Yes,Overcast,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,2/4/2020 10:40,6,,mg/L,,starting to rain,Yes,Overcast,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,3/3/2020 10:45,3.3,,mg/L,, ,No,Overcast,3,G,Yes,SDWRF,Ambient
-Eno River,EN8.9ER,,Total Suspended Solids,5/12/2020 9:00,5.6,,mg/L,,"Duplicate Site; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Duplicate",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,5/12/2020 9:00,6.9,,mg/L,,"Duplicate Site; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Duplicate",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
+Eno River,EN8.9ER,,Total Suspended Solids,5/12/2020 9:00,5.6,,mg/L,,"Duplicate Site; Due to COVID-19 safety constraints, only the Nutrient Loading sites were sampled in May 2020 Duplicate",No,Partly Cloudy,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,6/9/2020 9:15,3.3,,mg/L,, ,,,,,,,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,7/7/2020 10:15,3.8,,mg/L,, ,Yes,Partly Cloudy,3,G,Yes,SDWRF,Ambient
 Eno River,EN8.9ER,,Total Suspended Solids,8/4/2020 10:25,29.5,,mg/L,,Heavy rains overnight from hurricane.,Yes,Overcast,2,G,Yes,SDWRF,Ambient
