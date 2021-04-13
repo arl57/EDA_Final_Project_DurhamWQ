@@ -40,10 +40,10 @@ The main objective of our project was to understand current water quality trends
 **Research Question:** 
 
 1. What are the water quality trends between 2019 and 2020 for Ellerbe Creek and Eno River? 
-  a. Has water quality changed between 2019 and 2020 for Ellerbe Creek and/or Eno River based on the various water quality parameters?
-  b. Are there differences between sites for each stream?
-  c. Have certain water quality parameters changed while others have not?
-  d. Discussion point: Certain studies have shown that surface water quality improved in 2020 due to the pandemic. Do we observe the same trend?
+    a. Has water quality changed between 2019 and 2020 for Ellerbe Creek and/or Eno River based on the various water quality parameters?
+    b. Are there differences between sites for each stream?
+    c. Have certain water quality parameters changed while others have not?
+    d. Discussion point: Certain studies have shown that surface water quality improved in 2020 due to the pandemic. Do we observe the same trend?
 
 \newpage
 
