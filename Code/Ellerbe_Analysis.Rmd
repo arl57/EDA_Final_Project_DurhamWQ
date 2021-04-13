@@ -27,7 +27,6 @@ ellerbe.data <- read.csv("./Data/Raw/Ellerbe Creek/durham_AllData.csv")
 
 ```{r}
 ## 1. Select columns of interest
-# I could not find the metadata. This may be important for the QC column (I think U in the QC column means that the value was set to the detection limit (because the value was likely below the detection limit), but I am not sure). Also not sure what flow severity is or if we would want to use it. 
 ellerbe.sub <- ellerbe.data %>%
   select(Stream.Name, Station.Name, Parameter, Date.Time, Value, QA.Code, Unit, Comments, Rain.in.Last.24.Hours, Sky.Condition)
 
@@ -53,18 +52,18 @@ ellerbe.grouped <- ellerbe.sub %>%
 
 ellerbe.grouped$Year <- as.character(ellerbe.grouped$Year)
 
-## save final dataset
-#write.csv(ellerbe.grouped, "./Data/Processed/Ellerbe_processed.csv")
+## save long dataset
+#write.csv(ellerbe.grouped, "./Data/Processed/Ellerbe_long.csv")
+
+#creating pivot wider dataframe to make WQ parameters their own columns. 
+ellerbe.wide <- ellerbe.grouped %>%
+  pivot_wider(names_from = Parameter, values_from = Final_Value)
+
+#save wide dataset
+#write.csv(ellerbe.wide, "./Data/Processed/Ellerbe_wide.csv")
+
 ```
 
-Analysis ideas
-  # look at other parameters individually and compare between years, keeping sites separate
-  # Combine Zn and copper?
-  # look at temp and DO and temp and fecal coliform
-    # bacteria is temp and flow driven
-  # tss and turbidity comparison (as indicator of which to do and inputs) - scatterplot
-  # temp and sky condition (as indicator of cover) - box plot
-  # spikes in turbid with rain in last 24 hours - box plot
 
 ```{r}
 theme <- 
@@ -77,6 +76,7 @@ theme <-
 
 theme_set(theme)
 ```
+
 Visualizing changes in all parameters over time
 
 DO: There are no distinguishable trends over time and do not appear to be differences between the two sites. Looks like there may be seasonality, we could use seasonal Mann Kendall to explore further
@@ -93,9 +93,6 @@ TSS: Again, could be slight increase over time and site 1.9 has spike fall
 
 turbidity: Appears similar to TSS
 ```{r}
-#creating pivot wider dataframe to make WQ parameters their own columns. 
-ellerbe.wide <- ellerbe.grouped %>%
-  pivot_wider(names_from = Parameter, values_from = Final_Value)
 
 #DO
 ggplot(ellerbe.wide, aes(x = Month, y = `Dissolved Oxygen`, color = Station.Name)) +
