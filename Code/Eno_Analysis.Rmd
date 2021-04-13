@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-```{r}
+```{r echo=FALSE}
 #get directory
 getwd()
 
@@ -26,7 +26,7 @@ library(ggplot2)
 library(agricolae)
 ```
 
-```{r}
+```{r echo=FALSE}
 # import all data
 Durham_stations <- read.csv('../Data/Raw/durham_station.csv',header = TRUE, row.names=NULL)[,1:3]
 colNames <- read.csv('../Data/Raw/Eno_River/durham_data_Cu.csv',skip = 11, nrows=1, header = F)
@@ -48,7 +48,7 @@ colnames(Eno_River_All_raw) <- c("Stream.Name","Station.Name",colNames[3:4],"Dat
 ```
 
 
-```{r}
+```{r echo=FALSE}
 # Make date correct form
 Eno_River_parameters_sub<- Eno_River_All_raw %>%
   separate(Date.Time, into = c("Date", "Time"), sep = "\\s")
@@ -59,7 +59,7 @@ Eno_River_TSS_TP <- rbind(Eno_River_TP,Eno_River_TSS)
 colnames(Eno_River_TSS_TP) <- c("Stream.Name","Station.Name",colNames[3:4],"Date.Time",colNames[6],"QA.Code",colNames[8:10],"Rain.in.Last.24.Hours","Sky.Condition",colNames[13:17])
 Eno_River_TSS_TP<- Eno_River_TSS_TP %>%
   separate(Date.Time, into = c("Date", "Time"), sep = "\\s")
-Eno_River_parameters_sub$Date <- as.Date(Eno_River_parameters_sub$Date, format = "%m/%d/%Y")
+Eno_River_TSS_TP$Date <- as.Date(Eno_River_TSS_TP$Date, format = "%m/%d/%Y")
 
 #combine TSS and TP with rest
 Eno_River_parameters<- rbind(Eno_River_parameters_sub,Eno_River_TSS_TP)
@@ -75,13 +75,13 @@ Eno_River_parameters_clean <- Eno_River_parameters %>%
   group_by(Stream.Name, Station.Name, Parameter, Date, Comments, Rain.in.Last.24.Hours, Sky.Condition) %>%
   summarize(Final_Value = mean(Value)) %>%
   mutate(Month = month(Date))%>%
-  mutate(Year = year(Date))
+  mutate(Year = year(Date))%>%
+  filter(Station.Name %in% c("EN13.3ER", "EN4.9ER", "EN8.9ER" ))
 
 #split parameters into their own columns
 Eno_River_parameters_split <- Eno_River_parameters_clean %>%
-  pivot_wider(names_from = Parameter, values_from = Final_Value) %>% 
+  pivot_wider(names_from = Parameter, values_from = Final_Value) %>%
   drop_na(Date)
-
 
 #join with Station coordinate data
 Eno_River_parameters_stations <- merge(x = Eno_River_parameters_split,
@@ -105,7 +105,7 @@ mapview(Eno_River_parameters_stations_sf)
 ```
 
 
-```{r}
+```{r echo=FALSE}
 
 theme <- 
   theme_bw() +
@@ -119,7 +119,7 @@ theme_set(theme)
 ```
 
 
-```{r}
+```{r echo=FALSE}
 #DO
 DO_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Dissolved Oxygen`, color = Station.Name)) +
   geom_point() +
@@ -164,7 +164,6 @@ FC_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Fecal 
   scale_y_log10()+
   labs(y = "Fecal Coliform (cfu/100mL)", x = "Date") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
-  theme_bw()
 show(FC_Year.Plot)
 
 #Temperature
@@ -172,7 +171,6 @@ Temp_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = Tempe
   geom_point() +
   geom_line() +
   facet_grid(rows = vars(Year)) +
-  geom_smooth(method = "lm", se = FALSE) +
   geom_hline(yintercept = 32, lty = 2) +
   geom_text(x = 12, y = 30.5, aes(label = "Upper Limit"), hjust = 1) +
   scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
@@ -187,7 +185,6 @@ TP_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Total 
   geom_point() +
   geom_line() +
   facet_grid(rows = vars(Year)) +
-  geom_smooth(method = "lm", se = FALSE) +
   scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
   labs(y = "Total Phosphorus (mg/L)", x = "Date") +
@@ -222,30 +219,33 @@ Turbidity_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = 
 show(Turbidity_Year.Plot)
 ```
 
-Summarize Results 
-DO: The data for Dissolved Oxygen has a simlar trend across stations and across years. The smoothed plot line shows that Dissolved Oxygen was overall slightly higher in 2019 than in 2020.
+As part of the exploratory analysis, each water quality parameter from the monitoring data at the Eno River Stations was visualized by year for 2019 and 2020. The following section includes the plots and descriptions of the visualized water quality data by year. 
 
-Fecal Coliform: The fecal coliform has no discernible trend in both the 2019 and 2020 grpahs. However, the smoothed line shows an overall decrease in Fecal Coliform concentration acrosss the year for 2019. However, the 2020 data shows an overall increase in Fecal Coliform across the year. The max values in 2020 are much higher, > 10,000, than in 2019, < 10,000.
+DO: The data for Dissolved Oxygen has a similar trend across stations and across years. The smoothed plot line shows that Dissolved Oxygen was overall slightly higher in 2019 than in 2020.
 
-Temperature: The temperature data across stations and years showsa similar pattern of max temperatures occuring in the late summer months. There is no significant difference in temperature between 2019 and 2020.
+pH: The smoothed trend line for pH is similar across stations and from 2019 to 2020. However, the maximum pH during the Summer peak is high in 2019, ~ 7.5, than in 2020, 7. The pH data for both years shows that the pH in the Eno River is within in the range permissible by North Carolina Water Quality Parameters of 6-9.
 
-TP: Total phoshorus has no discenible pattern in the 2019 or 2020 plots. The concentration increases across the year in 2020 and decreases in 2020 based on the smoothed graph. Overall, concentrations seem relatively comparable besides a greater max value in the 2019 data.
+Fecal Coliform: The Fecal Coliform has no discernible seasonal trend in both the 2019 and 2020 graphs. Most of the measurements for both years fall between 100 and 10,000. However, the maximum Fecal Coliform concentrations in 2020 are much higher than 2019. The maximum measured concentration in 2019 was approximately 5,000 and the maximum measured concentration in 2020 was around 35,000.
 
-TSS: The TSS shows very different patterns across 2019 and 2020. There is a peas in Sring of 2019 and late Summer in 2020. The smoothed line shows that overall greater concentrations of TSS were observed in 2020.
+Temperature: The temperature data across stations and years shows a similar pattern of max temperatures occurring in the late summer months. There appears to be no significant difference in temperature between 2019 and 2020.
 
-Turb: The plots of Turbidity show very different trends across 2019 and 2020. There is a peak in the Spring of 2019 and the late Summer of 2020. The overall concentrations of Turbidity are greater in 2020.
+TP: Total phosphorus has no discernible pattern in the 2019 or 2020 plots. Overall, concentrations seem relatively comparable besides a greater maximum measured value in the 2019 data.
+
+TSS: The TSS shows very different patterns across 2019 and 2020. There are peaks in concentration in the Spring of 2019 and the late Summer in 2020. Based on the plots, there appears to be greater TSS measured in 2020 than 2019.
+
+Turbidity: The plots of turbidity show very different trends across 2019 and 2020. Similar to TSS, there is a peak in the Spring of 2019 and the late Summer of 2020. Based on the plots, the concentrations of Turbidity seem to be higher in 2020.
 
 
-```{r}
+```{r echo=FALSE}
 #pH Significance 
-aov <- aov(Eno_River_parameters_stations$pH ~ Eno_River_parameters_stations$Year)
-summary(aov)
+pH.regression <- lm(Eno_River_parameters_stations$pH ~ Eno_River_parameters_stations$Year)
+summary(pH.regression)
+
 ```
+Based on the graphs in the exploratory analysis the pH readings appear to be similar in 2019 and 2020. This was confirmed by performing a linear regression which concluded that the difference in pH from 2019 to 2020 is not statistically significant.
 
-pH: The smoothed line for pH is similar across stations and from 2019 to 2020. However, the maximum pH during the Summer peak is high in 2019, ~ 7.5, than in 2020, 7. The pH data for both years shows that the pH in the Eno River is within in the normal range of 6.5-8.5. Based on the ANOVA analysis, there is no statistically significant difference in pH values from 2019 to 2020.
 
-
-```{r}
+```{r echo=FALSE}
 #Metals 
 Metals_Year.Plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Zinc", "Copper")),aes(x = Month, y = Final_Value, color = Parameter, shape = Station.Name)) +
   geom_point() +
@@ -256,18 +256,22 @@ Metals_Year.Plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Z
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   theme_bw()
 show(Metals_Year.Plot)
+```
 
+Metals: Comparing the concentrations of Copper The Zinc concentrations are much higher in 2019 than in 2020. This is expected based on the North Carolina Water Quality Standards for each pollutant. Copper has an upper concentration limit of 7 ug/L and Zinc has an upper limit of 50 ug/L. Based on the plots, the Copper concentrations in Eno River appear consistent between 2019 and 2020. However, the plot shows a significant decrease in Zinc concentrations between 2019 and 2020.
+
+```{r echo=FALSE}
 ##ANOVA for metals
-Zinc_anova <- aov(Eno_River_parameters_split$Zinc ~ Eno_River_parameters_split$Year)
+Zinc_anova <- aov(Eno_River_parameters_stations$Zinc ~ Eno_River_parameters_stations$Year)
 summary(Zinc_anova)
  
-Copper_anova <- aov(Eno_River_parameters_split$Copper ~ Eno_River_parameters_split$Year)
+Copper_anova <- aov(Eno_River_parameters_stations$Copper ~ Eno_River_parameters_stations$Year)
 summary(Copper_anova)  
 ```
 
-Metals: Comparing the concentrations of Copper The Zinc concentrations are much higher in 2019 than in 2020. This is expected based on the North Carolina Water Quality Standards for each pollutant. Copper has an upper concentration limit of 7 ug/L and Zinc has an upper limit of 50 ug/L. The Copper concentrations in Eno River are consistent between 2019 and 2020. However, there is a significant decrease in Zinc concentrations between 2019 and 2020. To determine whether the change in Zinc is statistically significant, an ANOVA test was performed and found statistically significant with a p-value < 0.01.    
+Metals: To determine whether there is a statistically significant change in Copper and Zinc concentrations from 2019 to 2020. A linear regression was performed for 2019 and 2020 Copper and Zinc data. Based on the p-value, the change in Copper from 2019 to 2020 was found not to be statistically significant. However, the difference in Zinc concentrations from 2019 to 2020 was determined to be statistically significant with a p-value < 0.01.    
 
-```{r}
+```{r echo=FALSE}
 #Temp and Sky condition
 Temp_Sky.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
@@ -290,12 +294,12 @@ Temp_Sky_ts.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Temp
 show(Temp_Sky_ts.plot)
 ```
 
-There is not significant difference in measured temperature based on the observed Sky Condition. The variation across the various Sky Conditions is not consistent across the different monitoring stations. However, there is a noticeable difference in temperature across stations which may give information about the monitoring location.
+Based on the boxplots, there does not appear to be significant difference in measured temperature based on the observed Sky Condition. The variation across the various Sky Conditions is not consistent across the different monitoring stations. However, there is a noticeable difference in temperature across stations which may give information about the monitoring location.
 
 Across the year, the there is not a noticeable trend between the Sky Condition and the temperature. The temperature seems to be more seasonally affected than by the Sky Condition. Finer scale data, such as daily or hourly measurements would likely be needed in order to determine the impact of Sky Condition on Temperature. 
 
 
-```{r}
+```{r echo=FALSE}
 #turbidity and Recent Rain
 Turbidity_Rain.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
@@ -306,11 +310,17 @@ Turbidity_Rain.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "T
   facet_wrap(~Year, nrow = 2)
 show(Turbidity_Rain.plot)
 
+Rain.plot <- ggplot(subset(Eno_River_parameters_clean,Parameter == "Turbidity"), aes(x = Year, y = Final_Value, fill = Rain.in.Last.24.Hours)) +
+  geom_bar(width = 1, stat = "identity")
+show(Rain.plot)
+```
+There is a noticeable difference in the turbidity concentrations and occurrence of rain within 24 hours This trend is less noticeable in the 2019, but the 2020 data shows a clear disparity between recent rain and the turbidity readings.
 
+```{r echo=FALSE}
 ##ANOVA
 
 #comparing turbidity and rain in last 24 hours for 2019 (all sites combined, combined sites because we have different numnber of sites between 2019 and 2020 so want to make the comparison similar)
-d.2019 <- Eno_River_parameters_split %>%
+d.2019 <- Eno_River_parameters_stations %>%
   filter(Year == 2019)
 
 aov <- aov(d.2019$Turbidity ~ d.2019$Rain.in.Last.24.Hours)
@@ -325,14 +335,13 @@ summary(aov)
 
 
 #compare turbidity between 2019 and 2020 
-aov <- aov(Eno_River_parameters_split$Turbidity ~ Eno_River_parameters_split$Year)
+aov <- aov(Eno_River_parameters_stations$Turbidity ~ Eno_River_parameters_stations$Year)
 summary(aov)
-TukeyHSD(aov)
 ```
 
-There is noticeable difference in the Turbidity and recent rain. This trend is less noticeable in the 2019, but the 2020 data shows a clear disparity between recent rain and the turbidity readings. There are almost four times the observation in 2020 than 2019 which may have impacted the ANOVA results for 2019 since there were only 10 observations. 
+Further analysis shows that the difference in Turbidity from rain within the last 24 hours was only statistically significant in 2020, with a p-value < 0.01. There are almost four times more observations in 2020 than 2019 which may have impacted the ANOVA results for 2019 since there were only 10 observations. Additionally, an ANOVA of the Turbidity across years, showed that the difference in values from 2019 to 2020 was not statistically significant. 
 
-```{r}
+```{r echo=FALSE}
 #TSS & Turbidity
 Turbidity_TSS.plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Turbidity", "Total Suspended Solids")), aes(x = Month, y = Final_Value, color = Parameter, shape= Station.Name)) +
   geom_point() +
@@ -345,15 +354,15 @@ Turbidity_TSS.plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c(
 show(Turbidity_TSS.plot)
 
 #TSS and Turbidity Linear Reg
-TSS.regression <- aov(Eno_River_parameters_stations$`Total Suspended Solids`~Eno_River_parameters_stations$Turbidity)
+TSS.regression <- lm(Eno_River_parameters_stations$`Total Suspended Solids`~Eno_River_parameters_stations$Turbidity)
 summary(TSS.regression)
 
 ```
 
-The plot shows that TSS and Turbidity readings are closely linked and follow the same trend across stations and across years. These parameters have similar peaks. There is some variation across stations, but the pattern remains the same across. The results of the ANOVA show that the difference between turbidity and TSS is statistically significant.
+The plot shows that TSS and Turbidity readings are closely linked and follow the same trend across stations and across years. These parameters have similar peaks. There is some variation across stations, but the pattern remains the same across. The results of the ANOVA show that the difference between turbidity and TSS is not statistically significant. Additionally, the r-squared value tells us that 97% of the variance in Total Suspended Solids can be explained by variance in Turbidity.
 
 
-```{r}
+```{r echo=FALSE}
 # Temp & DO 
 Temp_DO.plot <- ggplot(Eno_River_parameters_stations, aes(x = Temperature, y = `Dissolved Oxygen`, color = Station.Name)) +
   geom_point() +
@@ -384,22 +393,24 @@ There is a clear relationship with Temperature and DO. The DO decreases linearly
 ##FC & Temp
 For the 2019 data there is not a clear relationship between Fecal Coliform concentration and temperature. However, in 2020 there is a peak in the Fecal Coliform concentration at the higher temperatures. It can not be concluded that there is a relationship between these parameters, but further investigation should occur. 
 
-```{r}
+```{r echo=FALSE}
 #Temp and DO linear regression
 DO.regression <- lm(Eno_River_parameters_stations$`Dissolved Oxygen`~Eno_River_parameters_stations$Temperature)
 summary(DO.regression)
 
-#DO Correlation Test
-cor.test(Eno_River_parameters_stations$`Dissolved Oxygen`,Eno_River_parameters_stations$Temperature)
+#DO Yearly
+DO_Year.regression <- lm(Eno_River_parameters_stations$`Dissolved Oxygen`~Eno_River_parameters_stations$Year)
+summary(DO_Year.regression)
 
 #Temp and Fecal Coliform linear regression
 FC.regression <- lm(log(Eno_River_parameters_stations$`Fecal Coliform`)~Eno_River_parameters_stations$Temperature)
 summary(FC.regression)
 
 #FecalColiform Correlation Test
-cor.test(Eno_River_parameters_stations$`Fecal Coliform`,Eno_River_parameters_stations$Temperature)
+FC_Year.regression <- lm(log(Eno_River_parameters_stations$`Fecal Coliform`)~Eno_River_parameters_stations$Year)
+summary(FC_Year.regression)
 
 ```
-Based on the linear regression performed on temperature and Dissolved Oxygen there is significant negative correlation between temperature and Dissolved Oxygen concentrations. The correlation is nearly negative 1 describing the relationship of increased temperature on Dissolved Oxygen concentrations. Additionally, the r-squared value is nearly 0.85 which means that 85% of the variance in Dissolved Oxygen can be accounted for by temperature.
+Based on the linear regression performed on temperature and Dissolved Oxygen there is significant negative correlation between temperature and Dissolved Oxygen concentrations. The correlation is nearly negative 1 describing the relationship of increased temperature on Dissolved Oxygen concentrations. Additionally, the r-squared value is nearly 0.85 which means that 85% of the variance in Dissolved Oxygen can be accounted for by temperature. However, there was no statistical difference in Dissolved Oxygen from 2019 to 2020. 
 
-However, the variance in Fecal Coliform cannot be explained by temperature. The correlation is only 0.53 and the p-value shows that there is not a statistically significant relationship between these parameters.  
+However, the variance in Fecal Coliform cannot be explained by temperature. The r-squared value is very low, 0.13, which shows that there is not a statistically significant relationship between these parameters. Additionally, there is not a statistically significant difference between 2019 and 2020 value of Fecal Coliform.  
