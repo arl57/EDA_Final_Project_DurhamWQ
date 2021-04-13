@@ -143,22 +143,22 @@ included.
 \item
   What are the water quality trends between 2019 and 2020 for Ellerbe
   Creek and Eno River?
-\end{enumerate}
 
-\begin{enumerate}
-\def\labelenumi{\alph{enumi}.}
-\tightlist
-\item
-  Has water quality changed between 2019 and 2020 for Ellerbe Creek
-  and/or Eno River based on the various water quality parameters?
-\item
-  Are there differences between sites for each stream?
-\item
-  Have certain water quality parameters changed while others have not?
-\item
-  Discussion point: Certain studies have shown that surface water
-  quality improved in 2020 due to the pandemic. Do we observe the same
-  trend?
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Has water quality changed between 2019 and 2020 for Ellerbe Creek
+    and/or Eno River based on the various water quality parameters?
+  \item
+    Are there differences between sites for each stream?
+  \item
+    Have certain water quality parameters changed while others have not?
+  \item
+    Discussion point: Certain studies have shown that surface water
+    quality improved in 2020 due to the pandemic. Do we observe the same
+    trend?
+  \end{enumerate}
 \end{enumerate}
 
 \newpage
@@ -169,52 +169,177 @@ included.
 The data was collected from the City of Durham's water quality data web
 portal. The portal includes data collected by the City's Stormwater
 Services as part of the Water Quality Monitoring and Assessment Program.
-The program includes ambient stream monitoring to assess compliance with
+The program performs ambient stream monitoring to assess compliance with
 regulatory benchmarks, assess surface water impairment, identify sources
 for illicit discharge, and support watershed planning. The monitoring
 data includes information regarding the monitoring location, conditions,
-weather, and measurements. The nine parameters that were chosen for
-analysis had monthly measurements for 2019 and 2020 at the two streams
-of interest. The parameters of interest include Copper, Dissolved
-Oxygen, Fecal Coliform, pH, Total Phosphorus, Total Suspended Solids,
-Temperature, Turbidity, and Zinc. To extract relevant data from the
-portal the stream, water quality parameters, and dates of interest were
-selected for the user interface and downloaded as a CSV file.
+weather, and measurements. Nine parameters were chosen for analysis
+because of their monthly measurement frequency for 2019 and 2020 at the
+two streams of interest. The parameters of interest include Copper,
+Dissolved Oxygen, Fecal Coliform, pH, Total Phosphorus, Total Suspended
+Solids, Temperature, Turbidity, and Zinc. To extract relevant data from
+the portal the stream, water quality parameters, and dates of interest
+were selected for the user interface and downloaded to CSV files.
 
 Once datasets for each of the parameters were downloaded, they were read
 into R and compiled into a single dataframe. First, a subset of the
 dataframe was created to keep only relevant columns for analysis. Next,
 the date column to read as a date to enable plotting and time series
 analysis. To address duplicate measurements, measurements for the same
-parameter, with the same date, monitoring location, and weather were
-averaged. Then, the parameters measurements were pivoted to include a
-column for each of the nine parameters. To map the locations of each of
-the monitoring stations, the water quality data was joined with station
-coordinates included in a separate station dataset.
+parameter, with the same date and monitoring location were averaged.
+Then, the parameters measurements were pivoted to include a column for
+each of the nine parameters. To map the locations of each of the
+monitoring stations, the water quality dataframe was joined with station
+coordinates.
 
 \begin{longtable}[]{@{}llll@{}}
 \toprule
-Water Quality Parameters & Unit & Range & Data Source\tabularnewline
+\begin{minipage}[b]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Water Quality Parameters\strut
+\end{minipage} &
+\begin{minipage}[b]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+Unit\strut
+\end{minipage} &
+\begin{minipage}[b]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+Range\strut
+\end{minipage} &
+\begin{minipage}[b]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Data Source\strut
+\end{minipage}\tabularnewline
 \midrule
 \endhead
-Copper & ug/L & 1.1-4.135 & Durham Water Quality Web
-Portal\tabularnewline
-Dissolved Oxygen & mg/L & 4.7-12.1 & Durham Water Quality Web
-Portal\tabularnewline
-Fecal Coliform & ug/L & 17.5-36000 & Durham Water Quality Web
-Portal\tabularnewline
-pH & Standard Units & 6.1-7.5 & Durham Water Quality Web
-Portal\tabularnewline
-Total Phosphorus & mg/L & 0.003 - 0.38 & Durham Water Quality Web
-Portal\tabularnewline
-Total Suspended Solids & mg/L & 2.5-134 & Durham Water Quality Web
-Portal\tabularnewline
-Temperature & C & 5.7-29.6 & Durham Water Quality Web
-Portal\tabularnewline
-Turbidity & NTU & 2.3-150 & Durham Water Quality Web
-Portal\tabularnewline
-Zinc & ug/L & 0.975-19.2 & Durham Water Quality Web
-Portal\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Copper\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+ug/L\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+1.1-4.135\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Dissolved Oxygen\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+mg/L\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+4.7-12.1\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Fecal Coliform\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+cfu/100mL\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+17.5-36000\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+pH\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+Standard Units\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+6.1-7.5\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Total Phosphorus\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+mg/L\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+0.003 - 0.38\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Total Suspended Solids\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+mg/L\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+2.5-134\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Temperature\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+C\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+5.7-29.6\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Turbidity\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+NTU\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+2.3-150\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Zinc\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+ug/L\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+0.975-19.2\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Rain in the last 24 Hours\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+NA\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+Yes/No\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.49}}\raggedright
+Sky Condition\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.12}}\raggedright
+NA\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.14}}\raggedright
+Sunny, Partly Cloudy, Overcast\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 3\tabcolsep) * \real{0.25}}\raggedright
+Durham Water Quality Web Portal\strut
+\end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
 
@@ -223,10 +348,97 @@ Portal\tabularnewline
 \hypertarget{exploratory-analysis}{%
 \section{Exploratory Analysis}\label{exploratory-analysis}}
 
+As part of the exploratory analysis, water quality data was compiled for
+the nine parameters for both the Eno River and Ellerbe Creek. The
+following sections describe the exploratory analysis completed for each
+waterway.
+
+\hypertarget{eno-river}{%
+\section{\#\# Eno River}\label{eno-river}}
+
+Both Ellerbe Creek and Eno River have three monitoring stations in
+Durham. Sites EN13.3ER, EN8.9ER, and EN4.9ER for Eno River all had data
+for 2019, but only \textbf{\emph{(insert sites)}} had data for 2020. For
+Ellerbe Creek, sites EL1.9EC, EL5.6EC, and EL7.1EC had data for 2019,
+but only EL1.9EC and EL7.1EC had data for 2020.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{SiteMap} 
+
+}
+
+\caption{Site Map of Ellerbe Creek and Eno River Monitoring Stations}\label{fig:unnamed-chunk-1}
+\end{figure}
+
+\hypertarget{ellerbe-creek}{%
+\subsection{Ellerbe Creek}\label{ellerbe-creek}}
+
+Visual explorations of the nine water quality parameters for Ellerbe
+Creek were conducted to determine how these parameters changed between
+2019 and 2020. First, because we are not able to visit the sites, we
+wanted to determine what the main site characteristics may be. One main
+exploration was the relationship between temperature and cloud cover,
+hypothesizing that if temperature is fluctuating with changes in cloud
+cover (e.g., temperatures increase on sunny days), this could indicated
+minimal riparian vegetation. Minimal riparian vegetation has impacts on
+water quality such as increased sedimentation, temperature, and runoff
+contamination. At Ellerbe Creek, for all stations, it was observed that
+temperature does not appear to change directly in response to cloud
+cover (Figure 1). Do make any definitive determinations about this
+relationship, we would need more finite data than just one sample day
+per month.
+
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+We were also interested in the relationship between turbidity and rain,
+as an indicator of erosion and to what degree the Ellerbe Creek sites
+may be influenced by storm events. Visual comparisons show that there
+appears to be an increase in turbidity after rain events, especially in
+2020 (Figure 2). Figure 2 also reveals that there may be an increase in
+turbidity between 2019 and 2020.
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-5-1.pdf}
+
+After completing site explorations, we wanted to look specifically at
+water quality parameters between 2019 and 2020.
+
+\textbf{\emph{ADD individual figures}}
+
+\hypertarget{eno-river-1}{%
+\subsection{Eno River}\label{eno-river-1}}
+
+\hypertarget{ellerbe-creek-1}{%
+\subsection{Ellerbe Creek}\label{ellerbe-creek-1}}
+
 \newpage
 
 \hypertarget{analysis}{%
 \section{Analysis}\label{analysis}}
+
+\hypertarget{zinc-copper}{%
+\subsection{Zinc \& Copper}\label{zinc-copper}}
+
+\hypertarget{ph}{%
+\subsection{pH}\label{ph}}
+
+\hypertarget{turbidity-and-recent-rainfall}{%
+\subsection{Turbidity and Recent
+Rainfall}\label{turbidity-and-recent-rainfall}}
+
+\hypertarget{tss-and-turbidity}{%
+\subsection{TSS and Turbidity}\label{tss-and-turbidity}}
+
+Correlated parameters.
+
+\hypertarget{temperature-and-dissolved-oxygen}{%
+\subsection{Temperature and Dissolved
+Oxygen}\label{temperature-and-dissolved-oxygen}}
+
+Discuss impact of Temperature on DO. Similar Temp from 2019-2020.
+
+\hypertarget{temperature-and-fecal-coliform}{%
+\subsection{Temperature and Fecal
+Coliform}\label{temperature-and-fecal-coliform}}
 
 \hypertarget{question-1-insert-specific-question-here-and-add-additional-subsections-for-additional-questions-below-if-needed}{%
 \subsection{Question 1: \textless insert specific question here and add

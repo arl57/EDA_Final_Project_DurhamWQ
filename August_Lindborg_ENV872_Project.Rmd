@@ -26,6 +26,8 @@ mainfont: Times New Roman
 # Load your packages
 library(tidyverse)
 library(lubridate)
+library(knitr)
+library(mapview)
 # Set your ggplot theme
 theme <- 
   theme_bw() +
@@ -87,10 +89,15 @@ Sky Condition | NA | Sunny, Partly Cloudy, Overcast | Durham Water Quality Web P
 # Exploratory Analysis 
 As part of the exploratory analysis, water quality data was compiled for the nine parameters for both the Eno River and Ellerbe Creek. The following sections describe the exploratory analysis completed for each waterway. 
 
-<<<<<<< HEAD
+
 ## Eno River
 =======
 Both Ellerbe Creek and Eno River have three monitoring stations in Durham. Sites EN13.3ER, EN8.9ER, and EN4.9ER for Eno River all had data for 2019, but only ___(insert sites)___ had data for 2020. For Ellerbe Creek, sites EL1.9EC, EL5.6EC, and EL7.1EC had data for 2019, but only EL1.9EC and EL7.1EC had data for 2020. 
+
+```{r, echo = FALSE, fig.align = 'center', out.width = "100%", fig.cap = "Site Map of Ellerbe Creek and Eno River Monitoring Stations"}
+knitr::include_graphics("SiteMap.png")
+```
+
 
 ```{r, include = FALSE, message = FALSE}
 getwd()
@@ -112,13 +119,14 @@ site.info.sub <- site.info %>%
 site.sf <- site.info.sub %>%
   st_as_sf(coords = c('Longitude','Latitude'), crs=4269)
 
-mapview(site.sf,
-        zcol = "Stream.Name") %>%
-  addStaticLabels(label = site.sf$Name,
-                  noHide = TRUE,
-                  direction = 'right',
-                  textOnly = TRUE,
-                  textsize = "10px")
+#mapview(site.sf,
+ #       zcol = "Stream.Name") %>%
+  #addStaticLabels(label = site.sf$Name,
+   #               noHide = TRUE,
+    #              direction = 'right',
+     #             textOnly = TRUE,
+      #            textsize = "10px")
+
 ```
 ## Ellerbe Creek
 
@@ -134,7 +142,7 @@ ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Sky.Conditio
 ```
 
 We were also interested in the relationship between turbidity and rain, as an indicator of erosion and to what degree the Ellerbe Creek sites may be influenced by storm events. Visual comparisons show that there appears to be an increase in turbidity after rain events, especially in 2020 (Figure 2). Figure 2 also reveals that there may be an increase in turbidity between 2019 and 2020. 
-```{r}
+```{r echo=FALSE}
 ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
    scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
@@ -147,7 +155,6 @@ After completing site explorations, we wanted to look specifically at water qual
 
 ___ADD individual figures___
 
->>>>>>> 72258e58a86196224ca97a6a43417cd2b6e024d0
 
 ## Eno River
 
