@@ -132,7 +132,7 @@ site.sf <- site.info.sub %>%
 
 Visual explorations of the nine water quality parameters for Ellerbe Creek were conducted to determine how these parameters changed between 2019 and 2020. First, because we are not able to visit the sites, we wanted to determine what the main site characteristics may be. One main exploration was the relationship between temperature and cloud cover, hypothesizing that if temperature is fluctuating with changes in cloud cover (e.g., temperatures increase on sunny days), this could indicated minimal riparian vegetation. Minimal riparian vegetation has impacts on water quality such as increased sedimentation, temperature, and runoff contamination. At Ellerbe Creek, for all stations, it was observed that temperature does not appear to change directly in response to cloud cover (Figure 1). Do make any definitive determinations about this relationship, we would need more finite data than just one sample day per month. 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, fig.cap = "Figure 1. Relationship between temperature and sky condition on sample day for 2019 and 2020."}
 ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
   scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
@@ -142,10 +142,11 @@ ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Sky.Conditio
 ```
 
 We were also interested in the relationship between turbidity and rain, as an indicator of erosion and to what degree the Ellerbe Creek sites may be influenced by storm events. Visual comparisons show that there appears to be an increase in turbidity after rain events, especially in 2020 (Figure 2). Figure 2 also reveals that there may be an increase in turbidity between 2019 and 2020. 
-```{r echo=FALSE}
+```{r echo=FALSE, fig.cap = "Figure 2. Turbidity concentrations for rain versus no rain in the last 24 hours for 2019 and 2020. Points represent samples within each group."}
 ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
-   scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  geom_point(position = position_jitterdodge(jitter.width = 0.05), alpha = 0.7) +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   facet_wrap(~Year, nrow=1, scales = "free") +
   labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
   theme

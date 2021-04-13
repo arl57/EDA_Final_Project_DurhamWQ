@@ -77,59 +77,58 @@ theme <-
 theme_set(theme)
 ```
 
-Visualizing changes in all parameters over time
 
-DO: There are no distinguishable trends over time and do not appear to be differences between the two sites. Looks like there may be seasonality, we could use seasonal Mann Kendall to explore further
 
-pH: Looks like there may be a downward trend from 2019 to 2020. Run lm stats on this. 
-
-Fecal Coliform: Relatively low with spikes at both stations in August of both years. Could be indicative of seasonal variations in natural E. coli (or other bacteria)? I am not sure what they culture for in this study. Seems unlikely this is gross wastewater effluent contamination since it is seasonal. 
-
-Temperature: Temp measurements are sporadic (there are gaps in data) and temp is seasonal (obviously). Summer and winter temps appear similar for 2019 and 2020, but hard to tell beccause of data gaps. Could do some extrapolation?
-
-TP: Could be a slight increase over time, site 1.9 also has higher spikes. Appears to be some seasonality but difficult to tell
-
-TSS: Again, could be slight increase over time and site 1.9 has spike fall
-
-turbidity: Appears similar to TSS
-```{r}
-
-#DO
+For dissolved oxygen, there were no distinguishable trends over time and did not appear to be differences between the sample sites for Ellerbe Creek (Figure 3). 
+```{r, echo = FALSE, fig.cap= "Figure 3. Dissolved oxygen concentrations in 2019 and 2020 for Ellerbe Creek stations. Black dotted line represents the lower limit water quality standard for dissvoled oxygen."}
 ggplot(ellerbe.wide, aes(x = Month, y = `Dissolved Oxygen`, color = Station.Name)) +
   geom_point() +
   geom_line() +
   geom_smooth(method = "lm", se = FALSE) +
+  geom_hline(yintercept = 4, lty = 2) +
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
   labs(y = "Dissolved Oxygen (mg/L)", x = "Month") +
   facet_wrap(~Year, nrow=2) +
   theme 
+```
 
-#pH
+There appeared to be downward trend in pH, particularly throughout the year for 2020 (Figure 4), which warranted further investigation of this parameter in the Analysis section.
+```{r, echo = FALSE, fig.cap= "Figure 4. pH in 2019 and 2020 for Ellerbe Creek stations. Black dotted line represents the lower limit and red dotted line represents the upper limit water quality standard for pH."}
 ggplot(ellerbe.wide, aes(x = Month, y = pH, color = Station.Name)) +
   geom_point() +
   geom_line() +
   geom_smooth(method = "lm", se = FALSE) +
+  geom_hline(yintercept = 6, lty = 2) +
+  geom_hline(yintercept = 9, lty = 2, color = "red") +
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
   facet_wrap(~Year, nrow=2) +
   labs(y = "pH", x = "Month") +
   theme
+```
 
-#Fecal Coliform
+Fecal coliform was near the upper water quality limit for both years, with spikes at both stations in August of both years greatly exceeding the upper water quality limit of 400 cfu/100mL. There did not appear to be a difference between the two years (Figure 5). Although we cannot provide further analysis for the observed peaks, they could be indicative of specific inputs to the creek around the same time each year. 
+
+```{r, echo = FALSE, fig.cap= "Figure 5. Fecal coliform in 2019 and 2020 for Ellerbe Creek stations. Red dotted line represents the upper limit water quality standard for fecal coliform."}
 ggplot(ellerbe.wide, aes(x = Month, y = `Fecal Coliform`, color = Station.Name)) +
   geom_point() +
   geom_line() +
+  geom_hline(yintercept = 400, lty = 2, color = "red") +
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
   facet_wrap(~Year, nrow=2) +
   labs(y = "Fecal Coliform (cfu/100mL)", x = "Month") +
   theme 
+```
 
-#Temp
+Temperature was sporadic, which was expected based on seasonal variations in ambient air temperature. Temperature fluctuations appeared similar between both years and did not exceed maximum temperature thresholds based on current water quality standards for streams of 32 degrees Celcius (Figure 6).
+
+```{r, echo = FALSE, fig.cap= "Figure 6. Temperature in 2019 and 2020 for Ellerbe Creek stations. Red dotted line represents the upper limit water quality standard for temperature."}
 ggplot(ellerbe.wide, aes(x = Month, y = Temperature, color = Station.Name)) +
   geom_point() +
   geom_line() +
+  geom_hline(yintercept = 32, lty = 2, color = "red") +
   geom_smooth(method = "lm", se = FALSE) +
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
@@ -137,7 +136,10 @@ ggplot(ellerbe.wide, aes(x = Month, y = Temperature, color = Station.Name)) +
   labs(y = "Temperature (Celcius)", x = "Month") +
   theme 
 
-#TP
+```  
+Total phosphorus appeared to increase throughout the year for both 2019 and 2020, but there did not appear to be an overall change in total phosphorus between 2019 and 2020 (Figure 7). This is likely seasonal due to temperature fluctuations and changing inputs throughout the year, however there were not a sufficient number of data points to conduct seasonal analyses. 
+
+```{r, echo = FALSE, fig.cap= "Figure 7. Total phosphorus concentrations in 2019 and 2020 for Ellerbe Creek stations."}
 ggplot(ellerbe.wide, aes(x = Month, y = `Total Phosphorus`, color = Station.Name)) +
   geom_point() +
   geom_line() +
@@ -147,8 +149,9 @@ ggplot(ellerbe.wide, aes(x = Month, y = `Total Phosphorus`, color = Station.Name
   facet_wrap(~Year, nrow=2) +
   labs(y = "Total Phosphorus (mg/L)", x = "Month") +
   theme
-
-#TSS
+```
+Total suspended solids appeare to increase between 2019 and 2020, with drastic spikes in concentrations during the late summer/early fall in 2020 for both sites that were not observed in 2019, when only a small spike was observed (Figure 8). We were not able to provide further analysis for why this peak was observed, but it could be due to input changes around that time of year in 2020 compared to 2019.Further analysis was conducted on the differences in TSS between 2019 and 2020 and is explained in the Analysis section.
+```{r, echo = FALSE, fig.cap= "Figure 8. Total suspended solids concentrations in 2019 and 2020 for Ellerbe Creek stations."}
 ggplot(ellerbe.wide, aes(x = Month, y = `Total Suspended Solids`, color = Station.Name)) +
   geom_point() +
   geom_line() +
@@ -157,17 +160,24 @@ ggplot(ellerbe.wide, aes(x = Month, y = `Total Suspended Solids`, color = Statio
   facet_wrap(~Year, nrow=2) +
   labs(y = "Total Suspended Solids (mg/L)", x = "Month") +
   theme 
-
-#turbidity
+```
+Turbidity showed the same relationship as TSS, with values in 2020 appearing higher than those in 2019 and drastic peaks observed in late summer/early fall. In 2019, values did not exceed the upper water quality limit for turbidity. In 2020, values did exceed the upper limit for site EL1.9EC in August and September and for site EL7.1EC in August (Figure 9).
+```{r, echo = FALSE, fig.cap= "Figure 9. Turbidity in 2019 and 2020 for Ellerbe Creek stations. Red dotted line represents the upper limit water quality standard for temperature."}
 ggplot(ellerbe.wide, aes(x = Month, y = `Turbidity`, color = Station.Name)) +
   geom_point() +
   geom_line() +
+  geom_hline(yintercept = 50, lty = 2, color = "red") +
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
   facet_wrap(~Year, nrow=2) +
   labs(y = "Turbidity (NTU)", x = "Month") +
   theme 
+
 ```
+
+
+ANALYSIS
+
 
 pH analysis shows that pH is significantly lower in 2020 compared to 2019. However, mean pH for both years is within what is considered the "normal" pH for streams (6.5-8.5). Downward trend is concerning though should continue to be monitored. 
 
@@ -229,7 +239,8 @@ Statistics show that for both 2019 and 2020 across all sites, turbidity is highe
 ```{r}
 ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
-   scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  geom_point(position = position_jitterdodge(jitter.width = 0.05), alpha = 0.7) +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   facet_wrap(~Year, nrow=1, scales = "free") +
   labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
   theme
