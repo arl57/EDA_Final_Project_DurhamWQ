@@ -19,6 +19,7 @@ library(tidyverse)
 library(sf)
 library(mapview)
 library(leaflet)
+library(leafem)
 
 site.info <- read.csv("./Data/Raw/durham_station.csv")
 ```
