@@ -70,13 +70,26 @@ Sky Condition | NA | Sunny, Partly Cloudy, Overcast | Durham Water Quality Web P
 \newpage
 
 # Exploratory Analysis 
+As part of the exploratory analysis, water quality data was compiled for the nine parameters for both the Eno River and Ellerbe Creek. The following sections describe the exploratory analysis completed for each waterway. 
+
+## Eno River
 
 
+## Ellerbe Creek
 
 \newpage
 
 # Analysis
 
+## Zinc Yearly Comparison
+
+## Turbidity and Recent Rainfall
+
+## TSS and Turbidity
+
+## Temperature and Dissolved Oxygen
+
+## Temperature and Fecal Coliform
 
 
 ## Question 1: <insert specific question here and add additional subsections for additional questions below, if needed>
