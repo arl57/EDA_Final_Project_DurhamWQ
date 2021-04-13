@@ -59,7 +59,7 @@ Eno_River_TSS_TP <- rbind(Eno_River_TP,Eno_River_TSS)
 colnames(Eno_River_TSS_TP) <- c("Stream.Name","Station.Name",colNames[3:4],"Date.Time",colNames[6],"QA.Code",colNames[8:10],"Rain.in.Last.24.Hours","Sky.Condition",colNames[13:17])
 Eno_River_TSS_TP<- Eno_River_TSS_TP %>%
   separate(Date.Time, into = c("Date", "Time"), sep = "\\s")
-Eno_River_TSS_TP$Date <- as.Date(Eno_River_TSS_TP$Date, format = "%m/%d/%Y")
+Eno_River_parameters_sub$Date <- as.Date(Eno_River_parameters_sub$Date, format = "%m/%d/%Y")
 
 #combine TSS and TP with rest
 Eno_River_parameters<- rbind(Eno_River_parameters_sub,Eno_River_TSS_TP)
