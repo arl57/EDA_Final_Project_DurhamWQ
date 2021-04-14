@@ -58,9 +58,7 @@ The main objective of our project was to understand current water quality trends
 
 1. What are the water quality trends between 2019 and 2020 for Ellerbe Creek and Eno River? 
     a. Has water quality changed between 2019 and 2020 for Ellerbe Creek and/or Eno River based on the various water quality parameters?
-    b. Are there differences between sites for each stream?
-    c. Have certain water quality parameters changed while others have not?
-    d. Discussion point: Certain studies have shown that surface water quality improved in 2020 due to the pandemic. Do we observe the same trend?
+    b. Have certain water quality parameters changed while others have not?
 
 \newpage
 
@@ -324,6 +322,11 @@ Discuss impact of Temperature on DO. Similar Temp from 2019-2020.
 
 # Summary and Conclusions
 
+- Water quality trends (In general, is water quality poor or good in the streams?). Are there site differences within stream, within year?
+
+- Did water quality change between 2019 and 2020? (which parameters changed specifically?). Certain studies have shown that surface water quality improved in 2020 due to the pandemic. Do we observe the same trend?
+
+- What is the relationship between Ellerbe Creek and Eno River? Does one appear to be healthier than the other? (Eno is likely healthier because it is farther outside Durham city limits)
 
 \newpage
 
