@@ -151,13 +151,7 @@ included.
     Has water quality changed between 2019 and 2020 for Ellerbe Creek
     and/or Eno River based on the various water quality parameters?
   \item
-    Are there differences between sites for each stream?
-  \item
     Have certain water quality parameters changed while others have not?
-  \item
-    Discussion point: Certain studies have shown that surface water
-    quality improved in 2020 due to the pandemic. Do we observe the same
-    trend?
   \end{enumerate}
 \end{enumerate}
 
@@ -353,9 +347,6 @@ the nine parameters for both the Eno River and Ellerbe Creek. The
 following sections describe the exploratory analysis completed for each
 waterway.
 
-\hypertarget{eno-river}{%
-\section{\#\# Eno River}\label{eno-river}}
-
 Both Ellerbe Creek and Eno River have three monitoring stations in
 Durham. Sites EN13.3ER, EN8.9ER, and EN4.9ER for Eno River all had data
 for 2019, but only \textbf{\emph{(insert sites)}} had data for 2020. For
@@ -364,12 +355,15 @@ but only EL1.9EC and EL7.1EC had data for 2020.
 
 \begin{figure}
 
-{\centering \includegraphics[width=1\linewidth]{SiteMap} 
+{\centering \includegraphics[width=1\linewidth]{Output/SiteMap} 
 
 }
 
 \caption{Site Map of Ellerbe Creek and Eno River Monitoring Stations}\label{fig:unnamed-chunk-1}
 \end{figure}
+
+\hypertarget{eno-river}{%
+\subsection{Eno River}\label{eno-river}}
 
 \hypertarget{ellerbe-creek}{%
 \subsection{Ellerbe Creek}\label{ellerbe-creek}}
@@ -385,11 +379,18 @@ minimal riparian vegetation. Minimal riparian vegetation has impacts on
 water quality such as increased sedimentation, temperature, and runoff
 contamination. At Ellerbe Creek, for all stations, it was observed that
 temperature does not appear to change directly in response to cloud
-cover (Figure 1). Do make any definitive determinations about this
+cover (Figure 1). To make any definitive determinations about this
 relationship, we would need more finite data than just one sample day
 per month.
 
-\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-4-1.pdf}
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-3-1.pdf}
+\caption{Relationship between temperature and sky condition on sample
+day for 2019 and 2020.}
+\end{figure}
+
+\newpage
 
 We were also interested in the relationship between turbidity and rain,
 as an indicator of erosion and to what degree the Ellerbe Creek sites
@@ -397,38 +398,226 @@ may be influenced by storm events. Visual comparisons show that there
 appears to be an increase in turbidity after rain events, especially in
 2020 (Figure 2). Figure 2 also reveals that there may be an increase in
 turbidity between 2019 and 2020.
-\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-5-1.pdf}
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-4-1.pdf}
+\caption{Turbidity concentrations for rain versus no rain in the last 24
+hours for 2019 and 2020. Points represent samples within each group.}
+\end{figure}
 
 After completing site explorations, we wanted to look specifically at
-water quality parameters between 2019 and 2020.
+water quality parameters between 2019 and 2020. For dissolved oxygen,
+there were no distinguishable trends over time and did not appear to be
+differences between the sample sites for Ellerbe Creek (Figure 3).
 
-\textbf{\emph{ADD individual figures}}
+\begin{verbatim}
+## Warning: Removed 10 rows containing non-finite values (stat_smooth).
+\end{verbatim}
 
-\hypertarget{eno-river-1}{%
-\subsection{Eno River}\label{eno-river-1}}
+\begin{verbatim}
+## Warning: Removed 10 rows containing missing values (geom_point).
+\end{verbatim}
 
-\hypertarget{ellerbe-creek-1}{%
-\subsection{Ellerbe Creek}\label{ellerbe-creek-1}}
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-5-1.pdf}
+\caption{Dissolved oxygen concentrations in 2019 and 2020 for Ellerbe
+Creek stations. Black dotted line represents the lower limit water
+quality standard for dissvoled oxygen.}
+\end{figure}
+
+There appeared to be downward trend in pH, particularly throughout the
+year for 2020 (Figure 4), which warranted further investigation of this
+parameter in the Analysis section.
+
+\begin{verbatim}
+## Warning: Removed 10 rows containing non-finite values (stat_smooth).
+\end{verbatim}
+
+\begin{verbatim}
+## Warning: Removed 10 rows containing missing values (geom_point).
+\end{verbatim}
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-6-1.pdf}
+\caption{pH in 2019 and 2020 for Ellerbe Creek stations. Black dotted
+line represents the lower limit and red dotted line represents the upper
+limit water quality standard for pH.}
+\end{figure}
+
+Fecal coliform was near the upper water quality limit for both years,
+with spikes at both stations in August of both years greatly exceeding
+the upper water quality limit of 400 cfu/100mL. There did not appear to
+be a difference between the two years (Figure 5). Although we cannot
+provide further analysis for the observed peaks, they could be
+indicative of specific inputs to the creek around the same time each
+year.
+
+\begin{verbatim}
+## Warning: Removed 10 rows containing missing values (geom_point).
+\end{verbatim}
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-7-1.pdf}
+\caption{Log-transformed fecal coliform in 2019 and 2020 for Ellerbe
+Creek stations. Red dotted line represents the upper limit water quality
+standard for fecal coliform.}
+\end{figure}
+
+Temperature was sporadic, which was expected based on seasonal
+variations in ambient air temperature. Temperature fluctuations appeared
+similar between both years and did not exceed maximum temperature
+thresholds based on current water quality standards for streams of 32
+degrees Celcius (Figure 6).
+
+\begin{verbatim}
+## Warning: Removed 10 rows containing missing values (geom_point).
+\end{verbatim}
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-8-1.pdf}
+\caption{Temperature in 2019 and 2020 for Ellerbe Creek stations. Red
+dotted line represents the upper limit water quality standard for
+temperature.}
+\end{figure}
+
+Total phosphorus appeared to increase throughout the year for both 2019
+and 2020, but there did not appear to be an overall change in total
+phosphorus between 2019 and 2020 (Figure 7). This is likely seasonal due
+to temperature fluctuations and changing inputs throughout the year,
+however there were not a sufficient number of data points to conduct
+seasonal analyses.
+
+\begin{verbatim}
+## Warning: Removed 10 rows containing missing values (geom_point).
+\end{verbatim}
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-9-1.pdf}
+\caption{Total phosphorus concentrations in 2019 and 2020 for Ellerbe
+Creek stations.}
+\end{figure}
+
+Total suspended solids appeare to increase between 2019 and 2020, with
+drastic spikes in concentrations during the late summer/early fall in
+2020 for both sites that were not observed in 2019, when only a small
+spike was observed (Figure 8). We were not able to provide further
+analysis for why this peak was observed, but it could be due to input
+changes around that time of year in 2020 compared to 2019.Further
+analysis was conducted on the differences in TSS between 2019 and 2020
+and is explained in the Analysis section.
+
+\begin{verbatim}
+## Warning: Removed 10 rows containing missing values (geom_point).
+\end{verbatim}
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-10-1.pdf}
+\caption{Total suspended solids concentrations in 2019 and 2020 for
+Ellerbe Creek stations.}
+\end{figure}
+
+Turbidity showed the same relationship as TSS, with values in 2020
+appearing higher than those in 2019 and drastic peaks observed in late
+summer/early fall. In 2019, values did not exceed the upper water
+quality limit for turbidity. In 2020, values did exceed the upper limit
+for site EL1.9EC in August and September and for site EL7.1EC in August
+(Figure 9).
+
+\begin{verbatim}
+## Warning: Removed 10 rows containing missing values (geom_point).
+\end{verbatim}
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-11-1.pdf}
+\caption{Turbidity in 2019 and 2020 for Ellerbe Creek stations. Red
+dotted line represents the upper limit water quality standard for
+temperature.}
+\end{figure}
+
+Metal concentrations in Ellerbe Creek were below the water quality
+standard for zinc and around or above the water quality standard for
+copper. Zinc concentrations appeared to decrease while copper remained
+consistent between 2019 and 2020 (Figure 10).
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-12-1.pdf}
+\caption{Zinc and coppper concentrations in 2019 and 2020 for Ellerbe
+Creek stations. Orange dotted line is the acute water quality standard
+for copper and grey dotted line is the acute water quality standard for
+Zinc in freshwater in North Carolina.}
+\end{figure}
 
 \newpage
 
 \hypertarget{analysis}{%
 \section{Analysis}\label{analysis}}
 
+\hypertarget{ph}{%
+\subsection{pH}\label{ph}}
+
+Exploratory analysis revealed that pH decreased slightly between 2019
+and 2020 for both Ellerbe Creek and Eno River stations. An ANOVA was
+conducted to determine the difference in pH between 2019 and 2020 across
+all sites for each stream.
+
+For Ellerbe Creek , pH was significantly lower in 2020 compared to 2019
+(p-value \textless{} 0.01). However, mean pH for both years is within
+what is considered the ``normal'' pH for streams (6-9), as shown by the
+upper and lower limits in Figure 4.
+
+The downward trend for both streams is concerning as it may cause pH
+levels to dip below the lower limit in future years.
+
 \hypertarget{zinc-copper}{%
 \subsection{Zinc \& Copper}\label{zinc-copper}}
 
-\hypertarget{ph}{%
-\subsection{pH}\label{ph}}
+An ANOVA conducted to determine the if concentrations differ for metals
+between 2019 and 2020 in Ellerbe Creek revealed that there were no
+statistical differences between 2019 and 2020 concentrations for zinc
+(p-value = 0.22) or copper (p-value = 0.15) across all sites combined.
 
 \hypertarget{turbidity-and-recent-rainfall}{%
 \subsection{Turbidity and Recent
 Rainfall}\label{turbidity-and-recent-rainfall}}
 
-\hypertarget{tss-and-turbidity}{%
-\subsection{TSS and Turbidity}\label{tss-and-turbidity}}
+In Ellerbe Creek, turbidity was significantly higher after rain event in
+both 2019 and 2020 (p-values \textless{} 0.01), indicating that erosion
+and sedimentation could be an issue for Ellerbe Creek. Additionally,
+turbidity was significantly higher in 2020 compared to 2019 (p-value =
+0.03).
 
-Correlated parameters.
+\hypertarget{total-suspended-solids-tss-and-turbidity}{%
+\subsection{Total Suspended Solids (TSS) and
+Turbidity}\label{total-suspended-solids-tss-and-turbidity}}
+
+The relationship between turbidity and TSS was conducted as a follow-up
+analysis to determine if these measures are correlated. Typically, if
+these values are correlated it indicates that observed turbidity and TSS
+are the result of increased sediment and particulate matter, and not due
+to other factors such as pollutants like dyes that impact one of these
+measurements but not the other.
+
+The relationship between TSS and turbidity for Ellerbe Creek is shown in
+Figure X. Based on regression analysis, these two values were correlated
+across all Ellerbe Creek sites combined in 2019 (p-value \textless{}
+0.01, R-squared = 0.76) and 2020 (p-value \textless{} 0.01, R-squared =
+0.98), again, indicating sedimentation is an issue.
+
+\begin{figure}
+\centering
+\includegraphics{August_Lindborg_ENV872_Project_files/figure-latex/unnamed-chunk-13-1.pdf}
+\caption{Relationship between turbidity and total suspended solids for
+all sites in Ellerbe Creek in 2019 and 2020.}
+\end{figure}
 
 \hypertarget{temperature-and-dissolved-oxygen}{%
 \subsection{Temperature and Dissolved
@@ -452,6 +641,21 @@ needed\textgreater{}}\label{question-1-insert-specific-question-here-and-add-add
 
 \hypertarget{summary-and-conclusions}{%
 \section{Summary and Conclusions}\label{summary-and-conclusions}}
+
+\begin{itemize}
+\item
+  Water quality trends (In general, is water quality poor or good in the
+  streams?). Are there site differences within stream, within year?
+\item
+  Did water quality change between 2019 and 2020? (which parameters
+  changed specifically?). Certain studies have shown that surface water
+  quality improved in 2020 due to the pandemic. Do we observe the same
+  trend?
+\item
+  What is the relationship between Ellerbe Creek and Eno River? Does one
+  appear to be healthier than the other? (Eno is likely healthier
+  because it is farther outside Durham city limits)
+\end{itemize}
 
 \newpage
 

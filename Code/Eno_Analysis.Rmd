@@ -266,7 +266,7 @@ Zinc_anova <- aov(Eno_River_parameters_stations$Zinc ~ Eno_River_parameters_stat
 summary(Zinc_anova)
  
 Copper_anova <- aov(Eno_River_parameters_stations$Copper ~ Eno_River_parameters_stations$Year)
-summary(Copper_anova)  
+summary(Copper_anova) 
 ```
 
 Metals: To determine whether there is a statistically significant change in Copper and Zinc concentrations from 2019 to 2020. A linear regression was performed for 2019 and 2020 Copper and Zinc data. Based on the p-value, the change in Copper from 2019 to 2020 was found not to be statistically significant. However, the difference in Zinc concentrations from 2019 to 2020 was determined to be statistically significant with a p-value < 0.01.    
@@ -357,6 +357,7 @@ show(Turbidity_TSS.plot)
 TSS.regression <- lm(Eno_River_parameters_stations$`Total Suspended Solids`~Eno_River_parameters_stations$Turbidity)
 summary(TSS.regression)
 
+
 ```
 
 The plot shows that TSS and Turbidity readings are closely linked and follow the same trend across stations and across years. These parameters have similar peaks. There is some variation across stations, but the pattern remains the same across. The results of the ANOVA show that the difference between turbidity and TSS is not statistically significant. Additionally, the r-squared value tells us that 97% of the variance in Total Suspended Solids can be explained by variance in Turbidity.
@@ -414,3 +415,10 @@ summary(FC_Year.regression)
 Based on the linear regression performed on temperature and Dissolved Oxygen there is significant negative correlation between temperature and Dissolved Oxygen concentrations. The correlation is nearly negative 1 describing the relationship of increased temperature on Dissolved Oxygen concentrations. Additionally, the r-squared value is nearly 0.85 which means that 85% of the variance in Dissolved Oxygen can be accounted for by temperature. However, there was no statistical difference in Dissolved Oxygen from 2019 to 2020. 
 
 However, the variance in Fecal Coliform cannot be explained by temperature. The r-squared value is very low, 0.13, which shows that there is not a statistically significant relationship between these parameters. Additionally, there is not a statistically significant difference between 2019 and 2020 value of Fecal Coliform.  
+
+```{r}
+library(corrplot)
+Paramcor <- cor(Eno_River_parameters_stations[15:16])
+corrplot(Paramcor, method= "ellipse")
+```
+
