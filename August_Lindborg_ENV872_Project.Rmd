@@ -128,6 +128,10 @@ site.sf <- site.info.sub %>%
       #            textsize = "10px")
 
 ```
+
+## Eno River
+
+
 ## Ellerbe Creek
 
 Visual explorations of the nine water quality parameters for Ellerbe Creek were conducted to determine how these parameters changed between 2019 and 2020. First, because we are not able to visit the sites, we wanted to determine what the main site characteristics may be. One main exploration was the relationship between temperature and cloud cover, hypothesizing that if temperature is fluctuating with changes in cloud cover (e.g., temperatures increase on sunny days), this could indicated minimal riparian vegetation. Minimal riparian vegetation has impacts on water quality such as increased sedimentation, temperature, and runoff contamination. At Ellerbe Creek, for all stations, it was observed that temperature does not appear to change directly in response to cloud cover (Figure 1). Do make any definitive determinations about this relationship, we would need more finite data than just one sample day per month. 
@@ -153,28 +157,156 @@ ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.2
 ```
 
 After completing site explorations, we wanted to look specifically at water quality parameters between 2019 and 2020. 
+For dissolved oxygen, there were no distinguishable trends over time and did not appear to be differences between the sample sites for Ellerbe Creek (Figure 3). 
+```{r, echo = FALSE, fig.cap= "Figure 3. Dissolved oxygen concentrations in 2019 and 2020 for Ellerbe Creek stations. Black dotted line represents the lower limit water quality standard for dissvoled oxygen."}
+ggplot(ellerbe.wide, aes(x = Month, y = `Dissolved Oxygen`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_smooth(method = "lm", se = FALSE) +
+  geom_hline(yintercept = 4, lty = 2) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Dissolved Oxygen (mg/L)", x = "Month") +
+  facet_wrap(~Year, nrow=2) +
+  theme 
+```
 
-___ADD individual figures___
+There appeared to be downward trend in pH, particularly throughout the year for 2020 (Figure 4), which warranted further investigation of this parameter in the Analysis section.
+```{r, echo = FALSE, fig.cap= "Figure 4. pH in 2019 and 2020 for Ellerbe Creek stations. Black dotted line represents the lower limit and red dotted line represents the upper limit water quality standard for pH."}
+ggplot(ellerbe.wide, aes(x = Month, y = pH, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_smooth(method = "lm", se = FALSE) +
+  geom_hline(yintercept = 6, lty = 2) +
+  geom_hline(yintercept = 9, lty = 2, color = "red") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "pH", x = "Month") +
+  theme
+```
+
+Fecal coliform was near the upper water quality limit for both years, with spikes at both stations in August of both years greatly exceeding the upper water quality limit of 400 cfu/100mL. There did not appear to be a difference between the two years (Figure 5). Although we cannot provide further analysis for the observed peaks, they could be indicative of specific inputs to the creek around the same time each year. 
+
+```{r, echo = FALSE, fig.cap= "Figure 5. Fecal coliform in 2019 and 2020 for Ellerbe Creek stations. Red dotted line represents the upper limit water quality standard for fecal coliform."}
+ggplot(ellerbe.wide, aes(x = Month, y = `Fecal Coliform`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_hline(yintercept = 400, lty = 2, color = "red") +
+  scale_y_log10() +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Fecal Coliform (cfu/100mL)", x = "Month") +
+  theme 
+```
+
+Temperature was sporadic, which was expected based on seasonal variations in ambient air temperature. Temperature fluctuations appeared similar between both years and did not exceed maximum temperature thresholds based on current water quality standards for streams of 32 degrees Celcius (Figure 6).
+
+```{r, echo = FALSE, fig.cap= "Figure 6. Temperature in 2019 and 2020 for Ellerbe Creek stations. Red dotted line represents the upper limit water quality standard for temperature."}
+ggplot(ellerbe.wide, aes(x = Month, y = Temperature, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_hline(yintercept = 32, lty = 2, color = "red") +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Temperature (Celcius)", x = "Month") +
+  theme 
+
+```  
+Total phosphorus appeared to increase throughout the year for both 2019 and 2020, but there did not appear to be an overall change in total phosphorus between 2019 and 2020 (Figure 7). This is likely seasonal due to temperature fluctuations and changing inputs throughout the year, however there were not a sufficient number of data points to conduct seasonal analyses. 
+
+```{r, echo = FALSE, fig.cap= "Figure 7. Total phosphorus concentrations in 2019 and 2020 for Ellerbe Creek stations."}
+ggplot(ellerbe.wide, aes(x = Month, y = `Total Phosphorus`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Total Phosphorus (mg/L)", x = "Month") +
+  theme
+```
+Total suspended solids appeare to increase between 2019 and 2020, with drastic spikes in concentrations during the late summer/early fall in 2020 for both sites that were not observed in 2019, when only a small spike was observed (Figure 8). We were not able to provide further analysis for why this peak was observed, but it could be due to input changes around that time of year in 2020 compared to 2019.Further analysis was conducted on the differences in TSS between 2019 and 2020 and is explained in the Analysis section.
+```{r, echo = FALSE, fig.cap= "Figure 8. Total suspended solids concentrations in 2019 and 2020 for Ellerbe Creek stations."}
+ggplot(ellerbe.wide, aes(x = Month, y = `Total Suspended Solids`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Total Suspended Solids (mg/L)", x = "Month") +
+  theme 
+```
+Turbidity showed the same relationship as TSS, with values in 2020 appearing higher than those in 2019 and drastic peaks observed in late summer/early fall. In 2019, values did not exceed the upper water quality limit for turbidity. In 2020, values did exceed the upper limit for site EL1.9EC in August and September and for site EL7.1EC in August (Figure 9).
+```{r, echo = FALSE, fig.cap= "Figure 9. Turbidity in 2019 and 2020 for Ellerbe Creek stations. Red dotted line represents the upper limit water quality standard for temperature."}
+ggplot(ellerbe.wide, aes(x = Month, y = `Turbidity`, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_hline(yintercept = 50, lty = 2, color = "red") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Turbidity (NTU)", x = "Month") +
+  theme 
+
+```
+
+Metal concentrations in Ellerbe Creek were below the water quality standard for zinc and around or above the water quality standard for copper. Zinc concentrations appeared to decrease while copper remained consistent between 2019 and 2020 (Figure 10).
+```{r, echo = FALSE, fig.cap= "Figure 10. Zinc and coppper concentrations in 2019 and 2020 for Ellerbe Creek stations. Orange dotted line is the acute water quality standard for copper and grey dotted line is the acute water quality standard for Zinc in freshwater in North Carolina."}
+                         
+ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Month, y = Final_Value, color = Station.Name)) +
+  geom_point() +
+  geom_line()+
+  #geom_smooth(method = "lm", se = FALSE) +
+  geom_hline(yintercept = 3.6, lty = 2, color = "orange") +
+  geom_hline(yintercept = 36, lty = 2, color = "grey") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  facet_grid(Year~Parameter) +
+  labs(y = "Concentration (ug/L)", x = "Month") +
+  theme
+```
 
 
-## Eno River
 
-## Ellerbe Creek
 
 \newpage
 
 # Analysis
 
+## pH
+Exploratory analysis revealed that pH decreased slightly between 2019 and 2020 for both Ellerbe Creek and Eno River stations. An ANOVA was conducted to determine the difference in pH between 2019 and 2020 across all sites for each stream. 
+
+For Ellerbe Creek , pH was significantly lower in 2020 compared to 2019 (p-value < 0.01). However, mean pH for both years is within what is considered the "normal" pH for streams (6-9), as shown by the upper and lower limits in Figure 4. 
+
+The downward trend for both streams is concerning as it may cause pH levels to dip below the lower limit in future years. 
+
 ## Zinc & Copper
 
-## pH
+An ANOVA conducted to determine the if concentrations differ for metals between 2019 and 2020 in Ellerbe Creek revealed that there were no statistical differences between 2019 and 2020 concentrations for zinc (p-value = 0.22) or copper (p-value = 0.15) across all sites combined. 
 
 ## Turbidity and Recent Rainfall
 
+In Ellerbe Creek, turbidity was significantly higher after rain event in both 2019 and 2020 (p-values < 0.01), indicating that erosion and sedimentation could be an issue for Ellerbe Creek. Additionally, turbidity was significantly higher in 2020 compared to 2019 (p-value = 0.03). 
 
-## TSS and Turbidity
-Correlated parameters.
+## Total Suspended Solids (TSS) and Turbidity
 
+The relationship between turbidity and TSS was conducted as a follow-up analysis to determine if these measures are correlated. Typically, if these values are correlated it indicates that observed turbidity and TSS are the result of increased sediment and particulate matter, and not due to other factors such as pollutants like dyes that impact one of these measurements but not the other. 
+
+The relationship between TSS and turbidity for Ellerbe Creek is shown in Figure X. Based on regression analysis, these two values were correlated across all Ellerbe Creek sites combined in 2019 (p-value < 0.01, R-squared = 0.76) and 2020 (p-value < 0.01, R-squared = 0.98), again, indicating sedimentation is an issue.
+
+```{r, echo = FALSE, fig.cap = "Figure X. Relationship between turbidity and total suspended solids for all sites in Ellerbe Creek in 2019 and 2020."}
+ggplot(ellerbe.wide, aes(x = Turbidity, y = `Total Suspended Solids`, color = Station.Name)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  facet_wrap(~Year, nrow = 1, scales = "free") +
+  labs(y = "Total Suspended Solids (mg/L)", x = "Turbidity (NTU)") +
+  theme 
+```
 ## Temperature and Dissolved Oxygen
 Discuss impact of Temperature on DO. Similar Temp from 2019-2020.
 
