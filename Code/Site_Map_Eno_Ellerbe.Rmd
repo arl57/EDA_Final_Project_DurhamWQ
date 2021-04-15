@@ -35,7 +35,7 @@ site.info.sub <- site.info %>%
 site.sf <- site.info.sub %>%
   st_as_sf(coords = c('Longitude','Latitude'), crs=4269)
 
-mapview(site.sf,
+map <- mapview(site.sf,
         zcol = "Stream.Name") %>%
   addStaticLabels(label = site.sf$Name,
                   noHide = TRUE,
