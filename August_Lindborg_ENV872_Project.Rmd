@@ -106,6 +106,16 @@ site.info <- read.csv("./Data/Raw/durham_station.csv")
 
 
 ## Eno River
+The first part of the analysis included a comparative visualization of the nine water quality parameters for 2019 and 2020. In order to get a better understanding of conditions at each of the monitoring locations, sky condition was included in the exploratory analysis to determine if there was variation between sites. Additionally, the recorded sky condition was compared to measured temperature to determine if there was a relationship between cloud cover and temperature. The hypothesis was that temperature would be lower on cloudy days than sunny days. Temperature and sky condition relationships could indicate potential vegetation cover and shade at each of the monitoring locations. Based on the plots, there does not appear to be a relationship between sky conditions and temperature. In order to determine a relationship, daily or hourly sky condition nad temperature data may be required.  
+
+```{r}
+ggplot(subset(Eno_River_parameters_clean, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
+  geom_boxplot() +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  facet_wrap(~Year, nrow =1)+
+  labs(y = "Temperature (Celcius)", x = "Sky Condition") +
+  theme
+```
 
 
 ## Ellerbe Creek
