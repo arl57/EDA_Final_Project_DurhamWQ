@@ -263,7 +263,7 @@ ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Mont
   scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
   facet_grid(Year~Parameter) +
-  labs(y = "Concentration (ug/L)", x = "Month") +
+  labs(y = "Metal Concentration (ug/L)", x = "Month") +
   theme
 ```
 
