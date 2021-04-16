@@ -163,7 +163,7 @@ FC_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Fecal 
   scale_x_continuous(breaks=seq(1,12,1)) +
   scale_y_log10()+
   labs(y = "Fecal Coliform (cfu/100mL)", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 show(FC_Year.Plot)
 
 #Temperature

@@ -22,13 +22,13 @@ mainfont: Times New Roman
 \newpage
 
 ```{r setup, include=FALSE}
-# Set your working directory
-# Load your packages
+#Set your working directory
+#Load your packages
 library(tidyverse)
 library(lubridate)
 library(knitr)
 library(mapview)
-# Set your ggplot theme
+#Set your ggplot theme
 theme <- 
   theme_bw() +
   theme(panel.grid.minor = element_blank(),
@@ -39,6 +39,10 @@ theme <-
 
 theme_set(theme)
 # Load your datasets
+
+#Eno
+Eno_River_parameters_clean <- read.csv("./Data/Processed/Eno_processed.csv")
+Eno_River_parameters_stations <- read.csv("./Data/Processed/Eno_processed_wide.csv")
 
 #Ellerbe
 ellerbe.wide <- read.csv("./Data/Processed/Ellerbe_wide.csv")
@@ -102,19 +106,163 @@ library(leaflet)
 library(leafem)
 
 site.info <- read.csv("./Data/Raw/durham_station.csv")
+
 ```
 
 
 ## Eno River
 The first part of the analysis included a comparative visualization of the nine water quality parameters for 2019 and 2020. In order to get a better understanding of conditions at each of the monitoring locations, sky condition was included in the exploratory analysis to determine if there was variation between sites. Additionally, the recorded sky condition was compared to measured temperature to determine if there was a relationship between cloud cover and temperature. The hypothesis was that temperature would be lower on cloudy days than sunny days. Temperature and sky condition relationships could indicate potential vegetation cover and shade at each of the monitoring locations. Based on the plots, there does not appear to be a relationship between sky conditions and temperature. In order to determine a relationship, daily or hourly sky condition nad temperature data may be required.  
 
-```{r}
+```{r, echo=FALSE, fig.cap = "Relationship between temperature and sky condition on sample day for 2019 and 2020."}
 ggplot(subset(Eno_River_parameters_clean, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
   scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   facet_wrap(~Year, nrow =1)+
   labs(y = "Temperature (Celcius)", x = "Sky Condition") +
   theme
+```
+
+Additionally, as part of the explanatory analysis the relationship between recent rainfall and turbidity was plotted. This relationship was analyzed to determine the impact of rainfall on erosion in the Eno River drainage area. Increased turbidity in the water following rain could be an indicator that soil and other particles are enter the river through erosion and surface runoff. The boxplot below shows relationship between rain and turbidity for 2019 and 2020. There is only turbidity data for one of the stations in 2019. However based on a visual comparison of the plots, there appears to be much higher concentrations of turbidity when is has rained in the last 24 hours. This relationship seems to be more exaggerated in the 2020 data.  
+
+```{r, echo=FALSE, fig.cap = "Turbidity concentrations for rain versus no rain in the last 24 hours for 2019 and 2020."}
+ggplot(subset(Eno_River_parameters_clean, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
+  geom_boxplot() +
+  geom_point(position = position_jitterdodge(jitter.width = 0.05), alpha = 0.7) +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
+  theme+
+  theme(panel.grid.major = element_blank())+
+  facet_wrap(~Year, nrow = 1)
+
+```
+
+In addition to assessing conditions at each of the monitoring sites, the nine water quality parameters from 2019 and 2020 were visually compared. First, 2019 and 2020 monthly dissolved oxygen concentrations were plotted. Additionally, the North Carolina Water Quality Standard for dissolved oxygen is included on the plot. Dissolved oxygen has a lower limit standard of 4 ug/L. As shown below, concentrations of Dissolved Oxygen follow similar trend across stations and across years. The smoothed plot line shows that Dissolved Oxygen concentrations were overall slightly higher in 2019 than in 2020. However, none of the monthly dissolved oxygen concentrations fell below the lower limit of 4 ug/L. 
+
+
+```{r, echo = FALSE, fig.cap = "Dissolved oxygen concentrations in 2019 and 2020 for Eno River.", message = FALSE, warning = FALSE}
+ggplot(Eno_River_parameters_stations, aes(x = Month, y = Dissolved.Oxygen, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  geom_hline(yintercept = 4, lty = 2) +
+  geom_text(x = 12, y = 4.5, aes(label = "Lower Limit"), hjust = 1) +
+  facet_wrap(~Year, nrow=2) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Dissolved Oxygen (mg/L)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme_bw()
+```
+Visual comparisons of pH from 2019 and 2020, showed similar values across stations and from 2019 to 2020. However, the maximum pH during the Summer peak is high in 2019, ~ 7.5, than in 2020, 7. Most of the pH data for both years shows that the pH in the Eno River is within in the range permissible by North Carolina Water Quality Parameters of 6-9. However, the December 2019 pH value is below the lower limit of 6.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap= "pH in 2019 and 2020 for Eno River stations."}
+ggplot(Eno_River_parameters_stations, aes(x = Month, y = pH, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_smooth(method = "lm", se = FALSE) +
+  geom_hline(yintercept = 6, lty = 2) +
+  geom_hline(yintercept = 9, lty = 2) +
+  geom_text(x = 12, y = 6.2, aes(label = "Lower Limit"), hjust = 1) +
+  geom_text(x = 12, y = 8.8, aes(label = "Upper Limit"), hjust = 1) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "pH", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme_bw()
+```
+
+
+Based on the plots below, the Fecal Coliform has no discernible seasonal trend in both the 2019 and 2020 graphs. Most of the measurements for both years fall between 100 and 10,000. However, the maximum Fecal Coliform concentrations in 2020 are much higher than 2019. The maximum measured concentration in 2019 was approximately 5,000 and the maximum measured concentration in 2020 was around 35,000. Additionally, the North Carolina Water Quality Standard for fecal coliform is an upper limit of 400 cfu/100mL, the concentrations of fecal coliform exceeds this standard multiple time in 2019 and 2020.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap= "Log-transformed fecal coliform in 2019 and 2020 for Eno River stations."}
+ggplot(Eno_River_parameters_stations, aes(x = Month, y = Fecal.Coliform, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_hline(yintercept = 400, lty = 2) +
+  geom_text(aes(x = 11.5, y = 700, label = "Upper Limit")) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  scale_y_log10()+
+  labs(y = "Fecal Coliform (cfu/100mL)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+The temperature data across stations and years shows a similar pattern of maximum temperatures occurring in the late summer months. There appears to be no significant difference in temperature between 2019 and 2020. Additionally, for both 2019 and 2020 the monthly temperatures are below the standard of 32 degrees Celcius.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap= "Temperature in 2019 and 2020 for Ellerbe Creek stations."}
+ggplot(Eno_River_parameters_stations, aes(x = Month, y = Temperature, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_hline(yintercept = 32, lty = 2) +
+  geom_text(x = 12, y = 30.5, aes(label = "Upper Limit"), hjust = 1) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Temperature (C)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme_bw()
+```
+
+Based on the plotted data, total phosphorus has no discernible pattern in the 2019 or 2020. Overall, concentrations seem relatively comparable besides a greater maximum measured value in the 2019 data.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap= "Total phosphorus concentrations in 2019 and 2020 for Eno River stations."}
+ggplot(Eno_River_parameters_stations, aes(x = Month, y = Total.Phosphorus, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Total Phosphorus (mg/L)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme_bw()
+```
+
+
+The plots of TSS show very different patterns across 2019 and 2020. There are peaks in concentration in the Spring of 2019 and the late Summer in 2020. Based on the plots, there appears to be greater TSS measured in 2020 than 2019.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap= "Turbidity in 2019 and 2020 for Eno River stations."}
+ggplot(Eno_River_parameters_stations, aes(x = Month, y = Total.Suspended.Solids, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Total Suspended Solids (mg/L)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme_bw()
+```
+
+The plots of turbidity show very different trends across 2019 and 2020. Similar to TSS, there is a peak in the Spring of 2019 and the late Summer of 2020. Based on the plots, the concentrations of Turbidity seem to be higher in 2020. Additionally, there is one month in 2019 with a Turbidity concentration above the North Carolina Water Quality Standard of 50 NTU. In 2020, there were 3 months with turbidity above the 50 NTU upper limit.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap= "Turbidity in 2019 and 2020 for Eno River stations."}
+ggplot(Eno_River_parameters_stations, aes(x = Month, y = Turbidity, color = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(rows = vars(Year)) +
+  geom_hline(yintercept = 50, lty = 2) +
+  geom_text(x = 12, y = 58, aes(label = "Upper Limit"), hjust = 1) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Turbidity (NTU)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme_bw()
+```
+
+
+Comparing the concentrations of Copper The Zinc concentrations are much higher in 2019 than in 2020. This is expected based on the North Carolina Water Quality Standards for each pollutant. Copper has an upper concentration limit of 7 ug/L and Zinc has an upper limit of 50 ug/L. Based on the plots, the Copper concentrations in Eno River appear consistent between 2019 and 2020. However, the plot shows a significant decrease in Zinc concentrations between 2019 and 2020. None of the monthly concentrations of Copper or Zinc exceed the North Carolina Water Quality Standards. 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap= "Zinc and coppper concentrations in 2019 and 2020 for Eno River stations." }
+ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Zinc", "Copper")),aes(x = Month, y = Final_Value, color = Parameter, shape = Station.Name)) +
+  geom_point() +
+  geom_line() +
+  facet_grid(Year~Parameter) +
+  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  labs(y = "Metal Concentration (ug/L)", x = "Date") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme_bw()
 ```
 
 
@@ -270,25 +418,35 @@ ggplot(subset(ellerbe.grouped, Parameter %in% c("Zinc", "Copper")), aes(x = Mont
 \newpage
 
 # Analysis
+Based on the results of the exploratory analysis, certain parameters were selected for additional analysis. Trends observed through visual inspection of the exploratory analysis plots led to further analysis of select water quality parameters.
 
 ## pH
 Exploratory analysis revealed that pH decreased slightly between 2019 and 2020 for both Ellerbe Creek and Eno River stations. An ANOVA was conducted to determine the difference in pH between 2019 and 2020 across all sites for each stream. 
 
+For Eno River, the plots showed pH readings to be similar in 2019 and 2020. This was confirmed by performing a linear regression which concluded that the difference in pH from 2019 to 2020 is not statistically significant, (p-value = 0.54).
+
 For Ellerbe Creek , pH was significantly lower in 2020 compared to 2019 (p-value < 0.01). However, mean pH for both years is within what is considered the "normal" pH for streams (6-9), as shown by the upper and lower limits in Figure 4. 
 
-The downward trend for both streams is concerning as it may cause pH levels to dip below the lower limit in future years. 
+The downward trend in Ellerbe Creek is concerning as it may cause pH levels to dip below the lower limit in future years. 
 
 ## Zinc & Copper
 
+To determine whether there is a statistically significant change in Copper and Zinc concentrations in the Eno River from 2019 to 2020. A linear regression was performed for 2019 and 2020 Copper and Zinc data. Based on the p-value, the change in Copper from 2019 to 2020 was found not to be statistically significant (p-value = 0.6). However, the difference in Zinc concentrations from 2019 to 2020 was determined to be statistically significant with a p-value < 0.01.
+
 An ANOVA conducted to determine the if concentrations differ for metals between 2019 and 2020 in Ellerbe Creek revealed that there were no statistical differences between 2019 and 2020 concentrations for zinc (p-value = 0.22) or copper (p-value = 0.15) across all sites combined. 
 
+
 ## Turbidity and Recent Rainfall
+
+Further analysis shows that the difference in turbidity in the Eno River from rain within the last 24 hours was only statistically significant in 2020, with a p-value < 0.01. There are almost four times more observations in 2020 than 2019 which may have impacted the ANOVA results for 2019 since there were only 10 observations. Additionally, an ANOVA of the Turbidity across years, showed that the difference in values from 2019 to 2020 was not statistically significant (p-value = 0.57).
 
 In Ellerbe Creek, turbidity was significantly higher after rain event in both 2019 and 2020 (p-values < 0.01), indicating that erosion and sedimentation could be an issue for Ellerbe Creek. Additionally, turbidity was significantly higher in 2020 compared to 2019 (p-value = 0.03). 
 
 ## Total Suspended Solids (TSS) and Turbidity
 
 The relationship between turbidity and TSS was conducted as a follow-up analysis to determine if these measures are correlated. Typically, if these values are correlated it indicates that observed turbidity and TSS are the result of increased sediment and particulate matter, and not due to other factors such as pollutants like dyes that impact one of these measurements but not the other. 
+
+The plot shows that TSS and Turbidity readings are closely linked and follow the same trend across stations and across years in Eno River. These parameters have similar peaks. There is some variation across stations, but the pattern remains the same across. The results of the ANOVA show that the difference between turbidity and TSS is not statistically significant. Additionally, the r-squared value tells us that 97% of the variance in Total Suspended Solids can be explained by variance in Turbidity.
 
 The relationship between TSS and turbidity for Ellerbe Creek is shown in Figure X. Based on regression analysis, these two values were correlated across all Ellerbe Creek sites combined in 2019 (p-value < 0.01, R-squared = 0.76) and 2020 (p-value < 0.01, R-squared = 0.98), again, indicating sedimentation is an issue.
 
