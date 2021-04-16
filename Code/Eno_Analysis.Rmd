@@ -96,7 +96,8 @@ Eno_River_Data_2020 <- Eno_River_parameters_stations %>%
   filter(between(Date,as.Date("2020-01-01"),as.Date("2020-12-31")))
 
 ## save processed data
-#write_csv(Eno_River_parameters_stations, '../Data/Processed/Eno_processed.csv')
+#write_csv(Eno_River_parameters_clean, '../Data/Processed/Eno_processed.csv')
+#write_csv(Eno_River_parameters_stations, '../Data/Processed/Eno_processed_wide.csv')
 
 #create spatial dataframe
 Eno_River_parameters_stations_sf <- Eno_River_parameters_stations %>% 
@@ -126,12 +127,12 @@ DO_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Dissol
   geom_line() +
   geom_hline(yintercept = 4, lty = 2) +
   geom_text(x = 12, y = 4.5, aes(label = "Lower Limit"), hjust = 1) +
-  facet_grid(rows = vars(Year)) +
+  facet_wrap(~Year, nrow=2) +
   geom_smooth(method = "lm", se = FALSE) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
-  labs(y = "Dissolved Oxygen (mg/L)", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(y = "Dissolved Oxygen (mg/L)", x = "Month") +
+  theme(axis.text.x = element_text(hjust = 1))+
   theme_bw()
 show(DO_Year.Plot)
   
@@ -139,16 +140,13 @@ show(DO_Year.Plot)
 pH_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = pH, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  facet_grid(rows = vars(Year)) +
+  facet_wrap(~Year, nrow=2) +
   geom_smooth(method = "lm", se = FALSE) +
   geom_hline(yintercept = 6, lty = 2) +
-  geom_hline(yintercept = 9, lty = 2) +
-  geom_text(x = 12, y = 6.2, aes(label = "Lower Limit"), hjust = 1) +
-  geom_text(x = 12, y = 8.8, aes(label = "Upper Limit"), hjust = 1) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  geom_hline(yintercept = 9, lty = 2, color = "red") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
-  labs(y = "pH", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(y = "pH", x = "Month") +
   theme_bw()
 show(pH_Year.Plot)
 
@@ -156,27 +154,28 @@ show(pH_Year.Plot)
 FC_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Fecal Coliform`, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  facet_grid(rows = vars(Year)) +
-  geom_hline(yintercept = 400, lty = 2) +
-  geom_text(aes(x = 11.5, y = 700, label = "Upper Limit")) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  geom_hline(yintercept = 400, lty = 2, color = "red") +
+  scale_y_log10(
+    breaks = scales::trans_breaks("log10", function(x) 10^x),
+    labels = scales::trans_format("log10", scales::math_format(10^.x))) +
+  annotation_logticks(sides = "l", scaled = TRUE) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
-  scale_y_log10()+
-  labs(y = "Fecal Coliform (cfu/100mL)", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  facet_wrap(~Year, nrow=2) +
+  labs(y = "Fecal Coliform (cfu/100mL)", x = "Month") +
+  theme 
 show(FC_Year.Plot)
 
 #Temperature
 Temp_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = Temperature, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  facet_grid(rows = vars(Year)) +
+  facet_wrap(~Year, nrow=2) +
   geom_hline(yintercept = 32, lty = 2) +
-  geom_text(x = 12, y = 30.5, aes(label = "Upper Limit"), hjust = 1) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
-  labs(y = "Temperature (C)", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(y = "Temperature (C)", x = "Month") +
+  theme(axis.text.x = element_text(hjust = 1))+
   theme_bw()
 show(Temp_Year.Plot)
 
@@ -184,11 +183,11 @@ show(Temp_Year.Plot)
 TP_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Total Phosphorus`, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  facet_grid(rows = vars(Year)) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  facet_wrap(~Year, nrow=2) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
-  labs(y = "Total Phosphorus (mg/L)", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(y = "Total Phosphorus (mg/L)", x = "Month") +
+  theme(axis.text.x = element_text(hjust = 1))+
   theme_bw()
 show(TP_Year.Plot)
 
@@ -196,11 +195,11 @@ show(TP_Year.Plot)
 TSS_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = `Total Suspended Solids`, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  facet_grid(rows = vars(Year)) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  facet_wrap(~Year, nrow=2) +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
-  labs(y = "Total Suspended Solids (mg/L)", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(y = "Total Suspended Solids (mg/L)", x = "Month") +
+  theme(axis.text.x = element_text(hjust = 1))+
   theme_bw()
 show(TSS_Year.Plot)
 
@@ -208,13 +207,13 @@ show(TSS_Year.Plot)
 Turbidity_Year.Plot <- ggplot(Eno_River_parameters_stations, aes(x = Month, y = Turbidity, color = Station.Name)) +
   geom_point() +
   geom_line() +
-  facet_grid(rows = vars(Year)) +
+  facet_wrap(~Year, nrow=2) +
   geom_hline(yintercept = 50, lty = 2) +
   geom_text(x = 12, y = 58, aes(label = "Upper Limit"), hjust = 1) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   scale_x_continuous(breaks=seq(1,12,1)) +
-  labs(y = "Turbidity (NTU)", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  labs(y = "Turbidity (NTU)", x = "Month") +
+  theme(axis.text.x = element_text(hjust = 1))+
   theme_bw()
 show(Turbidity_Year.Plot)
 ```
@@ -247,14 +246,16 @@ Based on the graphs in the exploratory analysis the pH readings appear to be sim
 
 ```{r echo=FALSE}
 #Metals 
-Metals_Year.Plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Zinc", "Copper")),aes(x = Month, y = Final_Value, color = Parameter, shape = Station.Name)) +
+Metals_Year.Plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Zinc", "Copper")),aes(x = Month, y = Final_Value, color = Station.Name)) +
   geom_point() +
   geom_line() +
   facet_grid(Year~Parameter) +
-  scale_color_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
-  labs(y = "Metal Concentration (ug/L)", x = "Date") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
-  theme_bw()
+  scale_color_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
+  scale_x_continuous(breaks=seq(1,12,1)) +
+  labs(y = "Concentration (ug/L)", x = "Month") +
+  theme_bw() +
+  theme(axis.text.x = element_text(hjust = 1))
+
 show(Metals_Year.Plot)
 ```
 
@@ -275,7 +276,7 @@ Metals: To determine whether there is a statistically significant change in Copp
 #Temp and Sky condition
 Temp_Sky.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Temperature"), aes(x = Sky.Condition, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
-  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   labs(y = "Temperature (Celcius)", x = "Sky Condition") +
   theme+
   theme(panel.grid.major = element_blank())
@@ -289,7 +290,7 @@ Temp_Sky_ts.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Temp
   labs(y = "Temperature (Celcius)", x = "Date") +
   theme+
   theme(panel.grid.major = element_blank(),
-        axis.text.x = element_text(angle = 45, hjust = 1)) +
+        axis.text.x = element_text(hjust = 1)) +
   facet_wrap(~Year, nrow = 2)
 show(Temp_Sky_ts.plot)
 ```
@@ -303,11 +304,12 @@ Across the year, the there is not a noticeable trend between the Sky Condition a
 #turbidity and Recent Rain
 Turbidity_Rain.plot <- ggplot(subset(Eno_River_parameters_clean, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
   geom_boxplot() +
-  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  geom_point(position = position_jitterdodge(jitter.width = 0.05), alpha = 0.7) +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
   theme+
   theme(panel.grid.major = element_blank())+
-  facet_wrap(~Year, nrow = 2)
+  facet_wrap(~Year, nrow=1, scales = "free") +
 show(Turbidity_Rain.plot)
 
 Rain.plot <- ggplot(subset(Eno_River_parameters_clean,Parameter == "Turbidity"), aes(x = Year, y = Final_Value, fill = Rain.in.Last.24.Hours)) +
@@ -346,7 +348,7 @@ Further analysis shows that the difference in Turbidity from rain within the las
 Turbidity_TSS.plot <- ggplot(subset(Eno_River_parameters_clean,Parameter %in% c("Turbidity", "Total Suspended Solids")), aes(x = Month, y = Final_Value, color = Parameter, shape= Station.Name)) +
   geom_point() +
   geom_line()+
-  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   labs(y = "Turbidity (NTU)", x = "Rain in Last 24 Hours?") +
   theme+
   theme(panel.grid.major = element_blank())+
@@ -368,7 +370,7 @@ The plot shows that TSS and Turbidity readings are closely linked and follow the
 Temp_DO.plot <- ggplot(Eno_River_parameters_stations, aes(x = Temperature, y = `Dissolved Oxygen`, color = Station.Name)) +
   geom_point() +
   geom_line()+
-  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   labs(y = "Dissolved Oxygen", x = "Temperature (Celcius)") +
   theme+
   theme(panel.grid.major = element_blank())+
@@ -380,7 +382,7 @@ show(Temp_DO.plot)
 Temp_FC.plot <- ggplot(Eno_River_parameters_stations, aes(x = Temperature, y = `Fecal Coliform`, color = Station.Name)) +
   geom_point() +
   geom_line()+
-  scale_fill_viridis_d(begin = 0.6, end = 0.3, name = "Sampling Station") +
+  scale_fill_viridis_d(begin = 0.7, end = 0.2, name = "Sampling Station") +
   labs(y = "Fecal Coliform (cfu/100mL)", x = "Temperature (Celcius)") +
   theme+
   theme(panel.grid.major = element_blank())+
