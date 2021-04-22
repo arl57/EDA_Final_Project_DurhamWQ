@@ -274,7 +274,7 @@ ggplot(subset(ellerbe.grouped, Parameter == "Temperature"), aes(x = Sky.Conditio
 
 \newpage
 
-We were also interested in the relationship between turbidity and rain, as an indicator of erosion and to what degree the Ellerbe Creek sites may be influenced by storm events. Visual comparisons show that there appears to be an increase in turbidity after rain events, especially in 2020 (Figure 13). Figure 2 also reveals that there may be an increase in turbidity between 2019 and 2020. 
+We were also interested in the relationship between turbidity and rain, as an indicator of erosion and to what degree the Ellerbe Creek sites may be influenced by storm events. Visual comparisons show that there appears to be an increase in turbidity after rain events, especially in 2020 (Figure 13). Figure 13 also reveals that there may be an increase in turbidity between 2019 and 2020. 
 
 ```{r echo=FALSE, fig.cap = "Turbidity concentrations in Ellerbe Creek for rain versus no rain in the last 24 hours for 2019 and 2020. Points represent samples within each group."}
 ggplot(subset(ellerbe.grouped, Parameter == "Turbidity"), aes(x = Rain.in.Last.24.Hours, y = Final_Value, fill = Station.Name)) +
