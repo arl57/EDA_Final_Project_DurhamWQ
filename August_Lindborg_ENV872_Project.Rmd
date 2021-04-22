@@ -16,8 +16,6 @@ mainfont: Times New Roman
 \newpage
 \tableofcontents 
 \newpage
-\listoftables 
-\newpage
 \listoffigures 
 \newpage
 
